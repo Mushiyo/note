@@ -55,7 +55,7 @@
 繁中 | 英 | 簡中
 ----- | ----- | -----
 不等邊（三角形） | scalene (triangle) | 
-等腰的（三角形） ｜ isosceles (triangle) | 
+等腰的（三角形） | isosceles (triangle) | 
 腰 | legs | 
 底 | base | 
 銳角（三角形） | acute (triangle) | 
