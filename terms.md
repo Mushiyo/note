@@ -11,12 +11,23 @@
 陣列 | array | 数组
 串列 | list | 列表
 堆疊 | stack | 栈
+ | stack permutation | 栈混洗
 佇列 | queue | 队列
 二元樹 | binary tree | 二叉树
+二元搜尋樹、二分搜尋樹 | binary search tree | 二叉搜索树
+ | ordered tree | 有序树 
+ | full binary tree | 满二叉树 
+ | depth | 深度
+ | height | 高度 
+ | traversal | 遍历
 圖 | graph | 图
 相鄰矩陣 | adjacency matrix | 邻接矩阵
 關聯矩陣 | incidence matrix | 关联矩阵
-二元搜尋樹、二分搜尋樹 | binary search tree | 二叉搜索树
+ | path | 路径、通路 
+ | connected | 连通图
+ | acyclic | 无环图
+ | cycle, loop | 环路
+ | reverse polish notation | 逆波兰表达式
 
 #數學
 繁中 | 英 | 簡中
@@ -28,9 +39,11 @@
 分子 | numerator | 
 分母 | denominator | 
 被除數 | dividend | 
-除數 | divisor  | 
-全等 | congruent
-一元二次方程 | Quadratic equation
+除數 | divisor | 
+全等 | congruent |
+一元二次方程 | Quadratic equation |
+象限、第一象限  | quadrant, quadrant I |
+
 
 ##幾何
 繁中 | 英 | 簡中
