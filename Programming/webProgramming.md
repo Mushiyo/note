@@ -2,7 +2,7 @@
 
 ## template | framework
 * [HTML5 UP](http://html5up.net/) HTML5 template
- 
+
 ###Bootstrap
 * <http://startbootstrap.com/> Bootstrap template  
 * [Bootswatch](https://bootswatch.com/) Free themes for Bootstrap
@@ -11,6 +11,7 @@
 
 ## CDN
 * http://cdnjs.com/
+* [开放静态文件 CDN](http://staticfile.org/) 對岸七牛的CDN
 
 ##虛擬假文產生器
 * <http://www.lipsum.com/> 產生英文
