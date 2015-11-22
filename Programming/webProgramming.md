@@ -3,7 +3,7 @@
 ## template | framework
 * [HTML5 UP](http://html5up.net/) HTML5 template
  
-###Bootstrap
+###[Bootstrap](http://getbootstrap.com/)
 * <http://startbootstrap.com/> Bootstrap template  
 * [Bootswatch](https://bootswatch.com/) Free themes for Bootstrap
 * <http://bootsnipp.com/> 別人寫好的小功能
@@ -19,6 +19,13 @@
 
 ##JavaScript
 * <http://javascript.com> js資源匯整
+
+## RSS
+* [RSS 2.0 sepcification](https://validator.w3.org/feed/docs/rss2.html)
+
+###online RSS reader
+* [FeedBucket](http://www.feedbucket.com/)
+* <http://www.feed-reader.net/>　德文介面的reader
 
 ##其他
 * [HTML reference](http://reference.sitepoint.com/html)
