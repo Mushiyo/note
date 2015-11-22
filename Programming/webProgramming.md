@@ -32,3 +32,4 @@
 * [102-2 台大資工網路及平台服務程式設計](http://ccsp.ntumobile.org/)
 * <http://software.hixie.ch/utilities/js/live-dom-viewer/> online DOM viewer
 * [RGB-Hex Color Code Converter](http://www.webmasterorbit.com/rgb-hex-code.html)
+* [Facebook Open Graph protocol](http://ogp.me/)
