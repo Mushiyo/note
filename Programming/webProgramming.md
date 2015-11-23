@@ -19,12 +19,16 @@
 * <http://www.richyli.com/tool/loremipsum/> 產生中文
 * <http://technology.chtsai.org/pseudotext/> 產生中文
 
-##JavaScript
-* <http://javascript.com> js資源匯整
-
 ##CSS
 * [CSS Selector Reference](http://www.w3schools.com/cssref/css_selectors.asp)
 * [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/)
+
+##JavaScript
+* <http://javascript.com> js資源匯整
+
+### [jQuery](https://jquery.com/)
+* [documentation](http://api.jquery.com/)
+* [jQuery Cookie](https://plugins.jquery.com/cookie/)
 
 ## RSS
 * [RSS 2.0 sepcification](https://validator.w3.org/feed/docs/rss2.html)
