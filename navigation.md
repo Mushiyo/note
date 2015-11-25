@@ -15,6 +15,9 @@
 * [通用暨未分類資源](Programming/miscellaneous.md)
 
 [數學]()
+
+* [高中數學](math/preCollege.md)
+
 [語言]()
 [其他]()
 
