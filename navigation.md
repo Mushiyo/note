@@ -11,6 +11,7 @@
 * [Python](Programming/Python.md)
 * [C++](Programming/C++.md)
 * [web programming](Programming/webProgramming.md)
+* [Batch](Programming/batch.md)
 * [通用暨未分類資源](Programming/miscellaneous.md)
 
 [數學]()
