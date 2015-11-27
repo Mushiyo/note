@@ -3,7 +3,10 @@
 * [多國語言習得活動網](http://polyglot.tw)
 * <http://www.wordreference.com/> 綜合字典
 * <http://www.edictionary.org/>　多種線上字典收集
- 
+
+##國語
+* [教育部重編國語辭典修訂本](http://dict.revised.moe.edu.tw/cbdic/index.html)
+* [萌典](https://www.moedict.tw/)　教育部國語、臺語、客語辭典民間版
 
 ##英文
 * <http://www.netspeak.org/> 查句型
