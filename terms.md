@@ -4,7 +4,7 @@
 這份列表列出一些我較常接觸的語言的名詞及術語的對照  
 若這份檔案的內容有誤，歡迎發issue，我會盡快更正  
 
-#資訊
+##資訊
 繁中 | 英 | 簡中
 ----- | ----- | -----
 資料結構 | Data Structure | 数据结构
@@ -29,7 +29,7 @@
  | cycle, loop | 环路
  | reverse polish notation | 逆波兰表达式
 
-#數學
+##數學
 繁中 | 英 | 簡中
 ----- | ----- | -----
 不可約多項式 | irreducible polynomial | 
@@ -45,26 +45,26 @@
 象限、第一象限  | quadrant, quadrant I |
 
 
-##幾何
+###幾何
 繁中 | 英 | 簡中
 ----- | ----- | -----
 餘角 | complementary angle | 
 
-### 圓
+#### 圓
 繁中 | 英 | 簡中
 ----- | ----- | -----
 周長 | perimeter | 
 圓周（長） | circumference | 
 圓心 | center (of circle) | 
 
-###多邊形
+####多邊形
 繁中 | 英 | 簡中
 ----- | ----- | -----
 四邊形 | quadrilateral | 
 平行四邊形 | parallelogram | 
 菱形 | rhombus | 
 
-####三角形
+#####三角形
 繁中 | 英 | 簡中
 ----- | ----- | -----
 不等邊（三角形） | scalene (triangle) | 
@@ -75,14 +75,14 @@
 鈍角（三角形） | obtuse (triangle) | 
 直角（三角形） | right (triangle) | 
 
-##統計
+###統計
 繁中 | 英 | 簡中
 ----- | ----- | -----
 平均數 | mean |
 眾數 | mode | 
 中位數 | median |
 
-##數論
+###數論
 繁中 | 英 | 簡中
 ----- | ----- | -----
 質數 | prime (number) | 
