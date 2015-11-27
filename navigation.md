@@ -2,7 +2,10 @@
 
 [CS]()
 
+* [演算法](CS/algorithm.md)
+* [AI](CS/AI.md)
 * [NLP](CS/NLP.md)
+* [書籍](CS/book.md)
 
 [程式設計]()
 
@@ -17,6 +20,7 @@
 [數學]()
 
 * [高中數學](math/preCollege.md)
+* [網站、工具、資源](math/siteToolRes.md)
 
 [語言學習]()
 
