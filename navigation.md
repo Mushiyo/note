@@ -18,9 +18,9 @@
 
 * [高中數學](math/preCollege.md)
 
-[語言]()
-[其他]()
+[語言學習]()
 
-* [名詞及術語對照表](terms.md)
+* [資源](language/lanResource.md)
+* [名詞及術語對照表](language/terms.md)
 
 [gimmick: math]()
