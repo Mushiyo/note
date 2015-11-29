@@ -1,6 +1,7 @@
 #網站、工具、資源
 
 * [The On-Line Encyclopedia of Integer Sequences® (OEIS®)](http://oeis.org/)
+* [Truth Table Generator](http://mrieppel.net/prog/truthtable.html)
 * [廖亦德老師的線代專業網](http://mail.im.tku.edu.tw/~idliaw/)　免費研究所線代書
 * 數學傳播　<http://w3.math.sinica.edu.tw/media/>
 * <http://www.foundalis.com/lan/hw/grkhandw.htm>
