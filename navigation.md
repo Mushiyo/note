@@ -5,6 +5,7 @@
 * [演算法](CS/algorithm.md)
 * [AI](CS/AI.md)
 * [NLP](CS/NLP.md)
+* [OS](CS/OS.md)
 * [書籍](CS/book.md)
 
 [程式設計]()
