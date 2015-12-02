@@ -97,3 +97,8 @@
 自然數 | natural number | 
 不盡根 （無法以整數表達的根，如√(5)） | surd | 
 因數（式）分解 | factorization | 
+
+###線性代數
+繁中 | 英 | 簡中
+----- | ----- | -----
+行列式 | determinant | 
