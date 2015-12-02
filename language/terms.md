@@ -75,6 +75,12 @@
 鈍角（三角形） | obtuse (triangle) | 
 直角（三角形） | right (triangle) | 
 
+####多面體
+繁中 | 英 | 簡中
+----- | ----- | -----
+ | tetrahedron |
+ | octahedron |
+
 ###統計
 繁中 | 英 | 簡中
 ----- | ----- | -----
