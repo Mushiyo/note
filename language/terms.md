@@ -20,6 +20,10 @@
  | depth | 深度
  | height | 高度 
  | traversal | 遍历
+ | AVL tree | AVL树
+ | splay Tree | 伸展树
+ | B-tree | B树
+ | red black tree | 红黑树
 圖 | graph | 图
 相鄰矩陣 | adjacency matrix | 邻接矩阵
 關聯矩陣 | incidence matrix | 关联矩阵
@@ -28,6 +32,7 @@
  | acyclic | 无环图
  | cycle, loop | 环路
  | reverse polish notation | 逆波兰表达式
+ | locality | 局部性
 
 ##數學
 繁中 | 英 | 簡中
