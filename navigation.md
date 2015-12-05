@@ -19,7 +19,7 @@
 * [Batch](programming/batch.md)
 * #版本控制
 * [SVN](programming/SVN.md)
-* [Git](programming/Git.md)
+* [Git](programming/Git.md) -----
 * [通用暨未分類資源](programming/miscellaneous.md)
 
 [數學]()

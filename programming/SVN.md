@@ -14,6 +14,28 @@ svn co 遠端url
 ###svnadmin dump
 參考：<http://gnumen.org/blog/admin/25/02/2013/importing-repository-sfnet-classic-new-project>
 
+1.
+```
+svnadmin create 資料夾名稱
+```
+2. 切換到本地已有的SVN repo的root
+3. 
+```
+svn import file:///步驟一建出的資料夾的絕對路徑 -m "一些訊息"
+```
+4. 找個地方建一個臨時資料夾
+5. 切換到臨時資料夾裡
+6. 
+```
+svn checkout file:///步驟一建出的資料夾的絕對路徑
+```
+7. 回到步驟一建出的資料夾的所在位置
+8. 
+```
+svnadmin dump 步驟一建出的資料夾的名稱 > dumpFileName
+```
+dumpFileName即為產出的dump file
+
 ###svnrdump
 svnrdump自SVN 1.7後才有，使用前需注意SVN版本  
 
