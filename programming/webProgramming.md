@@ -72,7 +72,7 @@
 * [spetools.de](http://www.spetools.de/?commentsystem)
 * [HyperComments](https://www.hypercomments.com/)
 
-open source方案（要有server）  
+open source方案（要有server）
 * [Isso](http://posativ.org/isso/)
 * [HashOver](http://tildehash.com/?page=hashover)
 
