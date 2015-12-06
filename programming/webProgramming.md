@@ -55,7 +55,7 @@
 * [GoStats](http://gostats.com/)
 * [trendcounter](http://www.trendcounter.com/)  
 
------
+純流量統計，無計數器
 * [Google Analytics](https://www.google.com/analytics/)
 
 ###翻譯工具
@@ -72,9 +72,7 @@
 * [spetools.de](http://www.spetools.de/?commentsystem)
 * [HyperComments](https://www.hypercomments.com/)
 
------
-open source方案（要有server）
-  
+open source方案（要有server）  
 * [Isso](http://posativ.org/isso/)
 * [HashOver](http://tildehash.com/?page=hashover)
 
