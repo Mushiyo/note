@@ -69,7 +69,8 @@
 * [muut](https://muut.com/)
 * [DiscussIT™](http://www.pnyxe.shadow.com/DiscussIt-comment-system)
 * [spetools.de](http://www.spetools.de/?commentsystem)
-* [HyperComments](https://www.hypercomments.com/)  
+* [HyperComments](https://www.hypercomments.com/)
+
 -----
 open source方案（要有server）
   
