@@ -38,6 +38,7 @@
 繁中 | 英 | 簡中
 ----- | ----- | -----
 不可約多項式 | irreducible polynomial | 
+項 | term | 
 等差級數、等差數列 | arithmetic progression | 
 等比級數、等比數列 | geometric progression | 
 二項式定理 | binomial theorem | 

@@ -53,7 +53,7 @@
 * [W3Counter](http://www.w3counter.com/)
 * [StatCounter](http://statcounter.com/)
 * [GoStats](http://gostats.com/)
-* [trendcounter](http://www.trendcounter.com/)
+* [trendcounter](http://www.trendcounter.com/)  
 -----
 * [Google Analytics](https://www.google.com/analytics/)
 
@@ -69,7 +69,12 @@
 * [muut](https://muut.com/)
 * [DiscussIT™](http://www.pnyxe.shadow.com/DiscussIt-comment-system)
 * [spetools.de](http://www.spetools.de/?commentsystem)
-* [HyperComments](https://www.hypercomments.com/)
+* [HyperComments](https://www.hypercomments.com/)  
+-----
+open source方案（要有server）
+  
+* [Isso](http://posativ.org/isso/)
+* [HashOver](http://tildehash.com/?page=hashover)
 
 ###自訂搜尋
 * [DuckDuckGo搜尋框](https://duckduckgo.com/search_box)
@@ -85,6 +90,7 @@
 ###圖庫
 * <https://openclipart.org/>　public domain圖庫
 * <https://pixabay.com/>　Creative Commons CC0（公眾領域貢獻宣告）圖庫
+* [無料イラスト 【イラストわんパグ】](http://www.wanpug.com/)
 * [getty images embed](http://www.gettyimages.com/resources/embed)　只能使用embed的方式，否則違法
 
 ###音樂|音效
