@@ -51,9 +51,13 @@
 ##網站小工具
 ###流量統計|計數器
 * [W3Counter](http://www.w3counter.com/)
-* [StatCounter](http://statcounter.com/)
-* [GoStats](http://gostats.com/)
+  可免登入看統計圖表（自己要記圖表網址，不是點counter就能看到），後台美觀，有多種風格可選
+* [StatCounter](http://statcounter.com/)  
+  很寬鬆的計數器，似乎是每刷一次就加一
+* [GoStats](http://gostats.com/)  
+  嚴格的計數器，似乎是以不重複的ip來算？
 * [trendcounter](http://www.trendcounter.com/)  
+  要付費方案才能免登入看統計圖表，可以自訂外觀，有一般counter和flag counter二種風格
 
 純流量統計，無計數器
   
@@ -66,16 +70,24 @@
 
 ###留言系統
 * [Livefyre](http://web.livefyre.com/)
-* [IntenseDebate](http://www.intensedebate.com/)
-* [Disqus](https://disqus.com/)
-* [muut](https://muut.com/)
-* [DiscussIT™](http://www.pnyxe.shadow.com/DiscussIt-comment-system)
-* [spetools.de](http://www.spetools.de/?commentsystem)
-* [HyperComments](https://www.hypercomments.com/)
+  快速，除了用`$ ... $`外都可以快樂的用MathJax
+* [IntenseDebate](http://www.intensedebate.com/)  
+  跟MathJax不太合
+* [Disqus](https://disqus.com/)  
+  跟MathJax不太合
+* [muut](https://muut.com/)  
+  除了用`$ ... $`外都可以快樂的用MathJax
+* [DiscussIT™](http://www.pnyxe.shadow.com/DiscussIt-comment-system)  
+  跟MathJax不太合
+* [spetools.de](http://www.spetools.de/?commentsystem)  
+  快速，支援中文，但跟MathJax不太合
+* [HyperComments](https://www.hypercomments.com/)  
+  非常快速，跟MathJax不太合，複製網頁內容時會強制嵌入廣告連結（付費版可能不會？）
 
 open source方案（要有server）
   
-* [Isso](http://posativ.org/isso/)
+* [Isso](http://posativ.org/isso/)  
+  只在`$$ ... $$`可以用MathJax
 * [HashOver](http://tildehash.com/?page=hashover)
 
 ###自訂搜尋

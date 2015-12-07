@@ -15,6 +15,7 @@
 * [Python](programming/Python.md)
 * [C++](programming/C++.md)
 * [web programming](programming/webProgramming.md)
+* [SQL](programming/SQL.md)
 * [Wolfram](programming/WolframLanguage.md)
 * [Batch](programming/batch.md)
 * #版本控制
