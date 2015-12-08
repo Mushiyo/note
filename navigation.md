@@ -28,6 +28,7 @@
 
 * [高中數學](math/preCollege.md)
 * [線性代數](math/linearAlgebra.md)
+* [離散數學](math/discrete.md)
 * [LaTeX](math/LaTeX.md)
 * [網站、工具、資源](math/siteToolRes.md)
 
