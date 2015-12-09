@@ -33,7 +33,10 @@
 * [tPro翻譯職人資訊網(tPro資訊網)](http://www.tpro.ebiz.tw/index.php)
 * [譯言堂人工翻譯網](http://www.mytrans.com.tw/TChBpTranslate/)
 * [DIGITIMES翻譯服務](http://transproject.digitimes.com/)
+* [公平翻譯交易所](https://www.meetthetranslators.com/)
 * <https://www.translate.com/translators>
+* <https://www.getlocalization.com/4pros/>
+* <https://www.onehourtranslation.com/translation/translator-join-us>
 * [Geogo](http://gengo.com/)
 * [Conyac](https://conyac.cc/zh-tw/translators)
 * [OneSky](https://translator.oneskyapp.com/sign-up)
