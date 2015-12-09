@@ -10,6 +10,9 @@
 
 ##英文
 * <http://www.netspeak.org/> 查句型
+* <http://linggle.com>
+* <https://www.grammarly.com/>
+* <http://www.1checker.com/>
 * [Yahoo奇摩字典](https://tw.dictionary.yahoo.com/)
 * [Cambridge Free English Dictionary and Thesaurus](http://dictionary.cambridge.org/)
 * [Oxford Learner's Dictionaries](http://www.oxfordlearnersdictionaries.com/)
@@ -29,4 +32,9 @@
 * [LTTC中英文翻譯能力檢定](https://www.lttc.ntu.edu.tw/tran_news.aspx)
 * [tPro翻譯職人資訊網(tPro資訊網)](http://www.tpro.ebiz.tw/index.php)
 * [譯言堂人工翻譯網](http://www.mytrans.com.tw/TChBpTranslate/)
+* [DIGITIMES翻譯服務](http://transproject.digitimes.com/)
+* <https://www.translate.com/translators>
 * [Geogo](http://gengo.com/)
+* [Conyac](https://conyac.cc/zh-tw/translators)
+* [OneSky](https://translator.oneskyapp.com/sign-up)
+* [Flitto](https://www.flitto.com)
