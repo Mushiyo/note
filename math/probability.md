@@ -4,15 +4,16 @@
 
 ##機率三公理
 令E為事件，S為樣本空間，P(E)記為事件E發生的機率，則
-*公理一* 0 ≦ P(E) ≦ 1  
-*公理二* P(S) = 1  
-*公理三* 對於任意互斥事件\\(E_1,E_2, \dots \\)的序列（即，當i ≠ j 時，\\(E_iE_j = \emptyset \\)）  
+**公理一** 0 ≦ P(E) ≦ 1  
+**公理二** P(S) = 1  
+**公理三** 對於任意互斥事件\\( E_1, E_2, \dots \\)的序列（即，當i ≠ j 時，\\(E_iE_j = \emptyset \\)）  
+
 $$
 P(\bigcup_{i = 1}^{\infty} E_i) = \sum_{i = 1}^{\infty} P(E_i)
 $$
 
-公理三衍生1：*空事件的發生機率為0*  
-設有互斥事件序列\\(E_1, E_2, …\\)，其中\\(E_1 = S, E_i = \emptyset for i > 1\\)，則  
+公理三衍生1：**空事件的發生機率為0**  
+設有互斥事件序列\\(E_1, E_2, …\\)，其中\\(E_1 = S, E_i = \emptyset \text{for i} > 1\\)，則  
 $$
 P(S) = \sum_{i = 1}^{\infty} = P(S) + \sum_{i=2}^{\infty}P(\infty) \\
 => P(\infty) = 0
@@ -35,12 +36,12 @@ $$
 若P(F) > 0，則\\( P(E|F) = \frac{P(EF)}{P(F)} \\)
 同乘P(F) => P(F)P(E|F)=P(EF)
 
-*multiplication rule*  
-\\( P(E_1E_2E_3 \dots E_n) = P(E_1)P(E_2|E_1)P(E_3|E_1E_2)……P(E_n|E_1…E_{n-1}) \\)
+**multiplication rule**  
+\\( P(E_1E_2E_3 \dots E_n) = P(E_1)P(E_2|E_1)P(E_3|E_1E_2) \dots P(E_n|E_1 \dots E_{n-1}) \\)
 
 證明 p.68
 
-*貝氏定理*
+**貝氏定理**
 今E, F為二事件，\\( E = EF \cup EF^C \\)
 \\( EF, EF^C \\)顯然為互斥事件，則由公理之
 $$\begin{align}
