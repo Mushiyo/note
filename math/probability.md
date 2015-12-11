@@ -6,10 +6,10 @@
 令E為事件，S為樣本空間，P(E)記為事件E發生的機率，則
 **公理一** 0 ≦ P(E) ≦ 1  
 **公理二** P(S) = 1  
-**公理三** 對於任意互斥事件\\( E_1, E_2, \dots \\)的序列（即，當i ≠ j 時，\\(E_iE_j = \emptyset \\)）  
+**公理三** 對於任意互斥事件\\( E_1 , E_2, \dots \\)的序列（即，當i ≠ j 時，\\(E_i E_j = \emptyset \\)）  
 
 $$
-P(\bigcup_{i = 1}^{\infty} E_i) = \sum_{i = 1}^{\infty} P(E_i)
+P(\bigcup_{i = 1}^{\infty} E_i ) = \sum_{i = 1}^{\infty} P(E_i)
 $$
 
 公理三衍生1：**空事件的發生機率為0**  
@@ -21,7 +21,7 @@ $$
 
 公理三衍生2：公理三有限序列也成立
 $$
-P(\bigcup_{i = 1}^{n} E_i) = \sum_{i = 1}^{n} P(E_i)
+P(\bigcup_{i = 1}^{n} E_i ) = \sum_{i = 1}^{n} P(E_i )
 $$
 
 
@@ -37,7 +37,7 @@ $$
 同乘P(F) => P(F)P(E|F)=P(EF)
 
 **multiplication rule**  
-\\( P(E_1E_2E_3 \dots E_n) = P(E_1)P(E_2|E_1)P(E_3|E_1E_2) \dots P(E_n|E_1 \dots E_{n-1}) \\)
+\\( P(E_1 E_2 E_3 \dots E_n) = P(E_1 )P( E_2 | E_1 )P( E_3 | E_1 E_2 ) \dots P(E_n | E_1 \dots E_{n-1}) \\)
 
 證明 p.68
 
