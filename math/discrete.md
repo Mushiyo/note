@@ -1,7 +1,17 @@
 # 離散筆記
 
+##Mod運算
+\\( (a + b) \mod n = [(a \mod n) + (b \mod n)] \mod n \\)
+\\( (a - b) \mod n = [(a \mod n) - (b \mod n)] \mod n \\)
+\\( (a \times b) \mod n = [(a \mod n) \times (b \mod n)] \mod n \\)
 
-##\mod運算的性質
+例：
+\\( a^3 \mod n = [(a \mod n)^2 \mod n \times a \mod n] \mod n \\)
+
+###Mod運算的性質
+\\( a \equiv b \mod n => n | (a - b) \\)
+\\( a \equiv b \mod n => b \equiv a \mod n \\)
+\\( a \equiv b \mod n , b \equiv c \mod n => a \equiv c \mod n \\)
 
 交換律  
 \\( (w + x) \mod n = (x + w) \mod n \\)  
@@ -23,6 +33,18 @@
 $$
   \text{for each } w \in  , 存在z \in \mathbb{Z} 使得 w + z \equiv 0 \mod n
 $$
+
+###快速運算法
+當d很大時，計算\\( h^d \mod n \\)
+例：
+$$
+  d = 23 \\
+  23 = 2^4 + 2^2 + 2^1 + 2^0 \\
+  [23]_10 = [10111]_2 \\
+  h^23 = (((h^2)^2 \times h)^2 \times h)^2 \times h \mod n \\
+  = h^{2^4} \times h^{2^2} \times h^2 \times h
+$$
+
 
 `歐幾里得演算法`：就是輾轉相除法  
 `Extended Euclidean Algorithm`：
