@@ -1,5 +1,7 @@
 # $$\LaTeX $$
 
+* 別人做的精美符號表：<http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm>
+
 inline mode
 ```
 \(…\)
@@ -160,10 +162,28 @@ $$f(n) = \left \{
   \begin{array}{1 1}
   n / 2 & \quad}$$
   
-##集合
-常用符號
+##集合論
+元素關係符號
 ```
-\in \ni \notin \bigcup \bigcupq \bigcap \bigcapq
+\in \ni \notin
 ```
 
-$$\in \ni \notin \bigcup \bigcupq \bigcap \bigcapq $$
+$$\in \ni \notin$$
+
+集合關係符號
+```
+\subset \subseteq \subseteqq \supset \supseteq \supseteq
+```
+$$\subset \subseteq \subseteqq \supset \supseteq \supseteq $$
+
+```
+\nsubseteq \nsubseteqq \nsupseteq \nsupseteqq
+```
+$$\nsubseteq \nsubseteqq \nsupseteq \nsupseteqq $$
+
+
+集合運算符號
+```
+\cup \cap
+```
+$$\cup \cap $$
