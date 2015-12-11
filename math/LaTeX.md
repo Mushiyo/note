@@ -20,9 +20,11 @@ $$\alpha \delta \Delta$$
   
 mod
 ```
-a \bmod b
+a \mod b, a \bmod b, a \pmod b
 ```
-$$a \bmod b$$
+$$
+a \mod b , a \bmod b , a \pmod b
+$$
   
 指數
 ```
@@ -157,3 +159,11 @@ f(n) = \left\{
 $$f(n) = \left \{
   \begin{array}{1 1}
   n / 2 & \quad}$$
+  
+##集合
+常用符號
+```
+\in \ni \notin \bigcup \bigcupq \bigcap \bigcapq
+```
+
+$$\in \ni \notin \bigcup \bigcupq \bigcap \bigcapq $$
