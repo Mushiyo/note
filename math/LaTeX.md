@@ -1,6 +1,7 @@
 # $$\LaTeX $$
 
 * 別人做的精美符號表：<http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm>
+* [Detexify](http://detexify.kirelabs.org/classify.html) 畫符號給打法
 
 inline mode
 ```
@@ -19,14 +20,6 @@ $$…$$
 ```
 $$\alpha \delta \Delta$$
 開頭大寫表示大寫字母，英文中有的字母直接打就好（例如：大寫alpha就是A，故沒有\Alpha）
-  
-mod
-```
-a \mod b, a \bmod b, a \pmod b
-```
-$$
-a \mod b , a \bmod b , a \pmod b
-$$
   
 指數
 ```
@@ -187,3 +180,20 @@ $$\nsubseteq \nsubseteqq \nsupseteq \nsupseteqq $$
 \cup \cap
 ```
 $$\cup \cap $$
+
+##數論
+mod
+```
+a \mod b, a \bmod b, a \pmod b
+```
+$$
+a \mod b , a \bmod b , a \pmod b
+$$
+
+divisibility
+```
+ \mid \nmid
+```
+$$
+\mid \nmid
+$$
