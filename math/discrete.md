@@ -2,7 +2,7 @@
 
 ##數論
 \\(a | b\\)：a整除b(b是a的倍數)，\\(\exists c (ac = b)\\)
-\\(a ]nmid b\\)：a不整除b
+\\(a |nmid b\\)：a不整除b
 
 **THEOREM**  
 令a,b,c為整數，其中a≠0，則  
