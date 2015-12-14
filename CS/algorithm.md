@@ -12,3 +12,19 @@
 ###splay tree
 
 ###B-tree
+
+###紅黑樹
+* 每個除leaf，每結點都有二個children
+* balanced tree
+
+####四個性質
+1. root為黑
+2. leaf為黑
+3. 紅子必黑
+4. 由root到任意一個leaf，都有相同的黑結點個數
+
+####插入
+* 除非是root，否則都先染紅 
+* 遇到雙紅違規：分幾個case處理
+
+####刪除
