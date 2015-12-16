@@ -1,6 +1,7 @@
 #自然語言處理筆記
 
-##語料庫及WordNet
+##語料庫|WordNet
+* <http://linghub.org/> 搜尋資源
 * [中央研究院中英雙語知識本體詞網](http://bow.ling.sinica.edu.tw/)
 
 
@@ -32,6 +33,9 @@
 * [百度翻译](http://fanyi.baidu.com/)
 * [SDL Translate](http://www.freetranslation.com/)
 
-##研究機構
+##研究機構|計劃
 * [中研院語言所](http://www.ling.sinica.edu.tw/)
+* [語言,本體資源與知識開放計劃](http://lopen.linguistics.ntu.edu.tw/)
 
+##其它
+*[開放語料庫：製程與分析](https://www.gitbook.com/book/loperntu/copens/details) 一本Gitbook

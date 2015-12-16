@@ -107,4 +107,8 @@ open source方案（要有server）
 * [無料イラスト 【イラストわんパグ】](http://www.wanpug.com/)
 * [getty images embed](http://www.gettyimages.com/resources/embed)　只能使用embed的方式，否則違法
 
+##圖示（icon）
+* [Material icons - Google Design](https://design.google.com/icons/) [GitHub](https://github.com/google/material-design-icons)
+* [GLYPHICONS](http://glyphicons.com/)
+
 ###音樂|音效
