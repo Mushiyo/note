@@ -22,6 +22,7 @@
 * <http://www.hiragana.jp/> 幫網頁標假名
 * [J-CAT](http://www.j-cat.org/) 免費日文能力檢測，題型類日檢
 * [線上日語教室](http://www.linguist.com.tw/JAPClass/)
+* [線上打日文](http://www.lexilogos.com/keyboard/japanese.php)
 
 ##義大利文
 * [one world Italiano](http://www.oneworlditaliano.com/)
