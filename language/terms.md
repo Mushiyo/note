@@ -7,6 +7,7 @@
 ##資訊
 繁中 | 英 | 簡中
 ----- | ----- | -----
+唯讀 | read only | 只读
 資料結構 | Data Structure | 数据结构
 陣列 | array | 数组
 串列 | list | 列表
@@ -33,6 +34,12 @@
  | cycle, loop | 环路
  | reverse polish notation | 逆波兰表达式
  | locality | 局部性
+ | hash fuction | 散列函数
+ | hash table | 散列表
+ | load factor | 装填因子
+ | perfect hashing | 完美散列
+ | surjection | 满射
+ | clustering | 聚集
 
 ##數學
 繁中 | 英 | 簡中
