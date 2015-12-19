@@ -38,8 +38,20 @@
  | hash table | 散列表
  | load factor | 装填因子
  | perfect hashing | 完美散列
- | surjection | 满射
  | clustering | 聚集
+ | probing sequence / chaning | 查找键
+ | open addressing | 开放寻址
+ | linear probing | 线性试探
+ | quadratic probing | 平方试探
+ | double hashing | 再散列
+ | lexicographic order | 词典序
+ | bucket sort | 桶排序
+ | counting sort | 计数排序
+ | skip list | 跳转表
+ | bitmap | 位图
+ | priority queue | 优先级队列
+ | tournament tree | 锦标赛树
+ | binary heap | 二叉推
 
 ##數學
 繁中 | 英 | 簡中
@@ -56,6 +68,9 @@
 全等 | congruent |
 一元二次方程 | Quadratic equation |
 象限、第一象限  | quadrant, quadrant I |
+嵌射 | one to one, injection | 单射
+映成映射、蓋射 | onto, surjection | 满射
+對射 | bijection | 双射
 
 
 ###幾何
