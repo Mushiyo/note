@@ -7,6 +7,7 @@
 ##國語
 * [教育部重編國語辭典修訂本](http://dict.revised.moe.edu.tw/cbdic/index.html)
 * [萌典](https://www.moedict.tw/)　教育部國語、臺語、客語辭典民間版
+* [全字庫](http://www.cns11643.gov.tw/AIDB/welcome.do)
 
 ##英文
 * <http://www.netspeak.org/> 查句型
