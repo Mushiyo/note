@@ -24,7 +24,14 @@
 * [Google Ngrams](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
 
 ###中文工具
-* <https://g0v.hackpad.com/aco0Hxp4IEz>
+* [中研院CKIP parser](http://ckipsvr.iis.sinica.edu.tw/) [剖析系統](http://parser.iis.sinica.edu.tw/)  
+  [PyCCS (CKIP Chinese Segmentator)](https://github.com/amigcamel/PyCCS) 輔助API，Python  
+  [CKIPClient-PHP 中研院斷詞系統客戶端程式](https://github.com/fukuball/CKIPClient-PHP) 輔助API，PHP  
+  [CKIP Client](http://ckipclient.sourceforge.net/) 有Java和PHP二種client  
+   <http://jackytung8085.blogspot.tw/2013/10/java-ckip-wordsegmentationservice.html> 網友自行實作的Java client
+* [Jieba 結巴](https://github.com/fxsjy/jieba) 對岸製，Python [繁體字典](https://github.com/fxsjy/jieba#using-other-dictionaries) [其他語言](https://github.com/fxsjy/jieba#其他语言实现)
+  [Jseg](https://github.com/amigcamel/Jseg) 由結巴改成，用中研院語料庫train => 可以繁體 
+* 其他 <https://g0v.hackpad.com/aco0Hxp4IEz>
 
 ##機器翻譯平台
 * [Google Translate](https://translate.google.com.tw)
