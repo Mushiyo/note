@@ -31,7 +31,14 @@
 ##翻譯
 * [國家教育研究院雙語詞彙、學術名詞暨辭書資訊網](http://terms.naer.edu.tw/)
 * [微積分常用述語中英文對照](http://calculus.nctu.edu.tw/resource/riki.php?id=letter-Chinese&CID=4)
+* [Google 譯者工具包](https://translate.google.com/toolkit/) 需有Google帳號，需登入
 * [LTTC中英文翻譯能力檢定](https://www.lttc.ntu.edu.tw/tran_news.aspx)
+
+###交流
+* [PTT Translation](https://www.ptt.cc/bbs/Translation/)
+* [PTT Translate-CS](https://www.ptt.cc/bbs/Translate-CS/index.html)
+
+###接案
 * [tPro翻譯職人資訊網(tPro資訊網)](http://www.tpro.ebiz.tw/index.php)
 * [譯言堂人工翻譯網](http://www.mytrans.com.tw/TChBpTranslate/)
 * [DIGITIMES翻譯服務](http://transproject.digitimes.com/)
