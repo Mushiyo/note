@@ -10,6 +10,9 @@
 
 ##樹
 ###splay tree
+* 利用locality，query到的element會升為root
+* 以二層旋轉的方式上升，每回合旋轉後v會取代其grandparent的位置
+* node的旋轉（四個case） 
 
 ###B-tree
 

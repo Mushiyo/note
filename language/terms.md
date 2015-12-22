@@ -52,6 +52,12 @@
  | priority queue | 优先级队列
  | tournament tree | 锦标赛树
  | binary heap | 二叉推
+ | substring | 子串
+ | prefix | 前缀
+ | suffix | 后缀
+ | | 关联 
+ | | 空串
+ | string matching | 串匹配
 
 ##數學
 繁中 | 英 | 簡中
