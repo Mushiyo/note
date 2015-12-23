@@ -31,8 +31,11 @@
 ##翻譯
 * [國家教育研究院雙語詞彙、學術名詞暨辭書資訊網](http://terms.naer.edu.tw/)
 * [微積分常用述語中英文對照](http://calculus.nctu.edu.tw/resource/riki.php?id=letter-Chinese&CID=4)
-* [Google 譯者工具包](https://translate.google.com/toolkit/) 需有Google帳號，需登入
 * [LTTC中英文翻譯能力檢定](https://www.lttc.ntu.edu.tw/tran_news.aspx)
+
+###輔助工具
+* [Google 譯者工具包](https://translate.google.com/toolkit/) 需有Google帳號，需登入
+* [Memsource](https://www.memsource.com/en)
 
 ###交流
 * [PTT Translation](https://www.ptt.cc/bbs/Translation/)
