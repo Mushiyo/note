@@ -17,11 +17,25 @@
 
 # 基本語法
 
-##Hello World!
+##I/O
+### standard output
 ```python
 print "Hello World!"
 ```
 Python是靠換行來斷句的，而print的效果就是Java的println
+
+### standard input
+```python
+var = raw_input("提示訊息")
+```
+
+### file input
+```
+aFile = open("test.txt") #開檔案
+
+for line in aFile:
+	#do something
+```
 
 ##變數形態及宣告
 ```python
@@ -124,11 +138,6 @@ while true :
         print n
 ```
 
-##吃輸入
-```python
-var = raw_input("提示訊息")
-```
-
 ##函數宣告
 ```python
 def spam():
@@ -166,3 +175,112 @@ except:
 
 "fruitful" function 有回傳值的function
 "not fruitful" function 沒回傳值的function，也就是void function
+
+-----
+
+# 字串
+##宣告
+```python
+brian = "Hello life!"
+```
+
+##index
+字串可以直接用index  
+str[index] 在index位置的char  
+str[index1 : index2] 為在str中位置[index1:index2)的子字串  
+
+```python
+fifth_letter = "MONTY"[4]
+# fifth_letter equals Y in MONTY
+```
+
+##長度
+```python
+len(str) #回傳字串長
+```
+
+
+'+'串接
+
+str.lower()轉小寫  
+str.upper()轉大寫  
+str.isalpha()確認是否只含字母  
+str(nonStrVar)將nonStrVar轉成string  
+
+-----
+
+#內建資料結構
+## dictionary
+
+## list
+大致上可以把list想成高級array？  
+詳細說明：https://docs.python.org/2/tutorial/datastructures.html#more-on-lists  
+
+###宣告
+
+```python
+aList = ['item0','item1','item2','item3']
+```
+
+###member的操作
+####取得member的值
+index由0開始編號
+```python
+aList[0]
+```
+結果會是
+`'item0'`
+
+也可以是負的index，表示倒數第幾個
+例如
+```python
+aList[-2]
+```
+表示倒數第二個member，因此結果會是
+`'item2'`
+
+####增加移除member
+
+##set
+
+##tuple
+
+-----
+
+## class
+Python的class的架構如下
+```python
+class ClassName:
+	classVar = 0 #class variable
+	
+	# constructor
+	def _init_(self, arg2, arg3):
+	    self.instanceVar = arg2 # assign value to instance variables
+	    # do something
+	    
+	# method
+	def method1(self):
+		# do something
+	
+	def method2(self, arg2):
+	    # do something
+```
+
+所有method皆以`self`為第一個參數，`self`的功用類似Java的`this`  
+`self`只有在宣告method才會用到，傳參數時不必使用
+
+###使用物件
+假設class ClassName位於fileName.py內，若欲在其他檔案內使用ClassName，則
+```python
+import fileName
+```
+
+建出ClassName的instance
+```python
+className = filename.ClassName(arg2, arg3)
+```
+
+使用method
+```python
+className.method1()
+```
