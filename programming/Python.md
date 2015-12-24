@@ -206,6 +206,9 @@ str.lower()轉小寫
 str.upper()轉大寫  
 str.isalpha()確認是否只含字母  
 str(nonStrVar)將nonStrVar轉成string  
+str.strip() 去掉頭尾的空白（如Java的trim()）
+str.lstrip() 去掉開頭空白
+str.rstrip() 去掉結尾空白
 
 -----
 
