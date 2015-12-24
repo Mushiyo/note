@@ -33,7 +33,7 @@ var = raw_input("提示訊息")
 ```
 aFile = open("test.txt") #開檔案
 
-for line in aFile:
+for line in aFile.readlines():
 	#do something
 ```
 
@@ -211,6 +211,17 @@ str(nonStrVar)將nonStrVar轉成string
 
 #內建資料結構
 ## dictionary
+###宣告
+```python
+aDict = dict() # 一個空dictionary
+```
+
+###操作
+```python
+aDict[key] #取得key對應的value
+aDict[key] = value #設定key對應的值為value
+key in aDict #dictionary是否含key
+```
 
 ## list
 大致上可以把list想成高級array？  
@@ -253,8 +264,8 @@ Python的class的架構如下
 class ClassName:
 	classVar = 0 #class variable
 	
-	# constructor
-	def _init_(self, arg2, arg3):
+	# constructor，注意__init__的前後各是二個底線
+	def __init__(self, arg2, arg3):
 	    self.instanceVar = arg2 # assign value to instance variables
 	    # do something
 	    
