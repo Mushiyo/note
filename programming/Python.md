@@ -255,7 +255,20 @@ aList[-2]
 
 ####增加移除member
 
+###印出element
+```python
+print(", ".join(aList))
+```
+
 ##set
+```python
+len(aSet) #取得set的大小
+```
+
+###轉換成其他資料結構
+```
+aList = list(aSet) #轉換成list
+```
 
 ##tuple
 
