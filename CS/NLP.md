@@ -40,6 +40,11 @@
 * [百度翻译](http://fanyi.baidu.com/)
 * [SDL Translate](http://www.freetranslation.com/)
 
+###API
+* [Yandex Translate API](https://tech.yandex.com/translate/) [doc](https://tech.yandex.com/translate/doc/dg/concepts/About-docpage/)
+* [Microsoft Translator](https://www.microsoft.com/en-us/translator)
+* [百度翻译API](http://api.fanyi.baidu.com/api/trans/product/index)
+
 ##研究機構|計劃
 * [中研院語言所](http://www.ling.sinica.edu.tw/)
 * [語言,本體資源與知識開放計劃](http://lopen.linguistics.ntu.edu.tw/)
