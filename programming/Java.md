@@ -7,6 +7,11 @@
 * [Java 7](http://docs.oracle.com/javase/7/docs/api/)  
 * [Java 6](http://docs.oracle.com/javase/6/docs/api/)  
 
+### Java EE
+* [Java EE 8](http://docs.oracle.com/javaee/8/api/)
+* [Java EE 7](http://docs.oracle.com/javaee/7/api/)
+* [Java EE 6](http://docs.oracle.com/javaee/6/api/)
+
 ##學習資源
 * [The Java™ Tutorials](http://docs.oracle.com/javase/tutorial/) 官方教學文件  
 * [Introduction to Java Programming, Eighth Edition](http://cs.armstrong.edu/liang/intro8e/) 學校課本  
@@ -17,8 +22,20 @@
 * [EasyEclipse](http://www.easyeclipse.org/site/home/index.html) | [下載](http://www.easyeclipse.org/site/distributions/index.html) 
 * [Yoxos](https://yoxos.eclipsesource.com/)　客製化Eclipse
 
+##寫網頁
+###取得本地資料
+```Java
+//在servelet的method內部
+Scanner in = new Scanner(getServletContext().getResourceAsStream("path/file"););
+```
+注意檔案要置於`WebContent`資料夾下，若要限制只能為servlet所用，則置於`WebContent/WEB-INF`下
+
+
+##處理JSON
+JSON官方source code及documentation：<http://www.json.org/java/index.html>
+
 ##處理XML
-官方教學：<https://docs.oracle.com/javase/tutorial/jaxp/index.html>
+Java官方教學：<https://docs.oracle.com/javase/tutorial/jaxp/index.html>
 
 ###用DOM的方式parse
 相關package

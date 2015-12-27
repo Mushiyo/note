@@ -41,8 +41,10 @@
 * [SDL Translate](http://www.freetranslation.com/)
 
 ###API
-* [Yandex Translate API](https://tech.yandex.com/translate/) [doc](https://tech.yandex.com/translate/doc/dg/concepts/About-docpage/)
-* [Microsoft Translator](https://www.microsoft.com/en-us/translator)
+* [Yandex Translate API](https://tech.yandex.com/translate/) [doc](https://tech.yandex.com/translate/doc/dg/concepts/About-docpage/)  
+  他人自製的API [Java](https://github.com/rmtheis/yandex-translator-java-api) [PHP](https://github.com/yandex-php/translate-api)
+* [Microsoft Translator](https://www.microsoft.com/en-us/translator) [說明](https://msdn.microsoft.com/en-us/library/dd576287.aspx)  
+  他人自製的API [Java](https://github.com/boatmeme/microsoft-translator-java-api)
 * [百度翻译API](http://api.fanyi.baidu.com/api/trans/product/index)
 
 ##研究機構|計劃

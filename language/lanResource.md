@@ -49,6 +49,7 @@
 * <https://www.translate.com/translators>
 * <https://www.getlocalization.com/4pros/>
 * <https://www.onehourtranslation.com/translation/translator-join-us>
+* [Fiberead](http://fiberead.com/)　簡體平台，翻譯書籍
 * [Geogo](http://gengo.com/)
 * [Conyac](https://conyac.cc/zh-tw/translators)
 * [OneSky](https://translator.oneskyapp.com/sign-up)
