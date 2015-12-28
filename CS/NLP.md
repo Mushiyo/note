@@ -38,6 +38,7 @@
 * [Bing Translator](https://www.bing.com/translator/)
 * [Yandex.Translate](https://translate.yandex.com/)
 * [百度翻译](http://fanyi.baidu.com/)
+* [有道翻译](http://fanyi.youdao.com/)
 * [SDL Translate](http://www.freetranslation.com/)
 
 ###API
@@ -45,7 +46,11 @@
   他人自製的API [Java](https://github.com/rmtheis/yandex-translator-java-api) [PHP](https://github.com/yandex-php/translate-api)
 * [Microsoft Translator](https://www.microsoft.com/en-us/translator) [說明](https://msdn.microsoft.com/en-us/library/dd576287.aspx)  
   他人自製的API [Java](https://github.com/boatmeme/microsoft-translator-java-api)
-* [百度翻译API](http://api.fanyi.baidu.com/api/trans/product/index)
+* [百度翻译API](http://api.fanyi.baidu.com/api/trans/product/index) [doc](http://developer.baidu.com/wiki/index.php?title=%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%E9%A6%96%E9%A1%B5/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91API)
+* [有道翻译API](http://fanyi.youdao.com/openapi)
+
+##字詞典
+* [百度詞典API]()　支援中英　[doc](http://developer.baidu.com/wiki/index.php?title=%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%E9%A6%96%E9%A1%B5/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91/%E7%99%BE%E5%BA%A6%E8%AF%8D%E5%85%B8API%E4%BB%8B%E7%BB%8D)
 
 ##研究機構|計劃
 * [中研院語言所](http://www.ling.sinica.edu.tw/)
