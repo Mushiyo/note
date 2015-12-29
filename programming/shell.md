@@ -18,3 +18,11 @@ zip -r zipFilename.zip directoryName
 ```
 tar zxvf FileName.tar.gz
 ```
+
+###Ubuntu
+以root的身份開視窗
+```
+sudo nautilus
+```
+
+[連學校VPN](http://ccnet.ntu.edu.tw/vpn/for-ubuntu.html)

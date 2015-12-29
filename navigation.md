@@ -18,6 +18,7 @@
 * [SQL](programming/SQL.md)
 * [Wolfram](programming/WolframLanguage.md)
 * [Batch](programming/batch.md)
+* [Shell](programming/shell.md)
 * #版本控制
 * [SVN](programming/SVN.md)
 * [Git](programming/Git.md)
