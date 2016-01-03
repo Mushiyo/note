@@ -57,4 +57,13 @@
 * [語言,本體資源與知識開放計劃](http://lopen.linguistics.ntu.edu.tw/)
 
 ##其它
-*[開放語料庫：製程與分析](https://www.gitbook.com/book/loperntu/copens/details) 一本Gitbook
+* [開放語料庫：製程與分析](https://www.gitbook.com/book/loperntu/copens/details) 一本Gitbook
+
+### 電腦作詩
+* [Gnoetry](https://gnoetrydaily.wordpress.com/about/)
+* <https://github.com/schollz/poetry-generator>
+* <http://www.narrabase.net/poetry_generators.html>
+* <https://www.laetusinpraesens.org/docs00s/convert.php>
+
+####按韻
+* <http://www.lukeallen.com/rhymer.html>
