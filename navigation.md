@@ -7,6 +7,7 @@
 * [NLP](CS/NLP.md)
 * [OS](CS/OS.md)
 * [書籍](CS/book.md)
+* [機器學習](CS/learning.md)
 
 [程式設計]()
 
@@ -31,6 +32,7 @@
 * [線性代數](math/linearAlgebra.md)
 * [離散數學](math/discrete.md)
 * [機率](math/probability.md)
+* [統計](math/statistics.md)
 * [LaTeX](math/LaTeX.md)
 * [網站、工具、資源](math/siteToolRes.md)
 
