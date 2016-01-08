@@ -20,6 +20,7 @@
 
 ##日文
 * [goo辞書](http://dictionary.goo.ne.jp/)
+* [OJAD - 韻律読み上げチュータ スズキクン](http://www.gavo.t.u-tokyo.ac.jp/ojad/jpn/phrasing/index)　日語朗讀輔助 [介紹](https://www.cool3c.com/article/100767)
 * <http://www.hiragana.jp/> 幫網頁標假名
 * [J-CAT](http://www.j-cat.org/) 免費日文能力檢測，題型類日檢
 * [線上日語教室](http://www.linguist.com.tw/JAPClass/)
