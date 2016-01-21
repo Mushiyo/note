@@ -22,6 +22,8 @@
 * [goo辞書](http://dictionary.goo.ne.jp/)
 * [OJAD - 韻律読み上げチュータ スズキクン](http://www.gavo.t.u-tokyo.ac.jp/ojad/jpn/phrasing/index)　日語朗讀輔助 [介紹](https://www.cool3c.com/article/100767)
 * <http://www.hiragana.jp/> 幫網頁標假名
+* [中国語カタカナ変換](http://dokochina.com/katakana.php)　中文轉片假名
+* [拼音 > 片假名轉換器](http://www.hipenpal.com/tool/chinese_simplified_and_traditional_characters_pinyin_to_katakana_converter_in_traditional_chinese.php)　　中文轉片假名
 * [J-CAT](http://www.j-cat.org/) 免費日文能力檢測，題型類日檢
 * [線上日語教室](http://www.linguist.com.tw/JAPClass/)
 * [線上打日文](http://www.lexilogos.com/keyboard/japanese.php)

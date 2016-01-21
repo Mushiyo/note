@@ -1,5 +1,6 @@
 # Wolfram Language筆記
 
+* [Wolfram本人寫的教科書](http://www.wolfram.com/language/elementary-introduction/)
 * [快速入門](http://www.wolfram.com/language/fast-introduction-for-programmers/)
 * [Wolfram Language & System Documentation Center](http://reference.wolfram.com/language/)
 * [Wolfram Language](https://www.wolfram.com/language/)  
