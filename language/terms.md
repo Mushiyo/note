@@ -8,7 +8,12 @@
 繁中 | 英 | 簡中
 ----- | ----- | -----
 唯讀 | read only | 只读
+ | interface | 接口
+ | abstract data type | 抽象数据结构
+ | implementation | 具体实现
 資料結構 | Data Structure | 数据结构
+ | tabulation | 制表
+ | memoization | 记忆
 陣列 | array | 数组
 串列 | list | 列表
 堆疊 | stack | 栈
