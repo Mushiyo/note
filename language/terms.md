@@ -9,9 +9,27 @@
 ----- | ----- | -----
 唯讀 | read only | 只读
  | interface | 接口
+ | robustness | 鲁棒性
  | abstract data type | 抽象数据结构
  | implementation | 具体实现
 資料結構 | Data Structure | 数据结构
+ | time complexity | 时间复杂度
+ | space complexity | 空间复杂度
+ | asymptotic analysis | 渐进分析
+ | worst case | 最坏实例，最坏情况
+ | best case | 最好情况
+ | average case | 平均情况
+ | base case of recursion | 递归基
+ | linear recursion | 线性递归
+ | recursion trace | 递归跟踪
+ | recurrence equation | 递归方程
+ | tail recursion | 尾递归
+ | binary recursion | 二分递归
+ | multi-way recursion | 多路递归
+ | decrease-and-conquer | 減而治之
+ | divide-and-conquer | 分而治之
+ |  in-place algorithm| 就地算法
+ | degeneracy | 退化
  | tabulation | 制表
  | memoization | 记忆
 陣列 | array | 数组
@@ -63,6 +81,17 @@
  | | 关联 
  | | 空串
  | string matching | 串匹配
+ 
+###計算理論
+繁中 | 英 | 簡中
+----- | ----- | -----
+ | Turing machine | 图灵机
+ | Random Access Machine, RAM | 随机存储机
+ | tractable | 可有效求解的，易解的
+ | intractable | 难解的
+ | intractability | 难解性
+ | computability | 可计算性
+
 
 ##數學
 繁中 | 英 | 簡中

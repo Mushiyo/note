@@ -7,6 +7,13 @@
 
 ##名詞解釋
 `locality`：剛用過的，很快會再用到
+`in-place`：若演算法只需O(1)輔助空間，則稱為in-place
+`tractable`：存在polynomial time演算法
+`intractable`：不存在polynomial time演算法
+`tail recursion`：recursive在最後一步，可以很容易的被改寫成iterative
+
+##複雜度分析
+\\(O(log n) < O(\sqrt{n}) < O(n) < O(nlogn) < O(n^2) < O(n^3) < O(2^n)\\)
 
 ##樹
 ###splay tree
@@ -31,3 +38,11 @@
 * 遇到雙紅違規：分幾個case處理
 
 ####刪除
+
+
+##計算幾何
+**Convex Combination**
+已知一點集 \\(S = {p_1, \dots, p_n} \subseteq \varepsilon^2\\)  
+令\\(\lambda = <\lambda _1, \dots, \lambda _n>^T \in R^n, \lambda _1 + \dots + \lambda _n = 1\\)，且\\(min \\{ \lambda _1, \dots, \lambda _n \\} \geq 0\\)  
+若點\\(P = [p_1, \dots, p_n] \lambda = \lambda _1 p_1 + \dots + \lambda _n p_n \\)
+則稱P為S的convex combination
