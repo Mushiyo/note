@@ -30,7 +30,10 @@
 
 * [高中數學](math/preCollege.md)
 * [線性代數](math/linearAlgebra.md)
+-----
 * [離散數學](math/discrete.md)
+* [圖論](math/graphTheory.md)
+-----
 * [機率](math/probability.md)
 * [統計](math/statistics.md)
 * [LaTeX](math/LaTeX.md)
