@@ -18,6 +18,8 @@
 * [Cambridge Free English Dictionary and Thesaurus](http://dictionary.cambridge.org/)
 * [Oxford Learner's Dictionaries](http://www.oxfordlearnersdictionaries.com/)
 
+* 臺大開放式課程 [英文寫作基礎](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/102S212)
+
 ##日文
 * [goo辞書](http://dictionary.goo.ne.jp/)
 * [OJAD - 韻律読み上げチュータ スズキクン](http://www.gavo.t.u-tokyo.ac.jp/ojad/jpn/phrasing/index)　日語朗讀輔助 [介紹](https://www.cool3c.com/article/100767)
@@ -29,7 +31,14 @@
 * [線上打日文](http://www.lexilogos.com/keyboard/japanese.php)
 
 ##義大利文
-* [one world Italiano](http://www.oneworlditaliano.com/)
+* [one world Italiano](http://www.oneworlditaliano.com/)  
+* 臺大開放式課程 [義大利文一](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/103S103) | [義大利文二](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/101S118) | [Italian (義大利文)](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/100S203)  
+
+##法文
+* 臺大開放式課程 [法文一 (上)](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/101S103) | [法文一 (下)](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/100S206)
+
+##越南語
+* [華視教育頻道越說越好](http://blog.xuite.net/phyllistran/tiengviet/62113072)  
 
 ##翻譯
 * [國家教育研究院雙語詞彙、學術名詞暨辭書資訊網](http://terms.naer.edu.tw/)
