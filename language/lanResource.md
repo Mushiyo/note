@@ -1,5 +1,8 @@
 #語言學習資源暨相關網站
 ##綜合
+* [國立教育廣播電台外語教學節目](http://digitweb.ner.gov.tw/bin/home.php)
+* [italki](http://www.italki.com/)
+* [Duolingo](https://www.duolingo.com/)
 * [多國語言習得活動網](http://polyglot.tw)
 * <http://www.wordreference.com/> 綜合字典
 * <http://www.edictionary.org/>　多種線上字典收集
@@ -10,6 +13,9 @@
 * [全字庫](http://www.cns11643.gov.tw/AIDB/welcome.do)
 
 ##英文
+* 臺大開放式課程 [英文寫作基礎](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/102S212)
+
+###工具
 * <http://www.netspeak.org/> 查句型
 * <http://linggle.com>
 * <https://www.grammarly.com/>
@@ -18,21 +24,33 @@
 * [Cambridge Free English Dictionary and Thesaurus](http://dictionary.cambridge.org/)
 * [Oxford Learner's Dictionaries](http://www.oxfordlearnersdictionaries.com/)
 
-* 臺大開放式課程 [英文寫作基礎](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/102S212)
-
 ##日文
+* [日本国際交流基金免費教材 ── WEB版 エリンが挑戦！にほんごできます](https://www.erin.ne.jp/jp/)
+* [線上日語教室](http://www.linguist.com.tw/JAPClass/)
+
+###工具
 * [goo辞書](http://dictionary.goo.ne.jp/)
 * [OJAD - 韻律読み上げチュータ スズキクン](http://www.gavo.t.u-tokyo.ac.jp/ojad/jpn/phrasing/index)　日語朗讀輔助 [介紹](https://www.cool3c.com/article/100767)
 * <http://www.hiragana.jp/> 幫網頁標假名
 * [中国語カタカナ変換](http://dokochina.com/katakana.php)　中文轉片假名
-* [拼音 > 片假名轉換器](http://www.hipenpal.com/tool/chinese_simplified_and_traditional_characters_pinyin_to_katakana_converter_in_traditional_chinese.php)　　中文轉片假名
-* [J-CAT](http://www.j-cat.org/) 免費日文能力檢測，題型類日檢
-* [線上日語教室](http://www.linguist.com.tw/JAPClass/)
+* [拼音 > 片假名轉換器](http://www.hipenpal.com/tool/chinese_simplified_and_traditional_characters_pinyin_to_katakana_converter_in_traditional_chinese.php)　中文轉片假名
 * [線上打日文](http://www.lexilogos.com/keyboard/japanese.php)
 
+###測驗
+* [J-CAT](http://www.j-cat.org/) 免費日文能力檢測，題型類日檢  
+* [日本語能力試験](http://www.jlpt.jp/) | [語言訓練中心](https://reg.lttc.org.tw/JLPT/index.aspx)
+
 ##義大利文
-* [one world Italiano](http://www.oneworlditaliano.com/)  
 * 臺大開放式課程 [義大利文一](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/103S103) | [義大利文二](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/101S118) | [Italian (義大利文)](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/100S203)  
+* 輔大開放式課程 [義大利生活會話](http://ocw.fju.edu.tw/course/view.php?id=134) | 義大利語文-大一文法 [(上)](http://ocw.fju.edu.tw/course/view.php?id=132) [(下)](http://ocw.fju.edu.tw/course/view.php?id=133)
+* [one world Italiano](http://www.oneworlditaliano.com/)  
+* [義大利文免費線上學習網](http://italiano.oggi.tw/)
+
+##德文
+* [德國之聲](http://www.dw.de/dw/0,,9077,00.html)　德語新聞
+* [LILIPUZ](http://www.lilipuz.de/)　兒童德語新聞
+* [LEO德中、德英字典](http://dict.leo.org/chde?lp=chde&lang=de)  
+* [BEOlingus德英、英德字典](http://dict.tu-chemnitz.de/de-en/lists/111alpha.html)  
 
 ##法文
 * 臺大開放式課程 [法文一 (上)](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/101S103) | [法文一 (下)](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/100S206)
