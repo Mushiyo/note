@@ -7,6 +7,7 @@
 * [Battlecode](http://www.battlecode.org/) MIT辦的競賽
 * [Student StarCraft AI Tournament (SSCAIT)](http://www.sscaitournament.com/)
 * [Russian AI Cup](http://russianaicup.ru/)
+* [Sharif AI Challenge] 伊朗的Sharif科技大學舉辦，三人一組的比賽
 * <http://www.botzone.org> 北京大學AI對抗平台
 
 ###ICPC Challenge  
