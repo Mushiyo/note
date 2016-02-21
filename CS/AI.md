@@ -1,5 +1,8 @@
 #AI
 
+##比賽
+http://www.xprize.org/ai
+
 ##電腦對局
 * [General Game Playing](http://www.ggp.org/)
 * http://games.stanford.edu/index.php/homepage

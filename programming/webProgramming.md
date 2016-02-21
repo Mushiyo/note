@@ -48,6 +48,20 @@
 
 -----
 
+## Markdown建站
+###靜態網站產生器
+* [JBake](http://jbake.org/) Java based open source static site/blog generator
+* [StaticGen](https://www.staticgen.com/) 蒐集、分類各式靜態網站產生器
+
+###flat-file CMS
+依照我個人覺得好用的程度由上往下遞減
+* [Phile](http://philecms.com/)  
+* [Grav](https://getgrav.org/)  
+* [Justwriting](http://hjue.github.io/JustWriting/)  
+* [Dropplets](http://dropplets.com/)
+
+-----
+
 ##網站小工具
 ###流量統計|計數器
 * [W3Counter](http://www.w3counter.com/)
@@ -110,5 +124,6 @@ open source方案（要有server）
 ##圖示（icon）
 * [Material icons - Google Design](https://design.google.com/icons/) [GitHub](https://github.com/google/material-design-icons)
 * [GLYPHICONS](http://glyphicons.com/)
+* [ICONY](http://icony.co/)
 
 ###音樂|音效
