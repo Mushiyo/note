@@ -54,11 +54,12 @@
 * [StaticGen](https://www.staticgen.com/) 蒐集、分類各式靜態網站產生器
 
 ###flat-file CMS
-依照我個人覺得好用的程度由上往下遞減
+依照我個人覺得好用的程度由上往下遞減  
+
 * [Phile](http://philecms.com/)  
 * [Grav](https://getgrav.org/)  
 * [Justwriting](http://hjue.github.io/JustWriting/)  
-* [Dropplets](http://dropplets.com/)
+* [Dropplets](http://dropplets.com/)  
 
 -----
 
