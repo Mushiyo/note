@@ -2,7 +2,23 @@
 
 課本：<http://codex.cs.yale.edu/avi/os-book/OS8/os8c/index.html>
 
-##PART THREE MEMORY MANAGEMENT
+##PART 2: PROCESS MANAGEMENT
+###Chapter 3 Process Concept
+`RPCs`：remote procedure calls
+
+###Chapter 5 Process Scheduling
+`throughput`：每單位時間完成的process數  
+`turnaround time`：從submit到執行完成所需的時間  
+`wating time`：在ready中所花的時間總和  
+`response time`：從submit到產生第一個response的時間  
+`dispatcher`：將CPU的控制權移給short-term scheduler  
+功能：context switch, switch to user mode, 跳至user process中的proper location to restart program  
+`dispatch latency`：dispatcher停止一個process並啟動另一個process所需的時間  
+`long-term scheduler (job scheduler)`：由pool中選出process，放至memory上以候執行  
+`short-term scheduler`：選出memory上ready的process，並allocate CPU給它  
+
+
+##PART 3: MEMORY MANAGEMENT
 ###Chapter 8 Main Memory
 `logical address`：由CPU產生的記憶體位置  
 `physical address`：compile time & load time產生的logic & physical address相同，但execution time產生的則不同  
@@ -12,6 +28,7 @@
 `memory-management unit (MMU)`：在run-time mapping virtual & physical address的硬體  
 `relocation register`： base register  
 `dynamic loading`：routine要被called才會被load到記憶體
+
 
 ##PART 6 DISTRIBUTED SYSTEMS
 ###Chapter 16 Distributed System Structures
