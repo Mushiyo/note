@@ -41,6 +41,7 @@
 * [日本語能力試験](http://www.jlpt.jp/) | [語言訓練中心](https://reg.lttc.org.tw/JLPT/index.aspx)
 
 ##義大利文
+* edX Italian Language and Culture系列　[Beginner](https://www.edx.org/course/italian-language-culture-advanced-wellesleyx-italian1x) | [Intermediate](https://www.edx.org/course/italian-language-culture-intermediate-wellesleyx-italian2x) | [Advanced](https://www.edx.org/course/italian-language-culture-advanced-wellesleyx-italian3x)
 * 臺大開放式課程 [義大利文一](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/103S103) | [義大利文二](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/101S118) | [Italian (義大利文)](http://ocw.aca.ntu.edu.tw/ntu-ocw/index.php/ocw/cou/100S203)  
 * 輔大開放式課程 [義大利生活會話](http://ocw.fju.edu.tw/course/view.php?id=134) | 義大利語文-大一文法 [(上)](http://ocw.fju.edu.tw/course/view.php?id=132) [(下)](http://ocw.fju.edu.tw/course/view.php?id=133)
 * [one world Italiano](http://www.oneworlditaliano.com/)  

@@ -15,11 +15,14 @@
 * [Groovy](programming/Groovy.md)
 * [Python](programming/Python.md)
 * [C++](programming/C++.md)
-* [web programming](programming/webProgramming.md)
-* [SQL](programming/SQL.md)
 * [Wolfram](programming/WolframLanguage.md)
 * [Batch](programming/batch.md)
 * [Shell](programming/shell.md)
+-----
+* [web programming](programming/webProgramming.md)
+* [PHP](programming/PHP.md)
+* [SQL](programming/SQL.md)
+-----
 * #版本控制
 * [SVN](programming/SVN.md)
 * [Git](programming/Git.md)
