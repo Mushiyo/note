@@ -13,6 +13,11 @@
 * 可被放入HTML之中
 * 檔名以`.php`結尾，就算置於HTML之中也一樣，因為這樣才會執行PHP程式碼的部份。
 
+##註解
+```php
+//這是註解
+```
+
 ##I/O
 ###standard output
 ```php
@@ -38,7 +43,6 @@ echo "Hello World!";
 ```
 
 ##變數
-###變數宣告
 * 變數名稱以`$`開頭，且為case-sensitive
 * 以`=`賦值
 
@@ -50,9 +54,17 @@ $condition = true; // a boolean variable
 echo $num; // output a variable
 ```
 
-##註解
+##陣列
+* 宣告時元素間以`,`分隔  
+* 陣列的index由0開始  
+* 取用元素時可以用`[]`或`{}`  
+
 ```php
-//這是註解
+$array = array("item1", "item2", "item3"); //宣告一個陣列
+echo $array[1]; // 輸出編號為1的元素，也就是item1
+echo $array{1}; //結果同上，只是換一種符號
+unset($array[1]); //刪除編號為1的元素
+unset($array); //刪除整個陣列
 ```
 
 ##條件判斷式
@@ -96,6 +108,48 @@ switch ($val):
     default:
         // do something
 endswitch;
+```
+
+
+##迴圈
+###for
+類似Java
+
+```php
+for ($i = 0; $i < 10; $i++) {
+    // do something!
+}
+```
+
+###foreach
+```php
+foreach ($array as $element){
+    // do something!
+}
+```
+
+###while
+####style1
+類似Java的while loop
+```php
+while($booleanVal) {
+   // do something!
+}
+```
+
+####style2
+```php
+while($booleanVal):
+   // do something!
+endwhile;
+```
+
+###do/while
+類似Java的do/while  
+```php
+do {
+    // do something!
+} while ($booleanVal);
 ```
 
 ##字串
