@@ -67,6 +67,12 @@ unset($array[1]); //刪除編號為1的元素
 unset($array); //刪除整個陣列
 ```
 
+###相關內建函數
+* array_push($array, $element)：將$element插入到$array的最後
+* count($array)：回傳$array的元素個數
+* sort($array), rsort($array)：遞增／減排序$array
+* join($str, $array)：將$array中的元素以$str串接起來
+
 ##條件判斷式
 ### if/else
 ```php
@@ -155,3 +161,10 @@ do {
 ##字串
 * 字串以`""`包覆
 * 串接運算子為`.`，例如`"Hello" . "World"`的結果等同於"HelloWorld"
+
+###相關內建函數
+* strlen($str)：取得字串長
+* substr($str, startIndex, length)：取得$str中開始於startIndex，長length的子字串
+* strtoupper($str)：將$str轉換成大寫
+* strtolower($str)：將$str轉換成小寫
+* strpos($str, $target)：在$str中找尋$target，若有，則回傳起始index；若無，則回傳false
