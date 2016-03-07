@@ -168,3 +168,31 @@ do {
 * strtoupper($str)：將$str轉換成大寫
 * strtolower($str)：將$str轉換成小寫
 * strpos($str, $target)：在$str中找尋$target，若有，則回傳起始index；若無，則回傳false
+
+##函數
+###常用內建函數
+####數學函數
+* round($float) / round($float, $precision)：四捨五入$float／四捨五入$float至小數點後$precision位
+* rand() / rand(min, max)：隨機產生一個介於0~32767之間的數字／隨機產生一個位於[min,max]的數字
+
+
+###自訂函數
+自訂函數的語法如下
+
+```php
+function funcName($para0, $para1, ...){
+    // do something!
+    return ...
+}
+```
+
+注意：
+1. 參數的個數可為0至多個
+2. 可以沒有`return`
+3. function name是大小寫**無關**(case insensitive)
+4. function name可包含英數、底線及dash
+
+##物件
+
+##常數
+* M_PI：圓周率pi
