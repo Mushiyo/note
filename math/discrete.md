@@ -1,5 +1,48 @@
 # 離散筆記
 
+##代數
+###Group 群
+
+###Ring 環
+ring (R,+,‧)，其中R為集合，+與‧為運算子，滿足
+1. +,‧封閉性
+2. +,‧結合率
+3. +交換率
+4. +單位元(identity)
+5. +反元素
+6. + over ‧的分配率  
+
+* +單位元通稱為ring的zero（零）
+
+commutative ring：\\(\forall a, b \in R, a * b = b * a\\)的ring  
+proper divisors of zero / proper zero divisors / zero divisors：在a≠z且b≠z的情形下，若a*b＝Z，則稱a,b為proper divisors of zero  
+ring with unity：\\(\forall a \in R, 存在u \in R\\)，使得a * u = u * a = a，且u≠0的ring
+unity / multiplicative identity：上一句的u即是乘法單位元  
+units：R中相乘會變成u的元素  
+如：\\(a, b \in R, a * b = b * a = u\\)中的a, b  
+multiplicative inverse：上例中的a,b互為彼此的乘法反元素
+
+####Intefral domain
+1. commutative
+2. has unity a z
+3. no zero divisors
+
+####Field 體
+1. commutative
+2. has unity a z
+3. has multiplicative inverse of a z for every a   
+  
+
+####Subring
+已知一個ring (R,+,‧)若存在\\(S \subseteq R\\)且\\(S \neq \emptyset\\)，(S,+,‧)為ring，則稱S為R的subring
+
+#####Ideal
+若I為R的ideal，則I滿足在
+1. I為R的subring\\((a - b) \in I\\)
+2. \\(x \in I & r \in R => x * r \in I & r * x \in I\\)
+
+* 對任意\\(n \in Z^+ , n > 1, Z_n\\)中共有\\(\phi(n)\\)個units及\\(n - 1 - \phi(n)\\)個proper divisor
+
 ##數論
 \\(a | b\\)：a整除b(b是a的倍數)，\\(\exists c (ac = b)\\)
 \\(a |nmid b\\)：a不整除b
