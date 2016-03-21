@@ -73,6 +73,8 @@
   嚴格的計數器，似乎是以不重複的ip來算？
 * [trendcounter](http://www.trendcounter.com/)  
   要付費方案才能免登入看統計圖表，可以自訂外觀，有一般counter和flag counter二種風格
+* [Web-Stat](http://www.web-stat.com/)  
+ 因無法註冊（註冊表單的送出鈕按了沒反應）而不能測試
 
 純流量統計，無計數器
   
