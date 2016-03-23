@@ -53,7 +53,7 @@ multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 2. 若 a | b ，則對於所有整數c， a | bc
 3. 若 a | b 且 b | c，則 a | c
 
-##Mod運算
+###Mod運算
 \\( (a + b) \mod n = [(a \mod n) + (b \mod n)] \mod n \\)
 \\( (a - b) \mod n = [(a \mod n) - (b \mod n)] \mod n \\)
 \\( (a \times b) \mod n = [(a \mod n) \times (b \mod n)] \mod n \\)
@@ -61,7 +61,7 @@ multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 例：
 \\( a^3 \mod n = [(a \mod n)^2 \mod n \times a \mod n] \mod n \\)
 
-###Mod運算的性質
+####Mod運算的性質
 \\( a \equiv b \mod n => n | (a - b) \\)
 \\( a \equiv b \mod n => b \equiv a \mod n \\)
 \\( a \equiv b \mod n , b \equiv c \mod n => a \equiv c \mod n \\)
@@ -91,7 +91,7 @@ $$
   \text{for each } w \in  , 存在z \in \mathbb{Z} 使得 w + z \equiv 0 \mod n
 $$
 
-###快速運算法
+####快速運算法
 當d很大時，計算\\( h^d \mod n \\)
 例：
 $$
@@ -122,4 +122,16 @@ $$
 則
 $$
 a^{\phi(n)} = 1 \pmod n
+$$
+
+###有名字的數
+####Euclid numbers
+$$
+e_n = e_1 e_2 /dots e_{n+1} + 1
+$$
+Euclid numbers彼此互質
+
+####Mersenne numbers
+$$
+2^p - 1, \text{p是質數}
 $$
