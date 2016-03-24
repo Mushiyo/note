@@ -1,5 +1,80 @@
 # $$\LaTeX $$
 
+##軟體
+* [MiKTeX](http://miktex.org/)
+* [Texmaker](http://www.xm1math.net/texmaker/)
+* [TeXworks](https://www.tug.org/texworks/)
+
+##設定
+###結構
+```tex
+\documentclass{article}
+    設定區
+\begin{document}
+    文章內容
+\end{document}
+```
+
+* 上面的article也可以是book, exam
+
+###使用中文
+####法一
+設
+```tex
+\usepackage{CJKutf8}
+```
+
+文
+```tex
+\begin{CJK}{UTF8}{cwmb}
+\end{CJK}
+```
+
+####法二
+設
+```tex
+\usepackage{xeCJK}
+\setCJKmainfront{字型}
+```
+
+套件：AMS-LATEX（使用數學）
+package: amssymb, amsmath, amsthm
+設
+```tex
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem*{thm}{Theorem}
+```
+
+文
+```tex
+\begin{thm}
+\end{thm}
+```
+
+###使用圖片
+設
+```tex
+\usepackage{graphicX}
+```
+
+文
+```tex
+\begin{figure}
+```
+
+###數學模式
+1. 隨文模式：在文句中
+2. 展示模式：獨立成行
+
+###指令名相關
+```
+\renewcommand{\原有的指令名}{\欲被取代的指令}
+\newcommand{\自訂指令名}{\欲被取代的指令}
+```
+
+-----
+  
+##符號
 * 別人做的精美符號表：<http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm>
 * [Detexify](http://detexify.kirelabs.org/classify.html) 畫符號給打法
 
