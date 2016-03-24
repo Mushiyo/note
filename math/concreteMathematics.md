@@ -1,6 +1,16 @@
 # 水泥數學筆記
 
-## Ch4. numbery theory
+書藉網站：<http://www-cs-faculty.stanford.edu/~uno/gkp.html>
+
+## Ch 1. Recurrence
+
+## Ch 2. Sums
+
+## Ch 3. Integer Functions 
+
+## Ch 4. numbery theory
+* 在本章中p表示質數
+
 `質數`：只有二個因數（1和它自己）的數
 `合成數`：有三個以上因數的數
 
@@ -13,3 +23,15 @@
 
 **算數基本定理 (Fundamental Theorem of Arithmetic)**
 若x為整數且x > 1，則x的因式分解唯一
+
+## Ch 5. Binomial Coefficients, Hypergeometric Functions
+
+## Ch 6. Special Numbers
+
+## Ch 7. Generating Functions
+
+## Ch 8. Discrete Probability
+
+## Ch 9. Asmptotics
+
+## Ch 10. Mathematical Analysis of Fundamental Algorithms 
