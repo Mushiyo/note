@@ -9,13 +9,13 @@ owner group other
 資料夾的大小不包括在裡面的東西
 
 ## Linux指令
-Ctrl + c：強制關閉  
-Ctrl + d：強制關閉正在執行的程式  
-Ctrl + l：洗螢幕  
-Ctrl + f：往下  
-Ctrl + b：往上，b for back  
-Ctrl + z：把程式丟到背景  
-jobs：列出在背景中的程式  
+<kbd>Ctrl</kbd> + c：強制關閉  
+<kbd>Ctrl</kbd> + d：強制關閉正在執行的程式  
+<kbd>Ctrl</kbd> + l：洗螢幕  
+<kbd>Ctrl</kbd> + f：往下  
+<kbd>Ctrl</kbd> + b：往上，b for back  
+<kbd>Ctrl</kbd> + z：把程式丟到背景  
+<kbd>jobs</kbd>：列出在背景中的程式  
 
 ### directory
 cd -：回前一個目錄  
