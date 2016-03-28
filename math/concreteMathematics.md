@@ -7,6 +7,12 @@
 ## Ch 2. Sums
 
 ## Ch 3. Integer Functions 
+符號
+\\(\lfloor x \rfloor\\) 小於等於x的最大整數
+\\(\lceil x \rceil\\) 大於等於x的最小整數
+\\({x} = x - \lfloor x \rfloor\\) x的分數部份
+\\([\alpha .. \beta]\\) 即[]區間
+
 
 ## Ch 4. numbery theory
 * 在本章中p表示質數

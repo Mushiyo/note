@@ -95,6 +95,83 @@ do {
 } while (bool value);
 ```
 
+##method
+method由method body及method signature所組成  
+method body: 實做程式碼  
+method signature: access modifier, method return type, the method name and parameters  
+
+access modifier有以下幾種
+* private: 只在其所屬的class內可用
+* public: 不論是誰都可用
+* protected
+* internal
+* static
+
+例子
+```c#
+accessModifier methodType methodName(paraType1 para1, paraType2 para2 ...)
+{
+   // do something
+}
+```
+
+`ref`關鍵字：
+
+Overloading：name相同，但signature不同  
+optional parameter 
+named parameter
+
+##陣列
+###一維陣列
+* index由0開始
+* 宣告及使用都會Java類似
+* 跟Java一樣，用new的方式宣告出的陣列會有default value
+
+例子  
+```c#
+int[] anIntArray = new int[SIZE];
+int[] anotherIntArray = {0, 1, 1, 2, 3, 5, 8};
+int num = anotherIntArray[3]; // num will be 2
+int len = anotherIntArray.Lenght; // len will be 7
+```
+
+###多維陣列
+* 陣列的維度最多可到32維
+
+```c#
+int[ , ] twoDArray = new int[SIZE1, SIZE2]; // a 2D array with SIZE1 * SIZE2 cells
+int num = twoDArray[0, 0];
+```
+
+###Jagged array
+
+##enum
+
+##struct
+可用的access modifier
+* public
+* internal
+* private
+
+`this`關鍵字 
+
+###get/set
+
+##class
+
+
+##例外處理
+類似Java
+```c#
+try {
+    // try somtehing
+} catch (Exception someException) {
+    // catch something
+} finally {
+    // 不論前面的try/catch發生什麼，都一定會跑到這裡
+}
+
+```
 
 #附錄
 ##IDE
