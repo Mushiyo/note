@@ -1,5 +1,11 @@
 #密碼學筆記
 
+##相關書籍
+* [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/)　有免費的完整sample可下載
+* [Understanding Cryptography](http://www.crypto-textbook.com)　臺大密碼學導論課本
+* Introduction to Cryptography by Johannes A. Buchmann　臺大密碼學導論參考書籍
+* Cryptography: Theory and Practice by Douglas R. Stinson　臺大密碼學導論參考書籍
+
 ##Cryptography
 加密解密皆為公開 => 通過各方驗證才是安全  
 唯一該保密的是key  
