@@ -4,7 +4,7 @@
 * [italki](http://www.italki.com/)
 * [Duolingo](https://www.duolingo.com/)
 * [多國語言習得活動網](http://polyglot.tw)
-* <http://www.wordreference.com/> 綜合字典
+* <http://www.wordreference.com/> 綜合字典（義法西葡←→英）
 * <http://www.edictionary.org/>　多種線上字典收集
 
 ##國語
@@ -46,6 +46,33 @@
 * 輔大開放式課程 [義大利生活會話](http://ocw.fju.edu.tw/course/view.php?id=134) | 義大利語文-大一文法 [(上)](http://ocw.fju.edu.tw/course/view.php?id=132) [(下)](http://ocw.fju.edu.tw/course/view.php?id=133)
 * [one world Italiano](http://www.oneworlditaliano.com/)  
 * [義大利文免費線上學習網](http://italiano.oggi.tw/)
+
+###工具
+* [ITALIAN VERBS](http://www.italian-verbs.com/italian-verbs.htm)　動詞變化表
+* [義←→英動詞變化表](http://conjit.cactus2000.de/index.en.php)
+
+###媒體
+####報紙
+* [La Repubblica（羅馬）](http://www.repubblica.it/)
+* [Il Corriere della Sera（米蘭）](http://www.corriere.it/)
+* [La Stampa (Turin)](http://www.lastampa.it/)
+* [La Nazione（佛羅倫斯）](http://www.lanazione.it/)
+* [Il Resto del Carlino（波隡那）](http://www.ilrestodelcarlino.it/)
+* [La Gazzetta del Mezzogiorno (Bari)](http://www.lagazzettadelmezzogiorno.it/)
+* [Il Mattino（拿坡里）](http://www.ilmattino.it/)
+
+####週刊
+* [L'Espresso](http://espresso.repubblica.it/)
+* [Panorama](http://www.panorama.it/)
+
+####新聞
+* [La7](http://www.la7.it/)
+* [RAI](http://www.rai.it/)
+
+####廣播
+* [Radio RAI 3](http://www.radio3.rai.it)
+* [Radio Popolare](http://www.radiopopolare.it/)
+
 
 ##德文
 * [德國之聲](http://www.dw.de/dw/0,,9077,00.html)　德語新聞
