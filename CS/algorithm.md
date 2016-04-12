@@ -16,6 +16,8 @@
 \\(O(log n) < O(\sqrt{n}) < O(n) < O(nlogn) < O(n^2) < O(n^3) < O(2^n)\\)
 
 ##樹
+名詞解釋見[這裡](../math/graphTheory.md#tree)
+
 ###splay tree
 * 利用locality，query到的element會升為root
 * 以二層旋轉的方式上升，每回合旋轉後v會取代其grandparent的位置

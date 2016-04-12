@@ -57,3 +57,11 @@ $$ \sum\_{i \in V} d\_i^{in} = \sum\_{i \in V} d\_i^{out} $$
 `vertex cover`：G = (V,E), \\( V' \subseteq V \\)，其中G的每一邊都至少會接到V'中的一點(`V-independent set`)
 
 ## tree
+`forest`：acyclic, undirected graph  
+`深度(depth)`：由node v上溯至根節點的edge數。例如：根節點的depth為0。  
+`高度(height)`：node v至離它最遠的leaf的edge數。
+`path`：由祖先到後代的路徑
+`length`：path中的edge數  
+`degree`：相鄰的點的個數，或相接的邊的個數  
+`ordered tree`：child在左在右有差（但當child中有一個時，在左在右都沒差）  
+`unordered tree`：childe左左在右沒差  

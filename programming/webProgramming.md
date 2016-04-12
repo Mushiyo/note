@@ -26,6 +26,7 @@
 
 ##JavaScript
 * <http://javascript.com> js資源匯整
+* [竹取ＪＳ](http://taketori.org/js.html)　網頁文字轉直書
 
 ### [jQuery](https://jquery.com/)
 * [documentation](http://api.jquery.com/)

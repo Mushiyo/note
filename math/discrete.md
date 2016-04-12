@@ -135,3 +135,6 @@ Euclid numbers彼此互質
 $$
 2^p - 1, \text{p是質數}
 $$
+
+##圖論
+見[這裡](graphTheory.md)
