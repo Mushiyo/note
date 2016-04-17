@@ -36,6 +36,7 @@
 -----
 * [離散數學](math/discrete.md)
 * [圖論](math/graphTheory.md)
+* [水泥數學](math/concreteMathematics.md)
 -----
 * [機率](math/probability.md)
 * [統計](math/statistics.md)
