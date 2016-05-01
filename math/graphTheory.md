@@ -1,5 +1,13 @@
 # 圖論筆記 | graph theory note
 
+邊的種類  
+`undirected edge`：  
+`directed edge (u, v)`：u常被稱為`origin`、`tail`，v常被稱為`destination`、`head`  
+
+圖的種類
+`undirected graph (undigraph)`：只含無向邊的graph  
+`directed graph (digraph)`：只含有向邊的graph  
+`mixed graph`：同時含有無向邊和有向邊的graph  
 `multigraph`：有很多組\\( (u,v) \in E\\)  
 `loop`：存在\\( (i,i) \in E\\)  
 `simple graph`：無loop，非multigraph  
