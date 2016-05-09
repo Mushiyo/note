@@ -1,10 +1,27 @@
 # 作業系統筆記
 
-課本：<http://codex.cs.yale.edu/avi/os-book/OS8/os8c/index.html>
+課本：<http://codex.cs.yale.edu/avi/os-book/OS8/os8c/index.html>  
+看起來不錯的外國課程筆記：<https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/>  
+
+##PART 1: OVERVIEW
+###Chapter 1 Introduction
+multiprocessor system的三個優勢  
+1. 增加throughput
+2. economy of scale （比多個single processor系統省）
+3. 增加reliability：一個processor掛掉並不會終止系統
+
+multi-processor system的種類（二種）  
+1. `asymmetric multiprocessing` 每個processor有各自的task。由master processor分派task給slave
+2. `SMP`
+
+###Chapter 2 Operating-System Structures
+
 
 ##PART 2: PROCESS MANAGEMENT
 ###Chapter 3 Process Concept
 `RPCs`：remote procedure calls
+
+###Chapter 4 Threads
 
 ###Chapter 5 Process Scheduling
 `throughput`：每單位時間完成的process數  
@@ -18,6 +35,15 @@
 `short-term scheduler`：選出memory上ready的process，並allocate CPU給它  
 
 
+###Chapter 6 CPU Scheduling
+
+
+###Chapter 7 Deadlocks
+對付deadlock的幾個方法  
+1. 使用protocal預防，使得系統「永遠」不會發生deadlock
+2. 當系統進入deadlock時，解除它，並復原
+3. 忽略所有問題，假裝deadlock永不發生（如UNIX, Windows；寫應用程式的人要自行處理deadlock的情形）
+
 ##PART 3: MEMORY MANAGEMENT
 ###Chapter 8 Main Memory
 `logical address`：由CPU產生的記憶體位置  
@@ -28,6 +54,23 @@
 `memory-management unit (MMU)`：在run-time mapping virtual & physical address的硬體  
 `relocation register`： base register  
 `dynamic loading`：routine要被called才會被load到記憶體
+
+
+###Chapter 9 Virtual Memory
+
+
+##Part 4 Storage Management
+
+###Chapter 10 Mass-Storage Structure
+`FCFS`  
+`SSTF (shortest-seek-time-first)` 找離當前位置最近的  
+`SCAN` 先往一個方向走，到底再換邊  
+`C-SCAN (circular SCAN)` 類似SCAN，但到底的話會從另一端（從頭）繼續以相同的方向重新開始  
+`LOOK` & `CLOOK` 不用到底就會調頭  
+
+###Chapter 11 File-System Interface
+###Chapter 12 File-System Implementation
+###Chapter 13 I/O Systems
 
 
 ##PART 6 DISTRIBUTED SYSTEMS
