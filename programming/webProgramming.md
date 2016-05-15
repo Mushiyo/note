@@ -27,6 +27,8 @@
 ##JavaScript
 * <http://javascript.com> js資源匯整
 * [竹取ＪＳ](http://taketori.org/js.html)　網頁文字轉直書
+* [Node.js](https://nodejs.org)
+* [npm](https://github.com/npm/npm)
 
 ### [jQuery](https://jquery.com/)
 * [documentation](http://api.jquery.com/)
@@ -117,6 +119,13 @@ open source方案（要有server）
 * [Yandex.Webmaster](https://webmaster.yandex.com/)
 * [Bing 網站管理員工具](http://www.bing.com/toolbox/webmaster)
 * [Google網站管理員](https://www.google.com/webmasters/)
+
+###RSS feed訂閱小工具
+在網站上嵌入訂閱的RSS feed  
+* <http://feed.mikle.com/>　可以訂閱多個
+* <http://www.surfing-waves.com/feed.htm>　可以訂閱多個
+* <https://www.rssinclude.com/>　只能訂閱一個
+* <http://www.rssfeedwidget.com/>　只能訂閱一個
 
 ##素材
 ###圖庫
