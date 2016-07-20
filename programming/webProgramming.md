@@ -102,7 +102,11 @@
 * [spetools.de](http://www.spetools.de/?commentsystem)  
   快速，支援中文，但跟MathJax不太合
 * [HyperComments](https://www.hypercomments.com/)  
-  非常快速，跟MathJax不太合，複製網頁內容時會強制嵌入廣告連結（付費版可能不會？）
+  非常快速，跟MathJax不太合
+* [Spot.IM](https://www.spot.im/)
+* [多說](http://duoshuo.com/)
+* [友言](http://www.uyan.cc/)
+* [暢言](http://changyan.kuaizhan.com/)
 
 open source方案（要有server）
   
@@ -120,6 +124,10 @@ open source方案（要有server）
 * [Bing 網站管理員工具](http://www.bing.com/toolbox/webmaster)
 * [Google網站管理員](https://www.google.com/webmasters/)
 
+###公益404頁
+* <http://notfound.org/>　失蹤人口協尋，歐洲為主
+* <http://404page.missingkids.org.tw/>　台灣協尋失蹤兒少
+
 ###RSS feed訂閱小工具
 在網站上嵌入訂閱的RSS feed  
 * <http://feed.mikle.com/>　可以訂閱多個
@@ -128,13 +136,16 @@ open source方案（要有server）
 * <http://www.rssfeedwidget.com/>　只能訂閱一個
 
 ##素材
+###字型
+* <https://fonts.google.com/>
+
 ###圖庫
 * <https://openclipart.org/>　public domain圖庫
 * <https://pixabay.com/>　Creative Commons CC0（公眾領域貢獻宣告）圖庫
 * [無料イラスト 【イラストわんパグ】](http://www.wanpug.com/)
 * [getty images embed](http://www.gettyimages.com/resources/embed)　只能使用embed的方式，否則違法
 
-##圖示（icon）
+###圖示（icon）
 * [Material icons - Google Design](https://design.google.com/icons/) [GitHub](https://github.com/google/material-design-icons)
 * [GLYPHICONS](http://glyphicons.com/)
 * [ICONY](http://icony.co/)

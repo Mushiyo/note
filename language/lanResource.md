@@ -3,6 +3,7 @@
 * [國立教育廣播電台外語教學節目](http://digitweb.ner.gov.tw/bin/home.php)
 * [italki](http://www.italki.com/)
 * [Duolingo](https://www.duolingo.com/)
+* [busuu](https://www.busuu.com/start/zh/)　類似Duolingo的自學網 
 * [多國語言習得活動網](http://polyglot.tw)
 * <http://www.wordreference.com/> 綜合字典（義法西葡←→英）
 * <http://www.edictionary.org/>　多種線上字典收集
