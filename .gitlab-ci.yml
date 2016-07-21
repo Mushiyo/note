@@ -3,8 +3,8 @@ image: axil/pandoc
 pages:
   stage: deploy
   script:
-  - find math -name \*.md -type f -exec pandoc -s -f markdown+tex_math_double_backslash --mathjax -o {}.html {} \;
-  - find programming -name \*.md -type f -exec pandoc -c ../buttondown.css -s --toc --toc-depth=4 -o {}.html {} \;
+  - find math -name \*.md -type f -exec pandoc -s --toc --toc-depth=4 -c ../buttondown.css -f markdown_github+tex_math_double_backslash --mathjax -o {}.html {} \;
+  - find programming -name \*.md -type f -exec pandoc -c ../buttondown.css -s -f markdown_github --toc --toc-depth=4 -o {}.html {} \;
   - find . -depth -name '*.md.html' -execdir bash -c 'mv -i "$1" "${1//md.html/html}"' bash {} \;
   - mkdir .public
   - cp -r * .public
