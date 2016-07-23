@@ -3,12 +3,14 @@ image: axil/pandoc
 pages:
   stage: deploy
   script:
-  - find math -name \*.md -type f -exec pandoc -s --toc --toc-depth=4 -c ../css/buttondown.css -f markdown_github+tex_math_double_backslash --mathjax -o {}.html {} \;
-  - find programming -name \*.md -type f -exec pandoc -c ../css/buttondown.css -s -f markdown_github --toc --toc-depth=4 -o {}.html {} \;
+  - mkdir public
+  - find CS -name \*.md -type f -exec pandoc --template=pandoc/toc-sidebar.html -B pandoc/nav1 --toc --toc-depth=4 -f markdown_github -o public/{}.html {} \;
+  - find language -name \*.md -type f -exec pandoc --template=pandoc/toc-sidebar.html -B pandoc/nav1 --toc --toc-depth=4 -f markdown_github -o public/{}.html {} \;
+  - find other -name \*.md -type f -exec pandoc --template=pandoc/toc-sidebar.html -B pandoc/nav1 --toc --toc-depth=4 -f markdown_github -o public/{}.html {} \;
+  - find math -name \*.md -type f -exec pandoc --template=pandoc/toc-sidebar.html -B pandoc/nav1 --toc --toc-depth=4 -f markdown_github+tex_math_double_backslash --mathjax -o public/{}.html {} \;
+  - find programming -name \*.md -type f -exec pandoc --template=pandoc/toc-sidebar.html -B pandoc/nav1 --toc --toc-depth=4 -f markdown_github -o public/{}.html {} \;
   - find . -depth -name '*.md.html' -execdir bash -c 'mv -i "$1" "${1//md.html/html}"' bash {} \;
-  - mkdir .public
-  - cp -r * .public
-  - mv .public public
+  - pandoc index.md --template=pandoc/toc-sidebar.html -B pandoc/nav0 -c pandoc/css/bootstrap.min.css -c pandoc/css/ie10-viewport-bug-workaround.css -c pandoc/css/dashboard.css -f markdown_github -o public/index.html;
   artifacts:
     paths:
     - public
