@@ -1,0 +1,73 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">雜記</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CS<span class="caret"></span></a>
+          <ul class="dropdown-menu>"
+            <li class="dropdown"><a href="../CS/algorithm.md">演算法</a></li>
+            <li class="dropdown"><a href="../CS/AI.md">AI</a></li>
+            <li class="dropdown"><a href="../CS/NLP.md">NLP</a></li>
+            <li class="dropdown"><a href="../CS/OS.md">OS</a></li>
+            <li class="dropdown"><a href="../CS/book.md">書籍</a></li>
+            <li class="dropdown"><a href="../CS/learning.md">機器學習</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">程式設計<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown"><a href="../programming/Java.md">Java</a></li>
+            <li class="dropdown"><a href="../programming/Groovy.md">Groovy</a></li>
+            <li class="dropdown"><a href="../programming/Python.md">Python</a></li>
+            <li class="dropdown"><a href="../programming/C++.md">C++</a></li>
+            <li class="dropdown"><a href="../programming/WolframLanguage.md">Wolfram</a></li>
+            <li class="dropdown"><a href="../programming/batch.md">Batch</a></li>
+            <li class="dropdown"><a href="../programming/shell.md">Shell</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown"><a href="../programming/webProgramming.md">web programming</a></li>
+            <li class="dropdown"><a href="../programming/PHP.md">PHP</a></li>
+            <li class="dropdown"><a href="../programming/SQL.md">SQL</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">版本控制</li>
+            <li class="dropdown"><a href="../programming/SVN.md">SVN</a></li>
+            <li class="dropdown"><a href="../programming/Git.md">Git</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown"><a href="../programming/miscellaneous.md">通用暨未分類資源</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">數學<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown"><a href="../math/preCollege.md">高中數學</a></li>
+            <li class="dropdown"><a href="../math/linearAlgebra.md">線性代數</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown"><a href="../math/discrete.md">離散數學</a></li>
+            <li class="dropdown"><a href="../math/graphTheory.md">圖論</a></li>
+            <li class="dropdown"><a href="../math/concreteMathematics.md">水泥數學</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown"><a href="../math/probability.md">機率</a></li>
+            <li class="dropdown"><a href="../math/statistics.md">統計</a></li>
+            <li class="dropdown"><a href="../math/LaTeX.md">LaTeX</a></li>
+            <li class="dropdown"><a href="../math/siteToolRes.md">網站、工具、資源</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">語言學習<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown"><a href="../language/lanResource.md">資源</a></li>
+            <li class="dropdown"><a href="../language/terms.md">名詞及術語對照表</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
