@@ -49,6 +49,11 @@
 * [RGB-Hex Color Code Converter](http://www.webmasterorbit.com/rgb-hex-code.html)
 * [Facebook Open Graph protocol](http://ogp.me/)
 
+### 對岸封鎖檢測工具
+* [中国的网络审查](https://zh.greatfire.org/analyzer)
+* <http://www.greatfirewallofchina.org/>
+* [Website Test behind the Great Firewall of China](http://www.websitepulse.com/help/testtools.china-test.html)
+
 -----
 
 ## Markdown建站
@@ -89,6 +94,7 @@
 * [Yandex.Translate widget](https://translate.yandex.com/developers/website-widget)
 
 ###留言系統
+* [Widget Pack](https://widgetpack.com/)　可匿名，匿名可不填e-mail
 * [Livefyre](http://web.livefyre.com/)
   快速，除了用`$ ... $`外都可以快樂的用MathJax
 * [IntenseDebate](http://www.intensedebate.com/)  
@@ -104,6 +110,8 @@
 * [HyperComments](https://www.hypercomments.com/)  
   非常快速，跟MathJax不太合
 * [Spot.IM](https://www.spot.im/)
+* [HTML Comment Box](https://www.htmlcommentbox.com/)
+* [EasyComment jQuery Plugin](http://www.jswidget.com/lab/easy-comment.html)　可能需要php？
 * [多說](http://duoshuo.com/)
 * [友言](http://www.uyan.cc/)
 * [暢言](http://changyan.kuaizhan.com/)
