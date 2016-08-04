@@ -3,6 +3,10 @@
 ## template | framework
 * [HTML5 UP](http://html5up.net/) HTML5 template
 * [TEMPLATED](http://templated.co/) CSS, HTML5 and Responsive Site Templates
+
+* [Foundation](http://foundation.zurb.com/)
+* [Inoic](http://ionicframework.com/)
+* [Skeleton](http://getskeleton.com/) Responsive CSS Boilerplate
  
 ###[Bootstrap](http://getbootstrap.com/)
 * <http://startbootstrap.com/> Bootstrap template  
@@ -43,7 +47,7 @@
 
 ##其他
 * [HTML reference](http://reference.sitepoint.com/html)
-* [W3Schools](http://www.w3schools.com)/
+* [W3Schools](http://www.w3schools.com)
 * [102-2 台大資工網路及平台服務程式設計](http://ccsp.ntumobile.org/)
 * <http://software.hixie.ch/utilities/js/live-dom-viewer/> online DOM viewer
 * [RGB-Hex Color Code Converter](http://www.webmasterorbit.com/rgb-hex-code.html)
@@ -72,6 +76,8 @@
 -----
 
 ##網站小工具
+* [Wolfram|Alpha Widgets](http://www.wolframalpha.com/widgets/)
+
 ###流量統計|計數器
 * [W3Counter](http://www.w3counter.com/)
   可免登入看統計圖表（自己要記圖表網址，不是點counter就能看到），後台美觀，有多種風格可選
@@ -142,10 +148,12 @@ open source方案（要有server）
 * <http://www.surfing-waves.com/feed.htm>　可以訂閱多個
 * <https://www.rssinclude.com/>　只能訂閱一個
 * <http://www.rssfeedwidget.com/>　只能訂閱一個
+* <https://feedity.com/tools.aspx>
 
 ##素材
 ###字型
 * <https://fonts.google.com/>
+* <http://fontcdn.org/>　Google fonts的協助選擇工具
 
 ###圖庫
 * <https://openclipart.org/>　public domain圖庫
@@ -154,8 +162,14 @@ open source方案（要有server）
 * [getty images embed](http://www.gettyimages.com/resources/embed)　只能使用embed的方式，否則違法
 
 ###圖示（icon）
+* <http://glyphsearch.com/>　 icon協助搜尋工具
 * [Material icons - Google Design](https://design.google.com/icons/) [GitHub](https://github.com/google/material-design-icons)
+* [Font Awesome](http://fontawesome.io)
 * [GLYPHICONS](http://glyphicons.com/)
+* [Octicons](https://octicons.github.com/)
 * [ICONY](http://icony.co/)
+* [Foundation Icon Fonts](http://zurb.com/playground/foundation-icon-fonts-3)
+* [Ionicons](http://ionicons.com/))
+* [IcoMoon](https://icomoon.io/)
 
 ###音樂|音效
