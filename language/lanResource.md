@@ -5,8 +5,10 @@
 * [Duolingo](https://www.duolingo.com/)
 * [busuu](https://www.busuu.com/start/zh/)　類似Duolingo的自學網 
 * [多國語言習得活動網](http://polyglot.tw)
+* [Collins](http://www.collinsdictionary.com/)　綜合字典（義法西德中←→英）
 * <http://www.wordreference.com/> 綜合字典（義法西葡←→英）
 * <http://www.edictionary.org/>　多種線上字典收集
+* [Oxford Dictionaries](http://www.oxforddictionaries.com/)
 
 ##國語
 * [教育部重編國語辭典修訂本](http://dict.revised.moe.edu.tw/cbdic/index.html)

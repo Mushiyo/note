@@ -48,13 +48,6 @@
  | splay Tree | 伸展树
  | B-tree | B树
  | red black tree | 红黑树
-圖 | graph | 图
-相鄰矩陣 | adjacency matrix | 邻接矩阵
-關聯矩陣 | incidence matrix | 关联矩阵
- | path | 路径、通路 
- | connected | 连通图
- | acyclic | 无环图
- | cycle, loop | 环路
  | reverse polish notation | 逆波兰表达式
  | locality | 局部性
  | hash fuction | 散列函数
@@ -148,6 +141,29 @@
 ----- | ----- | -----
  | tetrahedron |
  | octahedron |
+
+###圖論
+繁中 | 英 | 簡中
+----- | ----- | -----
+圖 | graph | 图
+相鄰矩陣 | adjacency matrix | 邻接矩阵
+關聯矩陣 | incidence matrix | 关联矩阵
+ | path | 路径、通路 
+ | connected | 连通图
+ | acyclic | 无环图
+ | cycle, loop | 环路 
+[簡單圖][1] | simple graph |
+[二部圖][1] | bipartite graph | 
+[完全圖][1] | complete graph | 
+[獨立集][1] | independent set | 
+[導出子圖][1] | induced subgraph | 
+譜圖論 | Spectral graph theory | 
+[極端圖][1] | extremal graph | 
+[極端圖理論][1]、[圖的極值理論][2] | Extremal Graph Theory | 
+
+
+[1]: http://w3.math.sinica.edu.tw/math_media/d381/38105.pdf  
+[2]: http://jupiter.math.nctu.edu.tw/~weng/courses/2011_topic_discrete/topic_2011.html  
 
 ###統計
 繁中 | 英 | 簡中

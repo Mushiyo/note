@@ -1,5 +1,8 @@
 #密碼學筆記
 
+##資訊
+* [The Hacker News](http://thehackernews.com/)　Cyber Security, Hacking, Technology
+
 ##相關書籍
 * [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/)　有免費的完整sample可下載
 * [Understanding Cryptography](http://www.crypto-textbook.com)　臺大密碼學導論課本
@@ -36,6 +39,9 @@ key space: 26!（不分大小寫）
 2. 頻率分析
 
 * 好的密碼應隱藏明文的統計性質
+
+###橢圓曲線
+* <https://cdn.rawgit.com/andreacorbellini/ecc/920b29a/interactive/modk-add.html> 線上橢圓曲線計算工具
 
 ##cryptanalysis （破密學、密碼分析學）
 ###classical cryptanalysis
