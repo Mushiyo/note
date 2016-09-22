@@ -15,7 +15,13 @@
 
 ##註解
 ```php
-//這是註解
+//單行註解
+/*
+多
+行
+註
+解
+*/
 ```
 
 ##I/O
@@ -66,6 +72,10 @@ echo $array{1}; //結果同上，只是換一種符號
 unset($array[1]); //刪除編號為1的元素
 unset($array); //刪除整個陣列
 ```
+
+###多維陣列
+
+###associative array (map)
 
 ###相關內建函數
 * array_push($array, $element)：將$element插入到$array的最後
@@ -193,6 +203,10 @@ function funcName($para0, $para1, ...){
 4. function name可包含英數、底線及dash
 
 ##物件
+###相關內建函數
+`is_a(＄obj, Sstr)`：回傳$obj是否屬於名稱為$str的物件  
+`property_exists(＄obj, $str)`：回傳$obj是否有名稱為$str的property  
+`method_exists(＄obj, Sstr)`：回傳$obj是否有名稱為$str的method  
 
-##常數
+##內建常數
 * M_PI：圓周率pi

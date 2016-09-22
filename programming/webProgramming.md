@@ -132,6 +132,7 @@ open source方案（要有server）
 * [DuckDuckGo搜尋框](https://duckduckgo.com/search_box)
 * [Google自訂搜尋引擎](https://cse.google.com/cse/)
 * [Yandex.Site Search](https://site.yandex.ru/?lang=en)
+* [Swiftype](https://swiftype.com/)　只有付費方案
 
 ###網站管理員
 * [Yandex.Webmaster](https://webmaster.yandex.com/)
