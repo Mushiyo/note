@@ -79,6 +79,7 @@
 
 ##德文
 * [德國之聲](http://www.dw.de/dw/0,,9077,00.html)　德語新聞
+* [德國鏡報](http://www.spiegel.de/)　德語新聞
 * [LILIPUZ](http://www.lilipuz.de/)　兒童德語新聞
 * [LEO德中、德英字典](http://dict.leo.org/chde?lp=chde&lang=de)  
 * [BEOlingus德英、英德字典](http://dict.tu-chemnitz.de/de-en/lists/111alpha.html)  

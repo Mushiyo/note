@@ -12,6 +12,19 @@
 `intractable`：不存在polynomial time演算法
 `tail recursion`：recursive在最後一步，可以很容易的被改寫成iterative
 
+##技巧
+###動態規劃 (Dynamic Programming, DP)
+最佳化問題、計數問題
+* `optimal sub-structure`
+* `overlapping`
+
+####top down
+檢查當前的state是否有算過
+有→查表
+否→遞回往下查表&計算
+
+####bottom up
+
 ##複雜度分析
 \\(O(log n) < O(\sqrt{n}) < O(n) < O(nlogn) < O(n^2) < O(n^3) < O(2^n)\\)
 

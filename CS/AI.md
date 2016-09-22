@@ -18,6 +18,7 @@ http://www.xprize.org/ai
 
 ###ICPC Challenge  
 * <http://queue.acm.org/icpc/>  
+* [2012](https://icpc.baylor.edu/worldfinals/challenge-examples)
 * [2011](http://icpc.baylor.edu/worldfinals/challenge-2011)
 * [2010](http://icpc.baylor.edu/worldfinals/challenge-2010)
 * [2009](http://icpc.baylor.edu/worldfinals/challenge-2009)
