@@ -136,5 +136,74 @@ $$
 2^p - 1, \text{p是質數}
 $$
 
+##邏輯
+
+### Propositional Logic
+`conjunction`: \(\land\)  
+`disjunction`: \(\lor\)  
+`conditional statement`（又稱`implication`）: \(\rightarrow\)  
+`biconditional statement`（又稱`bi-implications`）: \(\leftrightarrow\)
+
+真值表  
+  p   |   q   | \(p \land q \) | \(p \lor q \) | \(p \oplus q \) | \(p \rightarrow q \) | \(p \leftrightarrow q\)
+----- | ----- | -------------  | ------------  |   ------------  | -------------- | ------------- 
+  T   |   T   |       T        |      T        |        F        |  T | T
+  T   |   F   |       F        |      T        |        T        |  F | F
+  F   |   T   |       F        |      T        |        T        |  T | F
+  F   |   F   |       F        |      F        |        F        |  T | T
+  
+優先序由先到後：﹁、^、V、→、←→
+
+`converse`: p → q 的converse為 q → p  
+`contrapositive`: p → q 的contrapositive為 ﹁ q → ﹁ p  
+`inverse`: p → q 的inverse為 ﹁ p → ﹁ q  
+`equivalent`: 當二個proposition在各種情形下皆有相同真值時稱之  
+
+`tautology`: 不論propositional variable的真值為何，結果都恆為真的proposition。例： p V ﹁p  
+`contradiction`: 不論propositional variable的真值為何，結果都恆為假的proposition。例： p ^ ﹁p  
+`contingency`: 不是tautology也不是contradiction的proposition  
+
+`logically equivalent`: 已知二個proposition p 及 q，且 p ←→ q 為tautology時稱之。記為\(p \equiv q\)  
+
+#### some laws
+`De Morgan's Law`  
+1. \(\lnot (p \land q) \equiv \lnot p \lor \lnot q\)
+2. \(\lnot (p \lor q) \equiv \lnot p \land \lnot q\)
+
+Identity laws  
+1. \(p \lor F) \equiv p \) 
+2. \(p \land T) \equiv p \)
+
+Domination laws  
+1. \(p \lor T) \equiv T \)
+2. \(p \land F) \equiv F \)
+
+Idempotent laws  
+1. \(p \lor p) \equiv p \)
+2. \(p \land p) \equiv p \)
+
+Double negation law
+\(\lnot (\lnot p)) \equiv p \)
+
+Commutative laws 交換率
+1. \(p \lor q) \equiv q \lor p \)
+2. \(p \land q) \equiv q \land p \)
+
+Associative laws 結合率
+1. \( (p \lor q) \lor r \equiv p \lor (q \lor r) \)
+2. \( (p \land q) \land r \equiv p \land (q \land r) \)
+
+Distributive laws 分配率
+1. \( p \lor (q \land r) \equiv (p \lor q) \land (q \lor r) \)
+2. \( p \land (q \lor r) \equiv (p \land q) \lor (q \land r) \)
+
+Absorption laws
+1. \( p \lor (p \land q) \equiv p \)
+2. \( p \land (p \lor q) \equiv p \)
+
+Negation laws
+1. \( p \lor \lnot p \equiv T \)
+2. \( p \land \lnot p) \equiv F \)
+  
 ##圖論
 見[這裡](graphTheory.md)
