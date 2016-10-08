@@ -8,10 +8,10 @@
 
 ## Ch 3. Integer Functions 
 符號
-\\(\lfloor x \rfloor\\) 小於等於x的最大整數
-\\(\lceil x \rceil\\) 大於等於x的最小整數
-\\({x} = x - \lfloor x \rfloor\\) x的分數部份
-\\([\alpha .. \beta]\\) 即[]區間
+\(\lfloor x \rfloor\) 小於等於x的最大整數
+\(\lceil x \rceil\) 大於等於x的最小整數
+\({x} = x - \lfloor x \rfloor\) x的分數部份
+\([\alpha .. \beta]\) 即[]區間
 
 
 ## Ch 4. numbery theory
@@ -22,10 +22,10 @@
 
 * 1不是質數
 * 所有大於1的數不是質數就是合成數
-* 第n個質數\\( P_n \sim n * \ln n\\)
+* 第n個質數\( P_n \sim n * \ln n\)
 
 **prime number theorem**
-小於x的質數個數 \\( \pi(x) \sim \frac{x}{\ln x}\\)
+小於x的質數個數 \( \pi(x) \sim \frac{x}{\ln x}\)
 
 **算數基本定理 (Fundamental Theorem of Arithmetic)**
 若x為整數且x > 1，則x的因式分解唯一

@@ -14,12 +14,12 @@ ring (R,+,‧)，其中R為集合，+與‧為運算子，滿足
 
 * +單位元通稱為ring的zero（零）
 
-commutative ring：\\(\forall a, b \in R, a * b = b * a\\)的ring  
+commutative ring：\(\forall a, b \in R, a * b = b * a\)的ring  
 proper divisors of zero / proper zero divisors / zero divisors：在a≠z且b≠z的情形下，若a*b＝Z，則稱a,b為proper divisors of zero  
-ring with unity：\\(\forall a \in R, 存在u \in R\\)，使得a * u = u * a = a，且u≠0的ring
+ring with unity：\(\forall a \in R, 存在u \in R\)，使得a * u = u * a = a，且u≠0的ring
 unity / multiplicative identity：上一句的u即是乘法單位元  
 units：R中相乘會變成u的元素  
-如：\\(a, b \in R, a * b = b * a = u\\)中的a, b  
+如：\(a, b \in R, a * b = b * a = u\)中的a, b  
 multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 
 ####Intefral domain
@@ -34,18 +34,18 @@ multiplicative inverse：上例中的a,b互為彼此的乘法反元素
   
 
 ####Subring
-已知一個ring (R,+,‧)若存在\\(S \subseteq R\\)且\\(S \neq \emptyset\\)，(S,+,‧)為ring，則稱S為R的subring
+已知一個ring (R,+,‧)若存在\(S \subseteq R\)且\(S \neq \emptyset\)，(S,+,‧)為ring，則稱S為R的subring
 
 #####Ideal
 若I為R的ideal，則I滿足在
-1. I為R的subring\\((a - b) \in I\\)
-2. \\(x \in I & r \in R => x * r \in I & r * x \in I\\)
+1. I為R的subring\((a - b) \in I\)
+2. \(x \in I & r \in R => x * r \in I & r * x \in I\)
 
-* 對任意\\(n \in Z^+ , n > 1, Z_n\\)中共有\\(\phi(n)\\)個units及\\(n - 1 - \phi(n)\\)個proper divisor
+* 對任意\(n \in Z^+ , n > 1, Z_n\)中共有\(\phi(n)\)個units及\(n - 1 - \phi(n)\)個proper divisor
 
 ##數論
-\\(a | b\\)：a整除b(b是a的倍數)，\\(\exists c (ac = b)\\)
-\\(a |nmid b\\)：a不整除b
+\(a | b\)：a整除b(b是a的倍數)，\(\exists c (ac = b)\)
+\(a |nmid b\)：a不整除b
 
 **THEOREM**  
 令a,b,c為整數，其中a≠0，則  
@@ -54,37 +54,37 @@ multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 3. 若 a | b 且 b | c，則 a | c
 
 ###Mod運算
-\\( (a + b) \mod n = [(a \mod n) + (b \mod n)] \mod n \\)
-\\( (a - b) \mod n = [(a \mod n) - (b \mod n)] \mod n \\)
-\\( (a \times b) \mod n = [(a \mod n) \times (b \mod n)] \mod n \\)
+\( (a + b) \mod n = [(a \mod n) + (b \mod n)] \mod n \)
+\( (a - b) \mod n = [(a \mod n) - (b \mod n)] \mod n \)
+\( (a \times b) \mod n = [(a \mod n) \times (b \mod n)] \mod n \)
 
 例：
-\\( a^3 \mod n = [(a \mod n)^2 \mod n \times a \mod n] \mod n \\)
+\( a^3 \mod n = [(a \mod n)^2 \mod n \times a \mod n] \mod n \)
 
 ####Mod運算的性質
-\\( a \equiv b \mod n => n | (a - b) \\)
-\\( a \equiv b \mod n => b \equiv a \mod n \\)
-\\( a \equiv b \mod n , b \equiv c \mod n => a \equiv c \mod n \\)
+\( a \equiv b \mod n => n | (a - b) \)
+\( a \equiv b \mod n => b \equiv a \mod n \)
+\( a \equiv b \mod n , b \equiv c \mod n => a \equiv c \mod n \)
 
 封閉性  
-令\\(a, b \in Z_m\\)則\\(a + b \mod m\\)及\\(a \times b \mod m \in Z_m\\)
+令\(a, b \in Z_m\)則\(a + b \mod m\)及\(a \times b \mod m \in Z_m\)
 
 交換律  
-\\( (w + x) \mod n = (x + w) \mod n \\)  
-\\( (w \times x) \mod n = (x \times w) \mod n \\)
+\( (w + x) \mod n = (x + w) \mod n \)  
+\( (w \times x) \mod n = (x \times w) \mod n \)
 
 結合律  
-\\( [(w + x) + y] \mod n = [w + (x + y)] \mod n \\)
-\\( [(w \times x) \times y] \mod n = [w \times (x \times y)] \mod n \\)
+\( [(w + x) + y] \mod n = [w + (x + y)] \mod n \)
+\( [(w \times x) \times y] \mod n = [w \times (x \times y)] \mod n \)
 
 分配律  
-\\( [w \times (x + y)] \mod n = [(w \times x) + (w \times y)] \mod n \\)  
+\( [w \times (x + y)] \mod n = [(w \times x) + (w \times y)] \mod n \)  
 ~~~ \( [w + (x \times y)] \mod n = [(w + x) \times (w + y)] \mod n \) ~~~ 筆記有誤 
-\\( [(w + x) \times y] \mod n = [(w \times y) + (x \times y)] \mod n \\)
+\( [(w + x) \times y] \mod n = [(w \times y) + (x \times y)] \mod n \)
 
 單位元  
-\\( (0 + w) \mod n = w \mod n \\)
-\\( (1 \times w) \mod n = w \mod n \\)
+\( (0 + w) \mod n = w \mod n \)
+\( (1 \times w) \mod n = w \mod n \)
 
 加法反元素-w  
 $$
@@ -92,7 +92,7 @@ $$
 $$
 
 ####快速運算法
-當d很大時，計算\\( h^d \mod n \\)
+當d很大時，計算\( h^d \mod n \)
 例：
 $$
   d = 23 \\\
@@ -105,7 +105,7 @@ $$
 
 `歐幾里得演算法`：就是輾轉相除法  
 `Extended Euclidean Algorithm`：
-已知a, b,找出s, t使得 \\( s \times a  + t \times b = gcd(a, b)\\)
+已知a, b,找出s, t使得 \( s \times a  + t \times b = gcd(a, b)\)
 
 * `費馬小定理`
 $$
@@ -152,7 +152,7 @@ $$
   F   |   T   |       F        |      T        |        T        |  T | F
   F   |   F   |       F        |      F        |        F        |  T | T
   
-優先序由先到後：﹁、^、V、→、←→
+優先序由先到後：﹁ > ^ = V > → = ←→
 
 `converse`: p → q 的converse為 q → p  
 `contrapositive`: p → q 的contrapositive為 ﹁ q → ﹁ p  

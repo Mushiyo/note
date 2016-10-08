@@ -51,17 +51,17 @@
 
 ###子空間
 ####子空間的充要條件
-設\\( (V, +, \cdot) \\)為佈於F的向量空間，且\\(W \subseteq V, W \neq \emptyset \\)，則下列等價
-1. \\( (W, +, \cdot) \\)為\\( (V, +, \cdot) \\)的子空間
-2. \\( \forall \alpha \in F, u,v \in W \\)，則\\( u + v \in W \\)且\\( \alpha v \in W\\)
-3. \\( \forall \alpha, \beta \in F, u,v \in W\\)，則\\( \alpha u + \beta v \in W\\)
-4. \\( \forall \alpha \in F, u,v \in W \\)，則\\( \alpha u + v \in W\\)
-5. \\( \forall \alpha_i \in F, v_i \in W, i = 1, 2, \dots, k\\)，則\\( \sum_{i=1}^{k} \alpha_i v_i \in W\\)
+設\( (V, +, \cdot) \)為佈於F的向量空間，且\(W \subseteq V, W \neq \emptyset \)，則下列等價
+1. \( (W, +, \cdot) \)為\( (V, +, \cdot) \)的子空間
+2. \( \forall \alpha \in F, u,v \in W \)，則\( u + v \in W \)且\( \alpha v \in W\)
+3. \( \forall \alpha, \beta \in F, u,v \in W\)，則\( \alpha u + \beta v \in W\)
+4. \( \forall \alpha \in F, u,v \in W \)，則\( \alpha u + v \in W\)
+5. \( \forall \alpha_i \in F, v_i \in W, i = 1, 2, \dots, k\)，則\( \sum_{i=1}^{k} \alpha_i v_i \in W\)
 
 ####子空間的必要條件
 若W為V的子空間，則
-1. \\(0 \in W\\)
-2. 若\\(v \in W\\)，則\\(-v \in W\\)
+1. \(0 \in W\)
+2. 若\(v \in W\)，則\(-v \in W\)
 
 ####四個基本子空間
 1. 行空間
