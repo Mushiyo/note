@@ -39,13 +39,13 @@ multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 #####Ideal
 若I為R的ideal，則I滿足在
 1. I為R的subring\((a - b) \in I\)
-2. \(x \in I & r \in R => x * r \in I & r * x \in I\)
+2. \(x \in I \& r \in R => x * r \in I \& r * x \in I\)
 
 * 對任意\(n \in Z^+ , n > 1, Z_n\)中共有\(\phi(n)\)個units及\(n - 1 - \phi(n)\)個proper divisor
 
 ##數論
 \(a | b\)：a整除b(b是a的倍數)，\(\exists c (ac = b)\)
-\(a |nmid b\)：a不整除b
+\(a \nmid b\)：a不整除b
 
 **THEOREM**  
 令a,b,c為整數，其中a≠0，則  
@@ -127,7 +127,7 @@ $$
 ###有名字的數
 ####Euclid numbers
 $$
-e_n = e_1 e_2 /dots e_{n+1} + 1
+e_n = e_1 e_2 \dots e_{n+1} + 1
 $$
 Euclid numbers彼此互質
 
@@ -145,6 +145,7 @@ $$
 `biconditional statement`（又稱`bi-implications`）: \(\leftrightarrow\)
 
 真值表  
+
   p   |   q   | \(p \land q \) | \(p \lor q \) | \(p \oplus q \) | \(p \rightarrow q \) | \(p \leftrightarrow q\)
 ----- | ----- | -------------  | ------------  |   ------------  | -------------- | ------------- 
   T   |   T   |       T        |      T        |        F        |  T | T
@@ -171,19 +172,19 @@ $$
 2. \(\lnot (p \lor q) \equiv \lnot p \land \lnot q\)
 
 Identity laws  
-1. \(p \lor F) \equiv p \) 
-2. \(p \land T) \equiv p \)
+1. \(p \lor F \equiv p \) 
+2. \(p \land T \equiv p \)
 
 Domination laws  
-1. \(p \lor T) \equiv T \)
-2. \(p \land F) \equiv F \)
+1. \(p \lor T \equiv T \)
+2. \(p \land F \equiv F \)
 
 Idempotent laws  
-1. \(p \lor p) \equiv p \)
-2. \(p \land p) \equiv p \)
+1. \(p \lor p \equiv p \)
+2. \(p \land p \equiv p \)
 
 Double negation law
-\(\lnot (\lnot p)) \equiv p \)
+\(\lnot (\lnot p) \equiv p \)
 
 Commutative laws 交換率
 1. \(p \lor q) \equiv q \lor p \)

@@ -1,14 +1,21 @@
 #語言學習資源暨相關網站
 ##綜合
 * [國立教育廣播電台外語教學節目](http://digitweb.ner.gov.tw/bin/home.php)
-* [italki](http://www.italki.com/)
+* [italki](http://www.italki.com/)　免費語言交換平台
 * [Duolingo](https://www.duolingo.com/)
 * [busuu](https://www.busuu.com/start/zh/)　類似Duolingo的自學網 
 * [多國語言習得活動網](http://polyglot.tw)
+
+###字典
 * [Collins](http://www.collinsdictionary.com/)　綜合字典（義法西德中←→英）
 * <http://www.wordreference.com/> 綜合字典（義法西葡←→英）
 * <http://www.edictionary.org/>　多種線上字典收集
 * [Oxford Dictionaries](http://www.oxforddictionaries.com/)
+
+###背單字
+* [Quizlet](https://quizlet.com/)
+* [Memrise](https://www.memrise.com/)
+* [Anki](http://ankisrs.net/)
 
 ##國語
 * [教育部重編國語辭典修訂本](http://dict.revised.moe.edu.tw/cbdic/index.html)

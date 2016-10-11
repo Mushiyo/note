@@ -165,6 +165,22 @@
 [1]: http://w3.math.sinica.edu.tw/math_media/d381/38105.pdf  
 [2]: http://jupiter.math.nctu.edu.tw/~weng/courses/2011_topic_discrete/topic_2011.html  
 
+###組合學
+繁中 | 英 | 簡中
+----- | ----- | -----
+魔方陣 | magic square | 幻方
+
+###邏輯
+繁中 | 英 | 簡中
+----- | ----- | -----
+ | proposition | 命题
+ | tautology | 重言式、永真式
+ | major disjunctive form| 主析取范式
+ | major conjunctive form| 主合取范式
+ | | 演绎序列
+ | contradiction | 矛盾式
+ | contingency | 可满足式
+
 ###統計
 繁中 | 英 | 簡中
 ----- | ----- | -----
