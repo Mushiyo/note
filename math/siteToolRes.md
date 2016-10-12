@@ -17,7 +17,7 @@
 * [哈佛Abstract Algebra Open Learning Course](http://www.extension.harvard.edu/open-learning-initiative/abstract-algebra)
 
 
-## TeX/LaTeX
+## \(\TeX\)/\(\LaTeX\)
 * [QuickLaTeX](http://www.quicklatex.com/)　可以畫graph advanced LaTeX web rendering service
 * [writeLaTeX](https://www.writelatex.com/)　Online Collaborative LaTeX Editor with Integrated Rapid Preview
 * http://jaxedit.com/page/latex.html

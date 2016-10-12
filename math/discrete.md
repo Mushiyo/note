@@ -54,37 +54,37 @@ multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 3. 若 a | b 且 b | c，則 a | c
 
 ###Mod運算
-\( (a + b) \mod n = [(a \mod n) + (b \mod n)] \mod n \)
-\( (a - b) \mod n = [(a \mod n) - (b \mod n)] \mod n \)
-\( (a \times b) \mod n = [(a \mod n) \times (b \mod n)] \mod n \)
+\((a + b) \mod n = [(a \mod n) + (b \mod n)] \mod n\)
+\((a - b) \mod n = [(a \mod n) - (b \mod n)] \mod n\)
+\((a \times b) \mod n = [(a \mod n) \times (b \mod n)] \mod n\)
 
 例：
-\( a^3 \mod n = [(a \mod n)^2 \mod n \times a \mod n] \mod n \)
+\(a^3 \mod n = [(a \mod n)^2 \mod n \times a \mod n] \mod n\)
 
 ####Mod運算的性質
-\( a \equiv b \mod n => n | (a - b) \)
-\( a \equiv b \mod n => b \equiv a \mod n \)
-\( a \equiv b \mod n , b \equiv c \mod n => a \equiv c \mod n \)
+\(a \equiv b \mod n => n | (a - b)\)
+\(a \equiv b \mod n => b \equiv a \mod n\)
+\(a \equiv b \mod n , b \equiv c \mod n => a \equiv c \mod n\)
 
 封閉性  
 令\(a, b \in Z_m\)則\(a + b \mod m\)及\(a \times b \mod m \in Z_m\)
 
 交換律  
-\( (w + x) \mod n = (x + w) \mod n \)  
-\( (w \times x) \mod n = (x \times w) \mod n \)
+\((w + x) \mod n = (x + w) \mod n\)  
+\((w \times x) \mod n = (x \times w) \mod n\)
 
 結合律  
-\( [(w + x) + y] \mod n = [w + (x + y)] \mod n \)
-\( [(w \times x) \times y] \mod n = [w \times (x \times y)] \mod n \)
+\([(w + x) + y] \mod n = [w + (x + y)] \mod n\)
+\([(w \times x) \times y] \mod n = [w \times (x \times y)] \mod n\)
 
 分配律  
-\( [w \times (x + y)] \mod n = [(w \times x) + (w \times y)] \mod n \)  
-~~~ \( [w + (x \times y)] \mod n = [(w + x) \times (w + y)] \mod n \) ~~~ 筆記有誤 
-\( [(w + x) \times y] \mod n = [(w \times y) + (x \times y)] \mod n \)
+\([w \times (x + y)] \mod n = [(w \times x) + (w \times y)] \mod n\)  
+~~~ \([w + (x \times y)] \mod n = [(w + x) \times (w + y)] \mod n\) ~~~ 筆記有誤 
+\([(w + x) \times y] \mod n = [(w \times y) + (x \times y)] \mod n\)
 
 單位元  
-\( (0 + w) \mod n = w \mod n \)
-\( (1 \times w) \mod n = w \mod n \)
+\((0 + w) \mod n = w \mod n\)
+\((1 \times w) \mod n = w \mod n\)
 
 加法反元素-w  
 $$
@@ -92,7 +92,7 @@ $$
 $$
 
 ####快速運算法
-當d很大時，計算\( h^d \mod n \)
+當d很大時，計算\(h^d \mod n\)
 例：
 $$
   d = 23 \\\
@@ -105,7 +105,7 @@ $$
 
 `歐幾里得演算法`：就是輾轉相除法  
 `Extended Euclidean Algorithm`：
-已知a, b,找出s, t使得 \( s \times a  + t \times b = gcd(a, b)\)
+已知a, b,找出s, t使得 \(s \times a  + t \times b = gcd(a, b)\)
 
 * `費馬小定理`
 $$
@@ -146,12 +146,12 @@ $$
 
 真值表  
 
-  p   |   q   | \(p \land q \) | \(p \lor q \) | \(p \oplus q \) | \(p \rightarrow q \) | \(p \leftrightarrow q\)
------ | ----- | -------------  | ------------  |   ------------  | -------------- | ------------- 
-  T   |   T   |       T        |      T        |        F        |  T | T
-  T   |   F   |       F        |      T        |        T        |  F | F
-  F   |   T   |       F        |      T        |        T        |  T | F
-  F   |   F   |       F        |      F        |        F        |  T | T
+  p   |   q   | \(p \land q\) | \(p \lor q\) | \(p \oplus q\) | \(p \rightarrow q\) | \(p \leftrightarrow q\)
+----- | ----- | ------------- | ------------ | -------------- | ------------------- | ------------
+  T   |   T   |       T       |      T       |       F        |           T         | T
+  T   |   F   |       F       |      T       |       T        |           F         | F
+  F   |   T   |       F       |      T       |       T        |           T         | F
+  F   |   F   |       F       |      F       |       F        |           T         | T
   
 優先序由先到後：﹁ > ^ = V > → = ←→
 
@@ -172,39 +172,39 @@ $$
 2. \(\lnot (p \lor q) \equiv \lnot p \land \lnot q\)
 
 Identity laws  
-1. \(p \lor F \equiv p \) 
-2. \(p \land T \equiv p \)
+1. \(p \lor F \equiv p\) 
+2. \(p \land T \equiv p\)
 
 Domination laws  
-1. \(p \lor T \equiv T \)
-2. \(p \land F \equiv F \)
+1. \(p \lor T \equiv T\)
+2. \(p \land F \equiv F\)
 
 Idempotent laws  
-1. \(p \lor p \equiv p \)
-2. \(p \land p \equiv p \)
+1. \(p \lor p \equiv p\)
+2. \(p \land p \equiv p\)
 
 Double negation law
-\(\lnot (\lnot p) \equiv p \)
+\(\lnot (\lnot p) \equiv p\)
 
 Commutative laws 交換率
-1. \(p \lor q) \equiv q \lor p \)
-2. \(p \land q) \equiv q \land p \)
+1. \(p \lor q \equiv q \lor p\)
+2. \(p \land q \equiv q \land p\)
 
 Associative laws 結合率
-1. \( (p \lor q) \lor r \equiv p \lor (q \lor r) \)
-2. \( (p \land q) \land r \equiv p \land (q \land r) \)
+1. \((p \lor q) \lor r \equiv p \lor (q \lor r)\)
+2. \((p \land q) \land r \equiv p \land (q \land r)\)
 
 Distributive laws 分配率
-1. \( p \lor (q \land r) \equiv (p \lor q) \land (q \lor r) \)
-2. \( p \land (q \lor r) \equiv (p \land q) \lor (q \land r) \)
+1. \(p \lor (q \land r) \equiv (p \lor q) \land (q \lor r)\)
+2. \(p \land (q \lor r) \equiv (p \land q) \lor (q \land r)\)
 
 Absorption laws
-1. \( p \lor (p \land q) \equiv p \)
-2. \( p \land (p \lor q) \equiv p \)
+1. \(p \lor (p \land q) \equiv p\)
+2. \(p \land (p \lor q) \equiv p\)
 
 Negation laws
-1. \( p \lor \lnot p \equiv T \)
-2. \( p \land \lnot p) \equiv F \)
+1. \(p \lor \lnot p \equiv T\)
+2. \(p \land \lnot p \equiv F\)
   
 ##圖論
-見[這裡](graphTheory.md)
+見[這裡](graphTheory.html)

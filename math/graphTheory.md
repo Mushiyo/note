@@ -8,20 +8,20 @@
 `undirected graph (undigraph)`：只含無向邊的graph  
 `directed graph (digraph)`：只含有向邊的graph  
 `mixed graph`：同時含有無向邊和有向邊的graph  
-`multigraph`：有很多組\( (u,v) \in E\)  
-`loop`：存在\( (i,i) \in E\)  
+`multigraph`：有很多組\((u,v) \in E\)  
+`loop`：存在\((i,i) \in E\)  
 `simple graph`：無loop，非multigraph  
-`complete graph`：每對頂點都有邊連接，記做 \( K\_n \)    
+`complete graph`：每對頂點都有邊連接，記做 \(K\_n\)    
 `bipartite graph`：跟另一團的相連，但不跟自己團相連  
-`complete bipartite graph`：A團中的每個點各連到B團中的每個點，記做\( K\_{m,n}, |A| = m, |B| = n\)        
+`complete bipartite graph`：A團中的每個點各連到B團中的每個點，記做\(K\_{m,n}, |A| = m, |B| = n\)        
 `degree`：連到一頂點的邊的數量  
 
 * 若邊為loop，則它造成的degree要多算一次  
 * directed graph的degree = in + out  
   
-$$ \sum_{i \in V} d_i = 2 * |E| $$  
+\[ \sum_{i \in V} d_i = 2 * |E| \]
   
-$$ \sum\_{i \in V} d\_i^{in} = \sum\_{i \in V} d\_i^{out} $$  
+\[ \sum_{i \in V} d_i^{in} = \sum_{i \in V} d_i^{out} \]
   
 `isolated vertex`：沒有任何邊連到它的vertex
   
@@ -60,9 +60,9 @@ $$ \sum\_{i \in V} d\_i^{in} = \sum\_{i \in V} d\_i^{out} $$
 `elementary contraction`：若把H中相鄰的某兩點「黏」在一起可得到G，則稱G為H的──  
 其中，H稱為`contractible` to G  
 `homeomarphic`：若二個graph皆可由相同的某graph（可以是第三者graph）在邊上加點而得，則稱此二graph為──
-`clique`：G = (V,E), \( V' \subseteq V \) ，其中V'內任兩點皆相鄰
-`independent set`：G = (V,E), \( V' \subseteq V \)，其中V'內任兩點皆**不**相鄰
-`vertex cover`：G = (V,E), \( V' \subseteq V \)，其中G的每一邊都至少會接到V'中的一點(`V-independent set`)
+`clique`：G = (V,E), \(V' \subseteq V\) ，其中V'內任兩點皆相鄰
+`independent set`：G = (V,E), \(V' \subseteq V\)，其中V'內任兩點皆**不**相鄰
+`vertex cover`：G = (V,E), \(V' \subseteq V\)，其中G的每一邊都至少會接到V'中的一點(`V-independent set`)
 
 ## tree
 `forest`：acyclic, undirected graph  
