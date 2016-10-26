@@ -180,6 +180,41 @@
  | | 演绎序列
  | contradiction | 矛盾式
  | contingency | 可满足式
+ | propostiton | 命题
+ | true | 真
+ | false | 假
+ | logical connective | 逻辑联结词
+ | atom | 原子命题
+ | compositive proposition | 复合命题
+ | negation | 否定词
+ | conjunction | 合取词
+ | disjunction | 析取词
+ | implication | 蕴涵词
+ | substantive implication | 实质蕴涵
+ | two-way implication | 双向蕴涵词
+ | propostion constant | 命题常元
+ | propostion variable | 命题变元
+ | propostion formula | 命题公式
+ | assignments | 指派
+ | truth table | 真值表
+ | disjunctive clause | 析取文字
+ | conjunctive clause | 合取文字
+ | complemented pairs of letters | 互补文字対
+ | complete group of connectives | 完备路联结词组
+ | satisfactable formula | 可满足式
+ | logically implication | 逻辑蕴涵式
+ | rule of substitution | 代入原理
+ | rule of replacement | 替换原理
+ | dual | 对偶
+ | letter | 文字
+ | universe | 全总域
+ | domain of individuals | 个体域
+ | predicate | 谓词
+ | term | 个体项
+ | quantifier | 量词
+ | bound variable | 约束变元
+ | free variable | 自由变元
+ | predicate formula | 谓词公式
 
 ###統計
 繁中 | 英 | 簡中

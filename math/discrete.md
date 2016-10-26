@@ -136,6 +136,9 @@ $$
 2^p - 1, \text{p是質數}
 $$
 
+#### highly composite numbers
+因數個數比任何小於它的正整數還要多的正整數
+
 ##邏輯
 
 ### Propositional Logic
