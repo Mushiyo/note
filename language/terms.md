@@ -84,7 +84,7 @@
  | intractable | 难解的
  | intractability | 难解性
  | computability | 可计算性
-
+ | formal language | 形式语言
 
 ##數學
 繁中 | 英 | 簡中
@@ -104,7 +104,9 @@
 嵌射 | one to one, injection | 单射
 映成映射、蓋射 | onto, surjection | 满射
 對射 | bijection | 双射
-
+ | inductive definition | 归纳定义
+定義域 | domain | 定义域
+值域 | range | 值域
 
 ###幾何
 繁中 | 英 | 簡中
@@ -141,6 +143,38 @@
 ----- | ----- | -----
  | tetrahedron |
  | octahedron |
+ 
+###集合論
+繁中 | 英 | 簡中
+----- | ----- | -----
+ | finite set | 有限集
+ | infinite set | 無限集
+ | empty set | 空集
+ | cardinality | 基數
+ | subset | 子集合．子集
+ | collection | 集合族
+ | union set | 并集
+ | intersection set | 交集
+ | difference set | 差集
+ | complement set | 补集
+ | power set | 冪集
+ | index set | 標志集
+ | ordered pairs | 序偶、二元有序組
+ | Cartesian product | 笛卡尔积
+ | extensionality axiom | 外延性公理
+ | n-ary relation | n元关系
+ | graph of relation | 关系图
+ | matrix of relation | 关系矩阵
+ | converse | 逆关系、逆
+ | composition | 合成关系、复合关系
+ | reflexive | 自反的
+ | irreflexive | 反自反的
+ | symmetric | 对称的
+ | antisymmetric | 反对称的
+ | transitive | 传递的
+ | equivalent relation | 等价关系
+ | equivalent class | 等价类
+ | partition | 划分
 
 ###圖論
 繁中 | 英 | 簡中
@@ -165,11 +199,6 @@
 [1]: http://w3.math.sinica.edu.tw/math_media/d381/38105.pdf  
 [2]: http://jupiter.math.nctu.edu.tw/~weng/courses/2011_topic_discrete/topic_2011.html  
 
-###組合學
-繁中 | 英 | 簡中
------ | ----- | -----
-魔方陣 | magic square | 幻方
-
 ###邏輯
 繁中 | 英 | 簡中
 ----- | ----- | -----
@@ -177,7 +206,6 @@
  | tautology | 重言式、永真式
  | major disjunctive form| 主析取范式
  | major conjunctive form| 主合取范式
- | | 演绎序列
  | contradiction | 矛盾式
  | contingency | 可满足式
  | propostiton | 命题
@@ -215,13 +243,11 @@
  | bound variable | 约束变元
  | free variable | 自由变元
  | predicate formula | 谓词公式
-
-###統計
+ 
+###組合學
 繁中 | 英 | 簡中
 ----- | ----- | -----
-平均數 | mean |
-眾數 | mode | 
-中位數 | median |
+魔方陣 | magic square | 幻方
 
 ###數論
 繁中 | 英 | 簡中
@@ -237,3 +263,10 @@
 繁中 | 英 | 簡中
 ----- | ----- | -----
 行列式 | determinant | 
+
+###統計
+繁中 | 英 | 簡中
+----- | ----- | -----
+平均數 | mean |
+眾數 | mode | 
+中位數 | median |

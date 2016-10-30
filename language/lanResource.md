@@ -2,9 +2,11 @@
 ##綜合
 * [國立教育廣播電台外語教學節目](http://digitweb.ner.gov.tw/bin/home.php)
 * [italki](http://www.italki.com/)　免費語言交換平台
+* <https://fi3mplus.com/join-the-league/>
 * [Duolingo](https://www.duolingo.com/)
 * [busuu](https://www.busuu.com/start/zh/)　類似Duolingo的自學網 
 * [多國語言習得活動網](http://polyglot.tw)
+* <http://www.languageguide.org/>　學習多國語言簡單的詞彙
 
 ###字典
 * [Collins](http://www.collinsdictionary.com/)　綜合字典（義法西德中←→英）
