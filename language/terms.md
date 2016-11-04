@@ -107,6 +107,7 @@
  | inductive definition | 归纳定义
 定義域 | domain | 定义域
 值域 | range | 值域
+ | complete | 完备的
 
 ###幾何
 繁中 | 英 | 簡中
@@ -175,6 +176,27 @@
  | equivalent relation | 等价关系
  | equivalent class | 等价类
  | partition | 划分
+ | quotient | 商集
+ | ordered relation | 序关系
+ | ordered set | 有序集
+ | least element | 最小元
+ | greatest element | 最大元
+ | minimal element | 极小元
+ | maximal element | 极大元
+ | upper bound | 上界
+ | lower bound | 下界
+ | least upper bound | 最小上界、上确界
+ | least lower bound | 最大下界、下确界
+ | chain | 链
+ | antichain | 反链
+ | partially ordered relation | 半序关系
+ | poset | 半序集
+ | well founded | 良基的 
+ | totally ordered | 有序的
+ | well ordered set | 良序集
+ | flat ordered set | 平序集
+ | flat partial ordered set | 半平序集
+ | narmally ordered relation | 标准序
 
 ###圖論
 繁中 | 英 | 簡中
