@@ -1,5 +1,48 @@
 # 離散筆記
 
+##集合論
+`roster method`：指一一列出集合的元素以描述集合的方式，例如：S = {1, 2, 3}即是用roster method來描述集合
+`empty set`：沒有元素的集合，記為{}或\(\emptyset\)
+`singleton set`：只有一個元素的集合
+`subset`：若A的所有元素也都是B的元素，則稱A為B的subset，記為\(A \subseteq B\)
+`proper subset`：若A為B的subset，但A≠B，則稱A為B的proper subset，記為\(A \subset B\)
+
+`cardinality`：集合中的相異元素個數，集合S的cardinality記為|S|
+`power set`：集合S的power set為所有S的子集所構成的集合，記為P(S)
+
+例：
+1. 空集合的power set \(P(\emptyset) = {\emptyset}\)
+2. P({0, 1}) = {\(\emptyset\), {0}, {1}, {0, 1}}
+
+若集合S有n個元素，則P(S)有\(2^n\)個元素（n個元素，「取」和「不取」二種選擇）
+
+`ordered n-tuple \((a_1, a_2, \dots, a_n)\)`：為一有序元素集合(collection)，其中\(a_1\)為第一個元素，…，\(a_n\)為第n個元素
+`ordered pairs`：即2-tuple
+集合\(A_1, \dots, A_n\) 的`Cartesian product`：\(A_1 \times \dots \times A_n = \{ (a_1, \dots, a_n) \mid a_i \in A_i \) for \(i = 1, \dots, n \}\)
+
+`disjoint`、`mutually disjoint`：若二個集合的交集為空集合，則稱二集合disjoint
+`index set`或`set of indices`：令I為非空集合，U為宇集，對於每個，則I稱為index set，且I中的每個元素i稱為`index`
+
+###集合的運算
+`symmertric difference`：記做A△B，A△B  = (A - B) \(\cup\) (B - A)
+
+###relation
+`relation`：二個集合的Cartesian product的**子集**（因此relation本身亦是集合，其元素皆為2-tuple）
+`related to`：當\((a,b) \in R\)，則稱a is related to b by R
+
+###集合的表示方式
+`Venn diagram`
+`membership table`：一種類似truth table的表格，若元素屬於某個集合則填上1，否則填上0
+例：
+ A  |  B  | A
+---:|:---:| :---:
+ 0  |  0  |  0
+ 0  |  1  |  0
+ 1  |  0  |  0
+ 1  |  1  |  1
+
+Venn diagram即是圖象化的membership table
+
 ##代數
 ###Group 群
 

@@ -49,6 +49,11 @@
 * [百度翻译API](http://api.fanyi.baidu.com/api/trans/product/index) [doc](http://developer.baidu.com/wiki/index.php?title=%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%E9%A6%96%E9%A1%B5/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91API)
 * [有道翻译API](http://fanyi.youdao.com/openapi)
 
+##語音
+* [Microsoft Speech Platform](https://msdn.microsoft.com/en-us/library/hh361572.aspx)　有語音辦識及合成
+* [（工研院）語音語言互動處理技術網](http://atc.ccl.itri.org.tw/speech/)
+  [工研院文字轉語音Web服務](http://tts.itri.org.tw/)
+
 ##字詞典
 * [百度詞典API]()　支援中英　[doc](http://developer.baidu.com/wiki/index.php?title=%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%E9%A6%96%E9%A1%B5/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91/%E7%99%BE%E5%BA%A6%E8%AF%8D%E5%85%B8API%E4%BB%8B%E7%BB%8D)
 
