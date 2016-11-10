@@ -1,7 +1,77 @@
 # 離散筆記
 
+##邏輯
+
+### Propositional Logic
+`conjunction`: \(\land\)  
+`disjunction`: \(\lor\)  
+`conditional statement`（又稱`implication`）: \(\rightarrow\)  
+`biconditional statement`（又稱`bi-implications`）: \(\leftrightarrow\)
+
+真值表  
+
+  p   |   q   | \(p \land q\) | \(p \lor q\) | \(p \oplus q\) | \(p \rightarrow q\) | \(p \leftrightarrow q\)
+----- | ----- | ------------- | ------------ | -------------- | ------------------- | ------------
+  T   |   T   |       T       |      T       |       F        |           T         | T
+  T   |   F   |       F       |      T       |       T        |           F         | F
+  F   |   T   |       F       |      T       |       T        |           T         | F
+  F   |   F   |       F       |      F       |       F        |           T         | T
+  
+優先序由先到後：﹁ > ^ = V > → = ←→
+
+`converse`: p → q 的converse為 q → p  
+`contrapositive`: p → q 的contrapositive為 ﹁ q → ﹁ p  
+`inverse`: p → q 的inverse為 ﹁ p → ﹁ q  
+`equivalent`: 當二個proposition在各種情形下皆有相同真值時稱之  
+
+`tautology`: 不論propositional variable的真值為何，結果都恆為真的proposition。例： p V ﹁p  
+`contradiction`: 不論propositional variable的真值為何，結果都恆為假的proposition。例： p ^ ﹁p  
+`contingency`: 不是tautology也不是contradiction的proposition  
+
+`logically equivalent`: 已知二個proposition p 及 q，且 p ←→ q 為tautology時稱之。記為\(p \equiv q\)  
+
+#### some laws
+`De Morgan's Law`  
+1. \(\lnot (p \land q) \equiv \lnot p \lor \lnot q\)
+2. \(\lnot (p \lor q) \equiv \lnot p \land \lnot q\)
+
+Identity laws  
+1. \(p \lor F \equiv p\) 
+2. \(p \land T \equiv p\)
+
+Domination laws  
+1. \(p \lor T \equiv T\)
+2. \(p \land F \equiv F\)
+
+Idempotent laws  
+1. \(p \lor p \equiv p\)
+2. \(p \land p \equiv p\)
+
+Double negation law
+\(\lnot (\lnot p) \equiv p\)
+
+Commutative laws 交換率
+1. \(p \lor q \equiv q \lor p\)
+2. \(p \land q \equiv q \land p\)
+
+Associative laws 結合率
+1. \((p \lor q) \lor r \equiv p \lor (q \lor r)\)
+2. \((p \land q) \land r \equiv p \land (q \land r)\)
+
+Distributive laws 分配率
+1. \(p \lor (q \land r) \equiv (p \lor q) \land (q \lor r)\)
+2. \(p \land (q \lor r) \equiv (p \land q) \lor (q \land r)\)
+
+Absorption laws
+1. \(p \lor (p \land q) \equiv p\)
+2. \(p \land (p \lor q) \equiv p\)
+
+Negation laws
+1. \(p \lor \lnot p \equiv T\)
+2. \(p \land \lnot p \equiv F\)
+
+
 ##集合論
-`roster method`：指一一列出集合的元素以描述集合的方式，例如：S = {1, 2, 3}即是用roster method來描述集合
 `empty set`：沒有元素的集合，記為{}或\(\emptyset\)
 `singleton set`：只有一個元素的集合
 `subset`：若A的所有元素也都是B的元素，則稱A為B的subset，記為\(A \subseteq B\)
@@ -27,19 +97,28 @@
 `symmertric difference`：記做A△B，A△B  = (A - B) \(\cup\) (B - A)
 
 ###relation
-`relation`：二個集合的Cartesian product的**子集**（因此relation本身亦是集合，其元素皆為2-tuple）
+`(binary) relation` from A, B：集合A,B的Cartesian product(即A x B)的任意**子集**稱之
+`(binary) relation` on A：集合A對自已的Cartesian product(即A x A)的任意**子集**稱之
 `related to`：當\((a,b) \in R\)，則稱a is related to b by R
 
+注意:
+* relation本身亦是集合，其元素皆為2-tuple
+* 所有集合的運算也適用relation
+
+####relation的性質
+
 ###集合的表示方式
+`roster method`：指一一列出集合的元素以描述集合的方式，例如：S = {1, 2, 3}即是用roster method來描述集合
 `Venn diagram`
 `membership table`：一種類似truth table的表格，若元素屬於某個集合則填上1，否則填上0
 例：
- A  |  B  | A
----:|:---:| :---:
- 0  |  0  |  0
- 0  |  1  |  0
- 1  |  0  |  0
- 1  |  1  |  1
+
+  A  |  B  |  A
+:---:|:---:|:---:
+  0  |  0  |  0
+  0  |  1  |  0
+  1  |  0  |  0
+  1  |  1  |  1
 
 Venn diagram即是圖象化的membership table
 
@@ -182,75 +261,6 @@ $$
 #### highly composite numbers
 因數個數比任何小於它的正整數還要多的正整數
 
-##邏輯
-
-### Propositional Logic
-`conjunction`: \(\land\)  
-`disjunction`: \(\lor\)  
-`conditional statement`（又稱`implication`）: \(\rightarrow\)  
-`biconditional statement`（又稱`bi-implications`）: \(\leftrightarrow\)
-
-真值表  
-
-  p   |   q   | \(p \land q\) | \(p \lor q\) | \(p \oplus q\) | \(p \rightarrow q\) | \(p \leftrightarrow q\)
------ | ----- | ------------- | ------------ | -------------- | ------------------- | ------------
-  T   |   T   |       T       |      T       |       F        |           T         | T
-  T   |   F   |       F       |      T       |       T        |           F         | F
-  F   |   T   |       F       |      T       |       T        |           T         | F
-  F   |   F   |       F       |      F       |       F        |           T         | T
-  
-優先序由先到後：﹁ > ^ = V > → = ←→
-
-`converse`: p → q 的converse為 q → p  
-`contrapositive`: p → q 的contrapositive為 ﹁ q → ﹁ p  
-`inverse`: p → q 的inverse為 ﹁ p → ﹁ q  
-`equivalent`: 當二個proposition在各種情形下皆有相同真值時稱之  
-
-`tautology`: 不論propositional variable的真值為何，結果都恆為真的proposition。例： p V ﹁p  
-`contradiction`: 不論propositional variable的真值為何，結果都恆為假的proposition。例： p ^ ﹁p  
-`contingency`: 不是tautology也不是contradiction的proposition  
-
-`logically equivalent`: 已知二個proposition p 及 q，且 p ←→ q 為tautology時稱之。記為\(p \equiv q\)  
-
-#### some laws
-`De Morgan's Law`  
-1. \(\lnot (p \land q) \equiv \lnot p \lor \lnot q\)
-2. \(\lnot (p \lor q) \equiv \lnot p \land \lnot q\)
-
-Identity laws  
-1. \(p \lor F \equiv p\) 
-2. \(p \land T \equiv p\)
-
-Domination laws  
-1. \(p \lor T \equiv T\)
-2. \(p \land F \equiv F\)
-
-Idempotent laws  
-1. \(p \lor p \equiv p\)
-2. \(p \land p \equiv p\)
-
-Double negation law
-\(\lnot (\lnot p) \equiv p\)
-
-Commutative laws 交換率
-1. \(p \lor q \equiv q \lor p\)
-2. \(p \land q \equiv q \land p\)
-
-Associative laws 結合率
-1. \((p \lor q) \lor r \equiv p \lor (q \lor r)\)
-2. \((p \land q) \land r \equiv p \land (q \land r)\)
-
-Distributive laws 分配率
-1. \(p \lor (q \land r) \equiv (p \lor q) \land (q \lor r)\)
-2. \(p \land (q \lor r) \equiv (p \land q) \lor (q \land r)\)
-
-Absorption laws
-1. \(p \lor (p \land q) \equiv p\)
-2. \(p \land (p \lor q) \equiv p\)
-
-Negation laws
-1. \(p \lor \lnot p \equiv T\)
-2. \(p \land \lnot p \equiv F\)
   
 ##圖論
 見[這裡](graphTheory.html)
