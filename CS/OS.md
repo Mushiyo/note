@@ -6,13 +6,13 @@
 ##PART 1: OVERVIEW
 ###Chapter 1 Introduction
 multiprocessor system的三個優勢  
-1. 增加throughput
-2. economy of scale （比多個single processor系統省）
-3. 增加reliability：一個processor掛掉並不會終止系統
+1. 增加throughput  
+2. economy of scale （比多個single processor系統省）  
+3. 增加reliability：一個processor掛掉並不會終止系統  
 
 multi-processor system的種類（二種）  
-1. `asymmetric multiprocessing` 每個processor有各自的task。由master processor分派task給slave
-2. `SMP`
+1. `asymmetric multiprocessing` 每個processor有各自的task。由master processor分派task給slave  
+2. `SMP`  
 
 ###Chapter 2 Operating-System Structures
 
@@ -40,9 +40,9 @@ multi-processor system的種類（二種）
 
 ###Chapter 7 Deadlocks
 對付deadlock的幾個方法  
-1. 使用protocal預防，使得系統「永遠」不會發生deadlock
-2. 當系統進入deadlock時，解除它，並復原
-3. 忽略所有問題，假裝deadlock永不發生（如UNIX, Windows；寫應用程式的人要自行處理deadlock的情形）
+1. 使用protocal預防，使得系統「永遠」不會發生deadlock  
+2. 當系統進入deadlock時，解除它，並復原  
+3. 忽略所有問題，假裝deadlock永不發生（如UNIX, Windows；寫應用程式的人要自行處理deadlock的情形）  
 
 ##PART 3: MEMORY MANAGEMENT
 ###Chapter 8 Main Memory
@@ -84,10 +84,10 @@ multi-processor system的種類（二種）
 `server`：持有在別的site上的host的資源  
 
 建造distributed system的四個理由
-1. resource sharing
-2. compu? speedup
-3. reliability
-4. communication
+1. resource sharing  
+2. compu? speedup  
+3. reliability  
+4. communication  
 
 `load sharing`：一個site把overloaded job移到light loaded site的動作  
 

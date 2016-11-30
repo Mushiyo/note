@@ -6,11 +6,11 @@
 * [Data Structure Visualizations](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 ##名詞解釋
-`locality`：剛用過的，很快會再用到
-`in-place`：若演算法只需O(1)輔助空間，則稱為in-place
-`tractable`：存在polynomial time演算法
-`intractable`：不存在polynomial time演算法
-`tail recursion`：recursive在最後一步，可以很容易的被改寫成iterative
+`locality`：剛用過的，很快會再用到  
+`in-place`：若演算法只需O(1)輔助空間，則稱為in-place  
+`tractable`：存在polynomial time演算法  
+`intractable`：不存在polynomial time演算法  
+`tail recursion`：recursive在最後一步，可以很容易的被改寫成iterative  
 
 ##技巧
 ###動態規劃 (Dynamic Programming, DP)
@@ -59,5 +59,5 @@
 **Convex Combination**
 已知一點集 \\(S = {p_1, \dots, p_n} \subseteq \varepsilon^2\\)  
 令\\(\lambda = <\lambda _1, \dots, \lambda _n>^T \in R^n, \lambda _1 + \dots + \lambda _n = 1\\)，且\\(min \\{ \lambda _1, \dots, \lambda _n \\} \geq 0\\)  
-若點\\(P = [p_1, \dots, p_n] \lambda = \lambda _1 p_1 + \dots + \lambda _n p_n \\)
-則稱P為S的convex combination
+若點\\(P = [p_1, \dots, p_n] \lambda = \lambda _1 p_1 + \dots + \lambda _n p_n \\)  
+則稱P為S的convex combination  

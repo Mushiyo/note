@@ -4,10 +4,10 @@
 ```
 CREATE TABLE 資料表名稱 (欄位1名稱 欄位1型態 PRIMARY KEY, 欄位2名稱 欄位2型態, 欄位3名稱 欄位3型態, ...);
 ```
-註：
-1. `PRIMARY KEY`可放在任何欄位之後，端看使用的database engine可能有不同的使用方式，使用前要先查reference
+註：  
+1. `PRIMARY KEY`可放在任何欄位之後，端看使用的database engine可能有不同的使用方式，使用前要先查reference  
 2. 端看使用的database engine可能有不同型態，使用前要先查reference  
-   [SQLite datatype](https://www.sqlite.org/datatype3.html)
+   [SQLite datatype](https://www.sqlite.org/datatype3.html)  
 
 ##插入資料
 ```

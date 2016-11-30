@@ -9,10 +9,9 @@
 ```
 
 ##資料型態
-分為二種
-1. value type: 如int、long、float、double、decimal、char、bool、DateTime、string
-
-2. reference type: class
+分為二種  
+1. value type: 如int、long、float、double、decimal、char、bool、DateTime、string  
+2. reference type: class  
 
 ##identifier
 指namespace、class、method、variable等的名稱
@@ -20,12 +19,12 @@
 
 ##運算子
 
-算術運算子 | +, -, *, /, %, ++, --
-比較運算子 | ==, !=, <, >, <=, >=, is
-字串串接 | +
-邏輯運算子 | &, |, ^, !, ~, &&, ||
-賦值運算子 | =, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=, ??
-位元運算子 | <<, >>
+算術運算子 | +, -, *, /, %, ++, --  
+比較運算子 | ==, !=, <, >, <=, >=, is  
+字串串接   | +  
+邏輯運算子 | &, |, ^, !, ~, &&, ||  
+賦值運算子 | =, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=, ??  
+位元運算子 | <<, >>  
 
 ##條件判斷式
 ###if/else
@@ -58,7 +57,7 @@ switch (variable) {
 ```
 
 * 注意：`variable`的型態可以是：sbyte, byte, short, ushort, int, uint, long, ulong, char, string, enumerations
-因此case的部份也是配合`variable`來調整
+因此case的部份也是配合`variable`來調整  
 
 
 ##迴圈
@@ -118,8 +117,8 @@ accessModifier methodType methodName(paraType1 para1, paraType2 para2 ...)
 `ref`關鍵字：
 
 Overloading：name相同，但signature不同  
-optional parameter 
-named parameter
+optional parameter  
+named parameter  
 
 ##陣列
 ###一維陣列

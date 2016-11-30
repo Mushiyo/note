@@ -39,6 +39,17 @@ git status
 
 合併遠端分支到本地分支
 ```bash
-git fetch localTarget remoteSource
-git merge localTarget/remoteSource
+git fetch remoteName remoteBranch
+git merge remoteName/remoteBranch
+```
+
+把所有更動的檔案（限內容增刪和新增檔案）加進下次的commit
+```bash
+git add .
+```
+
+把所有刪除的檔案加進下次的commit
+```bash
+git add -A
+# or git add -all
 ```

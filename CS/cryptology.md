@@ -33,19 +33,19 @@ secret-key
 藉由substitution table（可想成是一個1-1 and onto function）把每個字母轉換成另一個字母
 key space: 26!（不分大小寫）
 
-攻擊方法
-1. brute-force (exhaustive key search)
-   嘗試所有可能的key來破密
-2. 頻率分析
+攻擊方法  
+1. brute-force (exhaustive key search)  
+   嘗試所有可能的key來破密  
+2. 頻率分析  
 
-* 好的密碼應隱藏明文的統計性質
+* 好的密碼應隱藏明文的統計性質  
 
 ###橢圓曲線
 * <https://cdn.rawgit.com/andreacorbellini/ecc/920b29a/interactive/modk-add.html> 線上橢圓曲線計算工具
 
 ##cryptanalysis （破密學、密碼分析學）
 ###classical cryptanalysis
-由密文y還原出明文x，或由密文y還原出key k
+由密文y還原出明文x，或由密文y還原出key k  
 ####mathematical analysis
 ####brute-force analysis
 
