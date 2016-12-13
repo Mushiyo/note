@@ -18,3 +18,8 @@
 * [VRML教學](http://www.sdsc.edu/~moreland/courses/Siggraph98/vrml97/slides/mt0000.htm)
 * <http://www.learncs.org/> C#教學
 * <http://homepage.ntu.edu.tw/~wttsai/fortran/> Fortran教學
+
+###免費書藉
+* <http://chimera.labs.oreilly.com/>
+* <http://www.oreilly.com/programming/free/>
+* <http://www.oreilly.com/free/>

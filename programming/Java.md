@@ -23,6 +23,8 @@
 * [Yoxos](https://yoxos.eclipsesource.com/)　客製化Eclipse
 
 ##寫網頁
+[Tomcat](http://tomcat.apache.org/) 
+
 ###取得本地資料
 ```Java
 //在servelet的method內部
@@ -30,6 +32,13 @@ Scanner in = new Scanner(getServletContext().getResourceAsStream("path/file"););
 ```
 注意檔案要置於`WebContent`資料夾下，若要限制只能為servlet所用，則置於`WebContent/WEB-INF`下
 
+###Azure
+####Git deploy
+#####容器為Tomcat
+若使用Eclipse的Dynamic Web Project
+則開project時，`content directory`要設為`webapps/ROOT`
+source的`output folder`要設為`webapps/ROOT/WEB-INF/classes` 
+參考：http://stackoverflow.com/questions/33951613/azure-tomcat-eclipse-deployment
 
 ##處理JSON
 JSON官方source code及documentation：<http://www.json.org/java/index.html>
