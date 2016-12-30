@@ -125,3 +125,9 @@
 * [Conyac](https://conyac.cc/zh-tw/translators)
 * [OneSky](https://translator.oneskyapp.com/sign-up)
 * [Flitto](https://www.flitto.com)
+
+### 協作平台
+* [Crowdin](https://crowdin.com)
+* [Transifex](https://www.transifex.com/)
+* [Amara](http://www.amara.org/)
+* [Native](https://getnative.me/)
