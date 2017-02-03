@@ -1,5 +1,4 @@
 #!/bin/bash
-# Description: build the website with Pandoc
 echo "build public directory"
 find ./* -type d ! -path "./.git*" ! -path "./pandoc*" -exec mkdir -p public/{} {} \;
 echo "build web pages with Pandoc"
