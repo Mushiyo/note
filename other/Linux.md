@@ -29,6 +29,11 @@
 
 接著點`OK`，然後按下你希望的按鍵組合，這樣就完成了
 
+#### Lubuntu
+##### 缷載裝置 (unmount device)
+打開檔案管理員，按下裝置右側的圖案即可  
+注意按右鍵的選單中無法unmount  
+
 ### 實用軟體
 可在軟體中心找到，安裝後不需另外調整的程式
 * Synaptic：好用的套裝管理程式
@@ -54,7 +59,7 @@ xcalib -invert -alter
 * Ubuntu論壇：https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=94930
 * gcin論壇：http://hyperrate.com/thread.php?tid=27789
 
-#### [gdeit](https://wiki.gnome.org/Apps/Gedit)
+#### [Gedit](https://wiki.gnome.org/Apps/Gedit)
 安裝plugin來加功能（如底部commandline……等）
 ```bash
  sudo apt-get install gedit-plugins
@@ -73,7 +78,7 @@ sudo apt-get install hardinfo
 * 按到<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F3</kbd>，變成全螢幕terminal
   解法：按<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F7</kbd>回到原本的桌面
 * Live CD/USB 跳出要系統帳密
-  解法：帳號Ubuntu，密碼空白（若是Xubuntu，則帳號為Xubuntu）
+  解法：帳號Ubuntu，密碼空白（若是Xubuntu，則帳號為Xubuntu；Lubuntu則為lubuntu，注意開頭是小寫）
 
 ## PuppyLinux
 http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm

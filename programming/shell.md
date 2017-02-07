@@ -48,3 +48,21 @@ sudo nautilus
 ```
 
 [連學校VPN](http://ccnet.ntu.edu.tw/vpn/for-ubuntu.html)
+
+## Shell Script
+###註解
+```shell
+# comment here
+```
+
+### 變數
+變數宣告及使用
+```shell
+var_name=var_value
+echo $var_name
+echo "the value of the variable var_name is $var_name"
+```
+
+### 參數
+`$0`：script本身的名稱（含副檔名）  
+`$#`：#為數字，表第#個參數。例如：`$1`為第一個參數  
