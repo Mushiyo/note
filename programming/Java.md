@@ -73,7 +73,8 @@ Element root = dom.getDocumentElement();
 
 Node、Element、NodeList
 * Node跟Element都是interface，一個Element也是一個Node（即，Node是Element的Superinterfaces）
-底下假設巷`element`為一個Element物件  
+底下假設`element`為一個Element物件  
+
 ```Java
 //取得所有位在element底下，標籤名稱是tagName（在檔案中就是<tagName>）的node
 NodeList entries = element.getElementsByTagName("tagName");
