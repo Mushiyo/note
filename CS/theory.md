@@ -36,3 +36,8 @@ EXACT COVER by 3-SET
 KNAPSACK
 BIN PACKING
 INTEGER PROGRAMMING
+
+##書籍
+* [*Computational Complexity*](https://www.pearsonhighered.com/program/Papadimitriou-Computational-Complexity/PGM94583.html), by Christos H. Papadimitriou
+  簡體影印版： 9787302089551
+  簡體譯本：9787111517351
