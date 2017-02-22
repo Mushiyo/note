@@ -121,8 +121,8 @@
 * <https://www.getlocalization.com/4pros/>
 * <https://www.onehourtranslation.com/translation/translator-join-us>
 * [Fiberead](http://fiberead.com/)　簡體平台，翻譯書籍
-* [Geogo](http://gengo.com/)
-* [Conyac](https://conyac.cc/zh-tw/translators)
+* [Gengo](http://gengo.com/)
+* [Conyac](https://conyac.cc/zh-tw/translators)　需上傳證件做身份認證
 * [OneSky](https://translator.oneskyapp.com/sign-up)
 * [Flitto](https://www.flitto.com)
 
