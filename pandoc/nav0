@@ -14,12 +14,14 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CS<span class="caret"></span></a>
           <ul class="dropdown-menu">
+            <li class="dropdown"><a href="CS/theory.html">計算理論</a></li>
             <li class="dropdown"><a href="CS/algorithm.html">演算法</a></li>
+            <li class="dropdown"><a href="CS/cryptology.html">密碼學</a></li>
             <li class="dropdown"><a href="CS/AI.html">AI</a></li>
+            <li class="dropdown"><a href="CS/learning.html">機器學習</a></li>
             <li class="dropdown"><a href="CS/NLP.html">NLP</a></li>
             <li class="dropdown"><a href="CS/OS.html">OS</a></li>
             <li class="dropdown"><a href="CS/book.html">書籍</a></li>
-            <li class="dropdown"><a href="CS/learning.html">機器學習</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -65,6 +67,17 @@
           <ul class="dropdown-menu">
             <li class="dropdown"><a href="language/lanResource.html">資源</a></li>
             <li class="dropdown"><a href="language/terms.html">名詞及術語對照表</a></li>
+            <li class="dropdown"><a href="language/italiano.html">義大利文</a></li>
+            <li class="dropdown"><a href="language/linguistics.html">語言學</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">其他<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown"><a href="other/Linux.html">Linux</a></li>
+            <li class="dropdown"><a href="other/Windows.html">Linux</a></li>
+            <li class="dropdown"><a href="other/Android.html">Android</a></li>
+            <li class="dropdown"><a href="other/Vim.html">Android</a></li>
           </ul>
         </li>
       </ul>

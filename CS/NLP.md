@@ -1,5 +1,8 @@
 #自然語言處理筆記
 
+##名詞
+* Automatic Speech Recognition (ASR)
+
 ##語料庫|WordNet
 * <http://linghub.org/> 搜尋資源
 * [中央研究院中英雙語知識本體詞網](http://bow.ling.sinica.edu.tw/)

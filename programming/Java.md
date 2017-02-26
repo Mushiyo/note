@@ -18,6 +18,7 @@
 
 ##IDE
 * [Eclipse](http://www.eclipse.org/) | [下載](http://www.eclipse.org/downloads/)  
+  Eclipse安裝完成後，記得把檔案編碼設為UTF-8，這樣比較不會出錯
 * [IntelliJ](https://www.jetbrains.com/idea/) | [下載](https://www.jetbrains.com/idea/download/)  
 * [EasyEclipse](http://www.easyeclipse.org/site/home/index.html) | [下載](http://www.easyeclipse.org/site/distributions/index.html) 
 * [Yoxos](https://yoxos.eclipsesource.com/)　客製化Eclipse
