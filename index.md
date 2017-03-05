@@ -8,4 +8,4 @@
 本站目前共有[Pandoc版](http://note.netlify.com/)和[MDwiki版](http://mushiyo.github.io/note/)二種版本  
 Pandoc版由[Pandoc](http://pandoc.org/)生成，置於[Netlify](https://www.netlify.com/)，且另有置於[GitLab Pages](http://pages.gitlab.io/)的[鏡像站](https://twilightzone.gitlab.io/note/)
 MDwiki版由[MDwiki](http://dynalon.github.io/mdwiki)生成，置於[GitHub Pages](https://pages.github.com/)。
-由於MDwiki不一定能正常的顯示數學式，故暫時不再維護，建議瀏覽Pandoc。  
+由於MDwiki不一定能正常的顯示數學式，故暫時不再維護，建議瀏覽Pandoc版。  
