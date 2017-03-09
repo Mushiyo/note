@@ -3,6 +3,7 @@
 * [國立教育廣播電台外語教學節目](http://digitweb.ner.gov.tw/bin/home.php)
 * [italki](http://www.italki.com/)　免費語言交換平台
 * <https://fi3mplus.com/join-the-league/>
+* [Lingvist](https://www.lingvist.com.tw/)
 * [Duolingo](https://www.duolingo.com/)
 * [busuu](https://www.busuu.com/start/zh/)　類似Duolingo的自學網 
 * [多國語言習得活動網](http://polyglot.tw)
