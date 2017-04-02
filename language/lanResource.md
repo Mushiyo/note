@@ -100,6 +100,14 @@
 ##越南語
 * [華視教育頻道越說越好](http://blog.xuite.net/phyllistran/tiengviet/62113072)  
 
+##俄語
+南臺科技大學開放式課程
+* [俄語入門](http://ocw.stust.edu.tw/tc/node/Russian_09901)
+* [初級俄語](http://ocw.stust.edu.tw/tc/node/Russian)
+* [實用俄語](http://ocw.stust.edu.tw/tc/node/Russian_10002)
+* [觀光俄語](http://ocw.stust.edu.tw/tc/node/Russian_10102)
+
+
 ##翻譯
 * [國家教育研究院雙語詞彙、學術名詞暨辭書資訊網](http://terms.naer.edu.tw/)
 * [微積分常用述語中英文對照](http://calculus.nctu.edu.tw/resource/riki.php?id=letter-Chinese&CID=4)

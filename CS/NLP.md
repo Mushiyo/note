@@ -53,7 +53,7 @@
 * [有道翻译API](http://fanyi.youdao.com/openapi)
 
 ##語音
-* [Microsoft Speech Platform](https://msdn.microsoft.com/en-us/library/hh361572.aspx)　有語音辦識及合成
+* [Microsoft Speech Platform](https://msdn.microsoft.com/en-us/library/hh361572.aspx)　有語音辨識及合成
 * [（工研院）語音語言互動處理技術網](http://atc.ccl.itri.org.tw/speech/)
   [工研院文字轉語音Web服務](http://tts.itri.org.tw/)
 
@@ -73,5 +73,5 @@
 * <http://www.narrabase.net/poetry_generators.html>
 * <https://www.laetusinpraesens.org/docs00s/convert.php>
 
-####按韻
+####壓韻
 * <http://www.lukeallen.com/rhymer.html>

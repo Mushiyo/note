@@ -9,6 +9,14 @@
 * [Xubuntu](http://xubuntu.org/)
 * [Lubuntu](http://lubuntu.me/)
 
+#### Ubuntu
+##### 系統需求
+###### 16.04
+建議需求（取自下載頁）
+處理器：2 GHz dual core processor or better
+RAM：2 GB system memory
+硬碟空間：25 GB of free hard drive space
+
 #### Xubuntu
 ##### 設定快捷鍵
 ######以Windows key開啟menu

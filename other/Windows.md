@@ -48,3 +48,22 @@
 2. 至Microsoft Security Bulletins下載所有未安裝的安全性更新
 3. 手動安裝在2.下載的更新，重新啟動電腦以完成安裝程序
 4. 開啟Windows Update，恢復為原本的設定，按`檢查更新`看能否抓到新的更新
+
+##系統需求
+### Win 10
+來源：<https://www.microsoft.com/zh-tw/windows/windows-10-specifications>  
+  
+最低需求  
+處理器： 1 GHz 或更快速的處理器或是系統單晶片 (SoC)  
+RAM： 1 GB (32 位元) 或 2 GB (64 位元)  
+硬碟空間： 16 GB (32 位元作業系統) 或 20 GB (64 位元作業系統)  
+顯示卡： DirectX 9 或更新版本 (包含 WDDM 1.0 驅動程式)  
+顯示器： 800x600  
+
+### Win 7
+來源：<https://support.microsoft.com/zh-tw/help/10737/windows-7-system-requirements>
+
+處理器： 1 GHz 或更快的 32 位元 (x86) 或 64 位元 (x64) 處理器*
+RAM： 1 GB RAM (32 位元) 或 2 GB RAM (64 位元)
+硬碟空間： 16 GB 的可用硬碟空間 (32 位元) 或 20 GB (64 位元)
+顯示卡： 具備 WDDM 1.0 或更新版驅動程式的 DirectX 9 圖形裝置
