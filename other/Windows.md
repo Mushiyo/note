@@ -49,8 +49,13 @@
 3. 手動安裝在2.下載的更新，重新啟動電腦以完成安裝程序
 4. 開啟Windows Update，恢復為原本的設定，按`檢查更新`看能否抓到新的更新
 
-##系統需求
-### Win 10
+## Win 10
+###遊樂場
+Microsoft Solitaire Collection（內建）：含接龍(Klondike)、新接龍(FreeCell)、連環新接龍(Spider)
+踩地雷：<https://www.microsoft.com/zh-tw/store/p/microsoft-minesweeper/9wzdncrfhwcn>
+Mahjong Titans：<https://www.microsoft.com/zh-tw/store/p/microsoft-mahjong/9wzdncrfhwcp>
+
+###系統需求
 來源：<https://www.microsoft.com/zh-tw/windows/windows-10-specifications>  
   
 最低需求  
@@ -60,7 +65,8 @@ RAM： 1 GB (32 位元) 或 2 GB (64 位元)
 顯示卡： DirectX 9 或更新版本 (包含 WDDM 1.0 驅動程式)  
 顯示器： 800x600  
 
-### Win 7
+## Win 7
+###系統需求
 來源：<https://support.microsoft.com/zh-tw/help/10737/windows-7-system-requirements>
 
 處理器： 1 GHz 或更快的 32 位元 (x86) 或 64 位元 (x64) 處理器*

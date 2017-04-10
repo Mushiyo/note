@@ -93,3 +93,22 @@ String nodeName = element.getNodeName();
 //這個method要Element才有，如果是從NodeList中抽出來會是Node，要先強制轉型成Element
 String attrVal = element.getAttribute("attrName");
 ```
+
+##util
+###PriorityQueue
+預設是min heap，若想用max heap，在1.8之前只能用以下的constructor
+```
+// http://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html#PriorityQueue-int-java.util.Comparator-
+public PriorityQueue(int initialCapacity, Comparator<? super E> comparator)
+```
+1.8之後則可以只指定comparator
+```
+// http://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html#PriorityQueue-java.util.Comparator-
+public PriorityQueue(Comparator<? super E> comparator)
+```
+
+範例  
+```
+PriorityQueue<Integer> pq1 = new PriorityQueue<Integer>(10, Collections.reverseOrder());
+PriorityQueue<Integer> pq2 = new PriorityQueue<Integer>(Collections.reverseOrder());
+```

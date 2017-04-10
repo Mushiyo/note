@@ -17,5 +17,6 @@
 * [CakeResume](https://www.cakeresume.com/)
 * [Himelight](https://himelight.com/)
 
-####範例
+####範例／範本
+* <https://www.careercup.com/>
 * [1111範例](https://www.1111.com.tw/14sp/resume_template/)
