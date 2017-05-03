@@ -116,6 +116,8 @@
 * [HyperComments](https://www.hypercomments.com/)  
   非常快速，跟MathJax不太合
 * [Spot.IM](https://www.spot.im/)
+* [Remarkbox](https://www.remarkbox.com/)　快速，支援markdown，免費版似乎不能設管理員？
+* [GraphComment](https://graphcomment.com/)　一定要登入才能留言，留言可設簡易樣式（粗體、斜／底線、連結）
 * [HTML Comment Box](https://www.htmlcommentbox.com/)
 * [EasyComment jQuery Plugin](http://www.jswidget.com/lab/easy-comment.html)　可能需要php？
 * [多說](http://duoshuo.com/)
@@ -127,6 +129,8 @@ open source方案（要有server）
 * [Isso](http://posativ.org/isso/)  
   只在`$$ ... $$`可以用MathJax
 * [HashOver](http://tildehash.com/?page=hashover)
+* [Commento](https://github.com/adtac/commento)
+* [Staticman](https://staticman.net)
 
 ###自訂搜尋
 * [DuckDuckGo搜尋框](https://duckduckgo.com/search_box)
@@ -174,3 +178,4 @@ open source方案（要有server）
 * [IcoMoon](https://icomoon.io/)
 
 ###音樂|音效
+* <https://www.joshwoodward.com/>　可自由下載及使用的歌曲，皆為該站站長自製作品
