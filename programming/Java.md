@@ -23,6 +23,29 @@
 * [EasyEclipse](http://www.easyeclipse.org/site/home/index.html) | [下載](http://www.easyeclipse.org/site/distributions/index.html) 
 * [Yoxos](https://yoxos.eclipsesource.com/)　客製化Eclipse
 
+##語法
+###例外處理
+```Java
+try{
+    // code that will throw exception(s)
+} catch (SomeException e1){
+    // code for handle exceptions which is an instance of class SomeException
+} catch (AnotherException e2){
+    // code for handle exceptions which is an instance of class AnotherException
+}
+```
+
+* 可以有多個catch，每個catche處理不同類型(class)的例外
+
+自**1.7**後，用`|`把例外的class name串起來，就可以用同一個catch block處理多種例外
+```Java
+catch (Exception1 | Exception2 ex){
+    // code for handle exceptions which is either an instance of class Exception1 or Exception2
+    // (hence the xor `|` symbol)
+}
+```
+詳細參考：<http://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html#multiple>
+
 ##寫網頁
 [Tomcat](http://tomcat.apache.org/) 
 

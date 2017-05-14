@@ -5,7 +5,7 @@
 * [Python 3](https://docs.python.org/3/)  
 
 ##學習資源
-* [Python for Informatics: Exploring Information](http://www.pythonlearn.com/book.php) Coursera "Programming for Everybody"課本
+* [Python for Informatics: Exploring Information](http://www.pythonlearn.com/book.php) Coursera "Programming for Everybody"課本，另有Python 3的[版本](http://www.py4e.com/book)
 
 ##套件
 * [NumPy & SciPy](http://www.scipy.org/) | [documentation](http://docs.scipy.org/doc/)  
