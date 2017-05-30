@@ -46,6 +46,11 @@ tar zxvf FileName.tar.gz
 ```
 sudo nautilus
 ```
+  
+查Ubuntu套件的支援期限
+```
+ubuntu-support-status
+```
 
 [連學校VPN](http://ccnet.ntu.edu.tw/vpn/for-ubuntu.html)
 

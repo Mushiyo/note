@@ -1,5 +1,5 @@
 # Linux筆記
-## Ubuntu系
+## Debian系
 ### Ubuntu家族
 * [Ubuntu](https://www.ubuntu.com/)
   [Ubuntu 正體中文站](https://www.ubuntu-tw.org/)
@@ -42,7 +42,7 @@ RAM：2 GB system memory
 打開檔案管理員，按下裝置右側的圖案即可  
 注意按右鍵的選單中無法unmount  
 
-### 實用軟體
+#### 實用軟體
 可在軟體中心找到，安裝後不需另外調整的程式
 * Synaptic：好用的套裝管理程式
 * PCManX：連BBS
@@ -50,14 +50,15 @@ RAM：2 GB system memory
 * [Calibre](https://calibre-ebook.com/)：讀epub，另有Windows版
 * [GIMP](https://www.gimp.org/)：影像處理，另有Windows版
 * [Audacity](http://www.audacityteam.org/)：音訊編輯，另有Windows版
+* [KNotes](https://www.kde.org/applications/utilities/knotes/)：便利貼，因為是KDE軟體，所以可能有無法輸入中文的情形冏冏
 
-#### xcalib
+##### xcalib
 xcalib可用來改變螢幕色彩，下面指令為色彩反轉
 ```bash
 xcalib -invert -alter
 ```
 
-#### [gcin](http://hyperrate.com/dir.php?eid=67)
+##### [gcin](http://hyperrate.com/dir.php?eid=67)
 中文輸入法，看作者的網站以看最新的安裝方式
 安裝完若無法切換輸入法先重新開機看看
 
@@ -67,7 +68,7 @@ xcalib -invert -alter
 * Ubuntu論壇：https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=94930
 * gcin論壇：http://hyperrate.com/thread.php?tid=27789
 
-#### [Gedit](https://wiki.gnome.org/Apps/Gedit)
+##### [Gedit](https://wiki.gnome.org/Apps/Gedit)
 安裝plugin來加功能（如底部commandline……等）
 ```bash
  sudo apt-get install gedit-plugins
@@ -76,17 +77,62 @@ xcalib -invert -alter
 color theme載點及安裝：<https://wiki.gnome.org//GtkSourceView/StyleSchemes>
 覺得順眼的dark theme：Espresso Libre
 
-#### [HardInfo](https://help.ubuntu.com/community/HardInfo)
+##### [HardInfo](https://help.ubuntu.com/community/HardInfo)
 顯示系統資訊，以下面指令安裝
 ```bash
 sudo apt-get install hardinfo
 ```
 
-###疑難雜症
+####疑難雜症
 * 按到<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F3</kbd>，變成全螢幕terminal
   解法：按<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F7</kbd>回到原本的桌面
 * Live CD/USB 跳出要系統帳密
   解法：帳號Ubuntu，密碼空白（若是Xubuntu，則帳號為Xubuntu；Lubuntu則為lubuntu，注意開頭是小寫）
+  
+##### Kubuntu
+* (16.04 only?)軟體中心怎麼按都只找到0 item
+  解法：似乎是bug，更新後即可。[參考](https://askubuntu.com/questions/761824/kubuntu-16-04-software-centre-search-bug)
 
-## PuppyLinux
-http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm
+## 小型／輕量Linux
+* [Puppy Linux](http://puppylinux.org)
+* [Slax Linux](https://www.slax.org/)
+* http://www.damnsmalllinux.org/
+* http://www.vectorlinux.com/
+* http://www.tinycorelinux.net/
+* http://unity-linux.org/
+* http://www.slitaz.org/en/get/
+
+## 桌面
+### LXDE
+官網：<http://lxde.org/>  
+  
+在Ubuntu有以下三種安裝方式    
+
+```shell
+sudo apt-get install lxde-core # 1. 最少元件安裝
+sudo apt-get install lxde # 2. 含少部份應用程式安裝
+sudo apt-get install lubuntu-desktop # 3. 完整應用程式安裝，可以想成當前的系統跟Lubuntu取聯集
+```
+
+若原本的桌面是Unity，安裝完LXDE後並沒有出現在選單中，可下以下指令再進選單看看
+```shell
+sudo apt-get install lxsession lxsession-logout
+```
+
+若原本的桌面是KDE，進到LXDE後無法登出，則
+```shell
+sudo apt-get install lxsession-logout
+```
+
+設定快捷鍵：<http://xahlee.info/linux/linux_lxde_add_key_shortcuts.html>
+
+### KDE
+先照[這裡](https://community.kde.org/Kubuntu/PPAs)加KDE的PPAs  
+接著  
+```shell
+sudo apt-get install plasma-desktop # 可能是最少元件安裝？
+# sudo apt-get install kde-plasma-desktop 在16.04試了沒用
+```
+參考資料：
+1. <https://help.ubuntu.com/community/InstallingKDE>
+2. 在14.04下不同的package name及安裝的套件數量：<https://ubuntuforums.org/showthread.php?t=2239653>

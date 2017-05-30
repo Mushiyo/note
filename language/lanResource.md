@@ -2,6 +2,7 @@
 ##綜合
 * [國立教育廣播電台外語教學節目](http://digitweb.ner.gov.tw/bin/home.php)
 * [italki](http://www.italki.com/)　免費語言交換平台
+* [Lang-8](http://lang-8.com/)　寫作／批改類語言學習互助平台
 * <https://fi3mplus.com/join-the-league/>
 * [Lingvist](https://www.lingvist.com.tw/)
 * [Duolingo](https://www.duolingo.com/)
@@ -33,6 +34,7 @@
 * <http://linggle.com>
 * <https://www.grammarly.com/>
 * <http://www.1checker.com/>
+* [Dr.eye譯典通](http://yun.dreye.com/dict_new/dict.php) [min](http://yun.dreye.com/dict_new/dict_min.php)
 * [Yahoo奇摩字典](https://tw.dictionary.yahoo.com/)
 * [Cambridge Free English Dictionary and Thesaurus](http://dictionary.cambridge.org/)
 * [Oxford Learner's Dictionaries](http://www.oxfordlearnersdictionaries.com/)
