@@ -1,5 +1,8 @@
 # Git 筆記
 
+官方網站：<https://git-scm.com/>
+
+## 指令
 列出所有本地分支
 ```bash
 git branch
@@ -52,4 +55,11 @@ git add .
 ```bash
 git add -A
 # or git add -all
+```
+
+##安裝
+###Linux
+####Debian系
+```bash
+apt-get install git
 ```

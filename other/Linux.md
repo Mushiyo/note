@@ -45,7 +45,7 @@ RAM：2 GB system memory
 #### 實用軟體
 可在軟體中心找到，安裝後不需另外調整的程式
 * Synaptic：好用的套裝管理程式
-* PCManX：連BBS
+* PCManX：連BBS，如果預設的字型使版面看起來很悲劇可改成`AR PL UMing TW`或`AR PL UKai TW`
 * FileZilla：連FTP，另有Windows版
 * [Calibre](https://calibre-ebook.com/)：讀epub，另有Windows版
 * [GIMP](https://www.gimp.org/)：影像處理，另有Windows版
@@ -74,8 +74,11 @@ xcalib -invert -alter
  sudo apt-get install gedit-plugins
 ```
 
-color theme載點及安裝：<https://wiki.gnome.org//GtkSourceView/StyleSchemes>
+color theme載點及安裝：<https://wiki.gnome.org/Projects/GtkSourceView/StyleSchemes>
 覺得順眼的dark theme：Espresso Libre
+
+#####[Typora]([https://typora.io/)
+WYSIWYG的markdown編輯軟體，可顯示TOC及數學
 
 ##### [HardInfo](https://help.ubuntu.com/community/HardInfo)
 顯示系統資訊，以下面指令安裝
@@ -88,7 +91,9 @@ sudo apt-get install hardinfo
   解法：按<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F7</kbd>回到原本的桌面
 * Live CD/USB 跳出要系統帳密
   解法：帳號Ubuntu，密碼空白（若是Xubuntu，則帳號為Xubuntu；Lubuntu則為lubuntu，注意開頭是小寫）
-  
+* 播YouTube時，遇到不支援H.264及MSE & H.264 （可用YouTube[內建的頁面](https://www.youtube.com/html5)測）
+  解法：安裝[RestrictedFormats](https://help.ubuntu.com/community/RestrictedFormats)
+
 ##### Kubuntu
 * (16.04 only?)軟體中心怎麼按都只找到0 item
   解法：似乎是bug，更新後即可。[參考](https://askubuntu.com/questions/761824/kubuntu-16-04-software-centre-search-bug)
@@ -103,33 +108,51 @@ sudo apt-get install hardinfo
 * http://www.slitaz.org/en/get/
 
 ## 桌面
-### LXDE
-官網：<http://lxde.org/>  
-  
-在Ubuntu有以下三種安裝方式    
+### Xfce
+官網：<https://xfce.org/>
 
-```shell
+
+### LXDE
+
+官網：<http://lxde.org/>  
+
+在Ubuntu有以下三種安裝方式  
+
+```bash
 sudo apt-get install lxde-core # 1. 最少元件安裝
 sudo apt-get install lxde # 2. 含少部份應用程式安裝
 sudo apt-get install lubuntu-desktop # 3. 完整應用程式安裝，可以想成當前的系統跟Lubuntu取聯集
 ```
 
 若原本的桌面是Unity，安裝完LXDE後並沒有出現在選單中，可下以下指令再進選單看看
-```shell
+```bash
 sudo apt-get install lxsession lxsession-logout
 ```
 
 若原本的桌面是KDE，進到LXDE後無法登出，則
-```shell
+```bash
 sudo apt-get install lxsession-logout
 ```
 
-設定快捷鍵：<http://xahlee.info/linux/linux_lxde_add_key_shortcuts.html>
+####設定快捷鍵
+編輯`~/.config/openbox/lxde-rc.xml`  
+在`<keyboard>`標籤之間依需求修改以下內容  
+
+設定<kbd>Windows</kbd>開啟選單，加入
+```xml
+<keybind key="Super_L">
+  <action name="Execute">
+    <command>lxpanelctl menu</command>
+  </action>
+</keybind>
+```
+
+參考資料：<http://xahlee.info/linux/linux_lxde_add_key_shortcuts.html>
 
 ### KDE
 先照[這裡](https://community.kde.org/Kubuntu/PPAs)加KDE的PPAs  
 接著  
-```shell
+```bash
 sudo apt-get install plasma-desktop # 可能是最少元件安裝？
 # sudo apt-get install kde-plasma-desktop 在16.04試了沒用
 ```

@@ -12,10 +12,15 @@ owner group other
 <kbd>Ctrl</kbd> + <kbd>c</kbd>：強制關閉  
 <kbd>Ctrl</kbd> + <kbd>d</kbd>：強制關閉正在執行的程式  
 <kbd>Ctrl</kbd> + <kbd>l</kbd>：洗螢幕  
-<kbd>Ctrl</kbd> + <kbd>f</kbd>：往下  
+<kbd>Ctrl</kbd> + <kbd>f</kbd>：往下，f for forward  
 <kbd>Ctrl</kbd> + <kbd>b</kbd>：往上，b for back  
 <kbd>Ctrl</kbd> + <kbd>z</kbd>：把程式丟到背景  
 jobs：列出在背景中的程式  
+
+建立捷徑  
+```bash
+ln -s /original/very/very/very/long/path/name /new/short/pathName
+```
 
 ### directory
 cd -：回前一個目錄  
@@ -26,29 +31,29 @@ rm -r 資料夾：砍掉資料夾下的所有檔案
 ###壓縮、解壓縮
 ####zip
 打包多個檔案
-```
+```bash
 zip zipFilename.zip file1 file2 ...
 ```
 
 打包資料夾
-```
+```bash
 zip -r zipFilename.zip directoryName
 ```
 
 ####tar.gz
 解壓縮
-```
+```bash
 tar zxvf FileName.tar.gz
 ```
 
 ###Ubuntu
 以root的身份開視窗
-```
+```bash
 sudo nautilus
 ```
-  
+
 查Ubuntu套件的支援期限
-```
+```bash
 ubuntu-support-status
 ```
 
@@ -56,13 +61,13 @@ ubuntu-support-status
 
 ## Shell Script
 ###註解
-```shell
+```bash
 # comment here
 ```
 
 ### 變數
 變數宣告及使用
-```shell
+```bash
 var_name=var_value
 echo $var_name
 echo "the value of the variable var_name is $var_name"

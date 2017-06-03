@@ -17,11 +17,20 @@
 * [Introduction to Java Programming, Eighth Edition](http://cs.armstrong.edu/liang/intro8e/) 學校課本  
 
 ##IDE
-* [Eclipse](http://www.eclipse.org/) | [下載](http://www.eclipse.org/downloads/)  
-  Eclipse安裝完成後，記得把檔案編碼設為UTF-8，這樣比較不會出錯
 * [IntelliJ](https://www.jetbrains.com/idea/) | [下載](https://www.jetbrains.com/idea/download/)  
 * [EasyEclipse](http://www.easyeclipse.org/site/home/index.html) | [下載](http://www.easyeclipse.org/site/distributions/index.html) 
 * [Yoxos](https://yoxos.eclipsesource.com/)　客製化Eclipse
+
+### [Eclipse](http://www.eclipse.org/)
+[載點](http://www.eclipse.org/downloads/)
+  
+Eclipse開workspace後，記得把檔案編碼設為UTF-8，這樣比較不會出錯  
+以for Java EE的版本來說，要設的地方共有以下幾個  
+1. General > Workspace > Text file encoding
+2. Web > CSS files > Encoding
+       > HTML files > Encoding
+	   > JSP files > Encoding
+3. XML > XML files > Encoding
 
 ##語法
 ###例外處理
