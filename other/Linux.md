@@ -19,7 +19,7 @@ RAM：2 GB system memory
 
 #### Xubuntu
 ##### 設定快捷鍵
-######以Windows key開啟menu
+###### 以Windows key開啟menu
 按左上角圖示→輸入keyboard→選擇keyboard→Application Shortcuts
 在選單中找到`xfce4-popup-whiskermenu`，點下面選項的`Edit`
 點跳出的對話方塊上的`OK`，接著按其中一顆<kbd>Windows key</kbd>
@@ -51,6 +51,7 @@ RAM：2 GB system memory
 * [GIMP](https://www.gimp.org/)：影像處理，另有Windows版
 * [Audacity](http://www.audacityteam.org/)：音訊編輯，另有Windows版
 * [KNotes](https://www.kde.org/applications/utilities/knotes/)：便利貼，因為是KDE軟體，所以可能有無法輸入中文的情形冏冏
+* [kdenlive](https://kdenlive.org)：影片編輯軟體
 
 ##### xcalib
 xcalib可用來改變螢幕色彩，下面指令為色彩反轉
@@ -62,7 +63,7 @@ xcalib -invert -alter
 中文輸入法，看作者的網站以看最新的安裝方式
 安裝完若無法切換輸入法先重新開機看看
 
-#####龍飛輸入法
+##### 龍飛輸入法
 算是某種版本的大易，打符號跟在Windows上一樣，比gcin內建的好打
 * 作者部落格：http://yawnp0426.blogspot.tw/2014/10/gcin.html
 * Ubuntu論壇：https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=94930
@@ -77,7 +78,15 @@ xcalib -invert -alter
 color theme載點及安裝：<https://wiki.gnome.org/Projects/GtkSourceView/StyleSchemes>
 覺得順眼的dark theme：Espresso Libre
 
-#####[Typora]([https://typora.io/)
+##### [Kate](https://kate-editor.org/)
+Kate使用手冊：<https://docs.kde.org/stable5/en/applications/kate/>  
+類似gedit的文字編輯器，但color theme不好找，可能要自定  
+
+自定color theme的方式：設定 > 設定Kate > editor component > 字形與顏色，即可開始進行自定
+若要匯入color theme，則在進行完上述步驟後，按`匯入`，接著在檔案瀏覽器內找到現有的`.kateschema`檔
+如果檔案瀏覽器內找不到`kateschema`檔，則可以把副檔名改成`kateschema|Kate`試試
+
+##### [Typora]([https://typora.io/)
 WYSIWYG的markdown編輯軟體，可顯示TOC及數學
 
 ##### [HardInfo](https://help.ubuntu.com/community/HardInfo)
@@ -86,7 +95,7 @@ WYSIWYG的markdown編輯軟體，可顯示TOC及數學
 sudo apt-get install hardinfo
 ```
 
-####疑難雜症
+#### 疑難雜症
 * 按到<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F3</kbd>，變成全螢幕terminal
   解法：按<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F7</kbd>回到原本的桌面
 * Live CD/USB 跳出要系統帳密
@@ -111,6 +120,46 @@ sudo apt-get install hardinfo
 ### Xfce
 官網：<https://xfce.org/>
 
+在Ubuntu有以上二種方式安裝
+```bash
+sudo apt-get install xfce4 # 1. 最少元件安裝
+sudo apt-get install xubuntu-desktop # 2. 完整應用程式安裝，可以想成當前的系統跟Xubuntu取聯集
+```
+
+xfce有`xfce4-popup-applicationsmenu`和`xfce4-popup-whiskermenu`二種選單  
+[whisker menu](https://gottcode.org/xfce4-whiskermenu-plugin/)的設計較為現代，可以直接打字搜尋選單中的項目；applications menu就只能自己慢慢選  
+若是安裝`xfce4`而不是`xubuntu-desktop`的話，可能會沒裝到whisker menu，要自己用
+```bash
+sudo apt install xfce4-whiskermenu-plugin
+```
+來安裝
+
+#### 外觀
+字太小：左上角選單→設定值→外觀→字型，調字體大小或DPI
+底部面板(panel)佔空間：對面板按右鍵→面板→面板偏好設定→在Automatically hide the panel選`Intelligently`
+移除不必要的預設桌面圖示：對面板按右鍵→桌面設定→圖示→調整視窗大小直到能看到「預設圖示」和其下的選項，依個人需求勾選或取消勾選
+
+#### 小工具
+剩餘電量：[xfce4-battery-plugin](http://goodies.xfce.org/projects/panel-plugins/xfce4-battery-plugin)
+便利貼：[xfce4-notes-plugin](http://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin)
+計時器：[xfce4-timer-plugin](http://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin)
+強迫鎖螢幕休息計時器：[xfce4-time-out-plugin](http://goodies.xfce.org/projects/panel-plugins/xfce4-time-out-plugin)
+
+#### 快捷鍵
+按左上角選單→設定值→鍵盤→應用程式捷徑    
+接著依需求分別照以下說明設定  
+
+##### 以Windows key開啟選單
+在選單中找到`xfce4-popup-applicationsmenu`，點下面選項的`編輯`  
+點跳出的對話方塊上的`確定`，接著按其中一顆<kbd>Windows key</kbd>  
+
+如果另一個<kbd>Windows key</kbd>也要能彈出視窗的話
+則是按下面的`加入`，然後跳出的對話方塊中輸入`xfce4-popup-applicationsmenu`後，點`確定`
+接著按另一顆<kbd>Windows key</kbd>，這樣二顆<kbd>Windows key</kbd>就都可以彈出選單了
+
+##### <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>開啟terminal
+按下面的`加入`，然後跳出的對話方塊中輸入`gnome-terminal`（假設原本是Unity桌面），點`確定`
+接著按<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>即可
 
 ### LXDE
 
@@ -134,7 +183,7 @@ sudo apt-get install lxsession lxsession-logout
 sudo apt-get install lxsession-logout
 ```
 
-####設定快捷鍵
+#### 設定快捷鍵
 編輯`~/.config/openbox/lxde-rc.xml`  
 在`<keyboard>`標籤之間依需求修改以下內容  
 

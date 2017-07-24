@@ -9,6 +9,7 @@
 * [busuu](https://www.busuu.com/start/zh/)　類似Duolingo的自學網 
 * [多國語言習得活動網](http://polyglot.tw)
 * <http://www.languageguide.org/>　學習多國語言簡單的詞彙
+* <http://wmpro.nccu.edu.tw/learn/index.php>　有很多課程是用PowerCam做的，也就是這些課程只能用IE開冏冏
 
 ###字典
 * [Collins](http://www.collinsdictionary.com/)　綜合字典（義法西德中←→英）
@@ -109,6 +110,13 @@
 * [實用俄語](http://ocw.stust.edu.tw/tc/node/Russian_10002)
 * [觀光俄語](http://ocw.stust.edu.tw/tc/node/Russian_10102)
 
+* <https://www.ruspeach.com/en/>
+
+字母書寫
+以下的每個影片書寫筆順都不盡相同
+1. 印刷體 <https://www.youtube.com/watch?v=YPv8Y-YoGac>
+2. 印刷體 <https://www.youtube.com/watch?v=HZqnOOidXCw&list=PLIvNIPs2rWCv1hTGra30wArmrovZiKtKK> YouTube播放清單
+3. 印刷體 <https://www.youtube.com/watch?v=5vMoNCPm2zE>
 
 ##翻譯
 * [國家教育研究院雙語詞彙、學術名詞暨辭書資訊網](http://terms.naer.edu.tw/)

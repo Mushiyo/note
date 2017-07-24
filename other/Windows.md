@@ -30,7 +30,7 @@
 
 ###檔案驗證
 * [File Checksum Integrity Verifier](https://support.microsoft.com/en-us/kb/841290)
-* [Get-FileHash]()　適用有PowerShell 4.0以上的機器
+* [Get-FileHash](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.utility/get-filehash)　適用有PowerShell 4.0以上的機器
 * [HashTab](http://implbits.com/products/hashtab/)　免費軟體
 
 ###其他
@@ -50,6 +50,12 @@
 4. 開啟Windows Update，恢復為原本的設定，按`檢查更新`看能否抓到新的更新
 
 ## Win 10
+###設定及操作
+這邊記錄的是跟Win 7以前的系統差較多、剛接Win 10時要花一些時間摸索的部份
+
+設定輸入法：按左下角選單 > Windows系統 > 控制台 > 變更輸入法（左「時鐘、語言和區域」區塊）  > 新增語言，然後找到想加入的語言再按新增即可
+
+
 ###遊樂場
 Microsoft Solitaire Collection（內建）：含接龍(Klondike)、新接龍(FreeCell)、連環新接龍(Spider)
 踩地雷：<https://www.microsoft.com/zh-tw/store/p/microsoft-minesweeper/9wzdncrfhwcn>
