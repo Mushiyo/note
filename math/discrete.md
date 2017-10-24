@@ -1,12 +1,17 @@
 # 離散筆記
 
-##邏輯
+## 邏輯
 
 ### Propositional Logic
 `conjunction`: \(\land\)  
 `disjunction`: \(\lor\)  
 `conditional statement`（又稱`implication`）: \(\rightarrow\)  
 `biconditional statement`（又稱`bi-implications`）: \(\leftrightarrow\)
+`proposition constant`: p, q, r, s, f, t
+
+proposition formula的遞迴定義
+1. proposition constant 和 proposition variable 為 proposition formula
+2. 若A、B為 proposition formula，則(¬A), (A∧B),(A∨B),(A→B)，(A↔B)亦為 proposition formula
 
 真值表  
 
@@ -71,7 +76,7 @@ Negation laws
 2. \(p \land \lnot p \equiv F\)
 
 
-##集合論
+## 集合論
 `empty set`：沒有元素的集合，記為{}或\(\emptyset\)
 `singleton set`：只有一個元素的集合
 `subset`：若A的所有元素也都是B的元素，則稱A為B的subset，記為\(A \subseteq B\)
@@ -93,10 +98,10 @@ Negation laws
 `disjoint`、`mutually disjoint`：若二個集合的交集為空集合，則稱二集合disjoint
 `index set`或`set of indices`：令I為非空集合，U為宇集，對於每個，則I稱為index set，且I中的每個元素i稱為`index`
 
-###集合的運算
+### 集合的運算
 `symmertric difference`：記做A△B，A△B  = (A - B) \(\cup\) (B - A)
 
-###relation
+### relation
 `(binary) relation` from A, B：集合A,B的Cartesian product(即A x B)的任意**子集**稱之
 `(binary) relation` on A：集合A對自已的Cartesian product(即A x A)的任意**子集**稱之
 `related to`：當\((a,b) \in R\)，則稱a is related to b by R
@@ -105,9 +110,9 @@ Negation laws
 * relation本身亦是集合，其元素皆為2-tuple
 * 所有集合的運算也適用relation
 
-####relation的性質
+#### relation的性質
 
-###集合的表示方式
+### 集合的表示方式
 `roster method`：指一一列出集合的元素以描述集合的方式，例如：S = {1, 2, 3}即是用roster method來描述集合
 `Venn diagram`
 `membership table`：一種類似truth table的表格，若元素屬於某個集合則填上1，否則填上0
@@ -122,10 +127,10 @@ Negation laws
 
 Venn diagram即是圖象化的membership table
 
-##代數
-###Group 群
+## 代數
+### Group 群
 
-###Ring 環
+### Ring 環
 ring (R,+,‧)，其中R為集合，+與‧為運算子，滿足
 1. +,‧封閉性
 2. +,‧結合率
@@ -144,28 +149,28 @@ units：R中相乘會變成u的元素
 如：\(a, b \in R, a * b = b * a = u\)中的a, b  
 multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 
-####Intefral domain
+#### Intefral domain
 1. commutative
 2. has unity a z
 3. no zero divisors
 
-####Field 體
+#### Field 體
 1. commutative
 2. has unity a z
 3. has multiplicative inverse of a z for every a   
   
 
-####Subring
+#### Subring
 已知一個ring (R,+,‧)若存在\(S \subseteq R\)且\(S \neq \emptyset\)，(S,+,‧)為ring，則稱S為R的subring
 
-#####Ideal
+##### Ideal
 若I為R的ideal，則I滿足在
 1. I為R的subring\((a - b) \in I\)
 2. \(x \in I \& r \in R => x * r \in I \& r * x \in I\)
 
 * 對任意\(n \in Z^+ , n > 1, Z_n\)中共有\(\phi(n)\)個units及\(n - 1 - \phi(n)\)個proper divisor
 
-##數論
+## 數論
 \(a | b\)：a整除b(b是a的倍數)，\(\exists c (ac = b)\)
 \(a \nmid b\)：a不整除b
 
@@ -175,7 +180,7 @@ multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 2. 若 a | b ，則對於所有整數c， a | bc
 3. 若 a | b 且 b | c，則 a | c
 
-###Mod運算
+### Mod運算
 \((a + b) \mod n = [(a \mod n) + (b \mod n)] \mod n\)
 \((a - b) \mod n = [(a \mod n) - (b \mod n)] \mod n\)
 \((a \times b) \mod n = [(a \mod n) \times (b \mod n)] \mod n\)
@@ -183,7 +188,7 @@ multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 例：
 \(a^3 \mod n = [(a \mod n)^2 \mod n \times a \mod n] \mod n\)
 
-####Mod運算的性質
+#### Mod運算的性質
 \(a \equiv b \mod n => n | (a - b)\)
 \(a \equiv b \mod n => b \equiv a \mod n\)
 \(a \equiv b \mod n , b \equiv c \mod n => a \equiv c \mod n\)
@@ -201,7 +206,7 @@ multiplicative inverse：上例中的a,b互為彼此的乘法反元素
 
 分配律  
 \([w \times (x + y)] \mod n = [(w \times x) + (w \times y)] \mod n\)  
-~~~ \([w + (x \times y)] \mod n = [(w + x) \times (w + y)] \mod n\) ~~~ 筆記有誤 
+~~ \([w + (x \times y)] \mod n = [(w + x) \times (w + y)] \mod n\) ~~ 筆記有誤 
 \([(w + x) \times y] \mod n = [(w \times y) + (x \times y)] \mod n\)
 
 單位元  
@@ -213,7 +218,7 @@ $$
   \text{for each } w \in  , 存在z \in \mathbb{Z} 使得 w + z \equiv 0 \mod n
 $$
 
-####快速運算法
+#### 快速運算法
 當d很大時，計算\(h^d \mod n\)
 例：
 $$
@@ -246,14 +251,14 @@ $$
 a^{\phi(n)} = 1 \pmod n
 $$
 
-###有名字的數
-####Euclid numbers
+### 有名字的數
+#### Euclid numbers
 $$
 e_n = e_1 e_2 \dots e_{n+1} + 1
 $$
 Euclid numbers彼此互質
 
-####Mersenne numbers
+#### Mersenne numbers
 $$
 2^p - 1, \text{p是質數}
 $$
@@ -262,5 +267,5 @@ $$
 因數個數比任何小於它的正整數還要多的正整數
 
   
-##圖論
+## 圖論
 見[這裡](graphTheory.html)

@@ -56,6 +56,23 @@
 `complete matching`：
 ``：
 
+## Minimum Spanning Tree
+### 三個性質
+1. cut property
+  若T為M.S.T.，則T的每個edge(u, v)會將G的nodes分為二個集合。也就是，(u, v)會定義出G的一個割集G(u, v)。對於G-T中被C<sub>T</sub>(u, v)切開來的任意edge(x ,y)，即x, y因C<sub>T</sub>而分屬不同集合的情形時，we have w(u, v) < w(x, y)。
+  ```
+  MST包含G的所有點，↑鎮\( (x,y) \in G \) 但\( \notin T \)，依照MST的edge把所有點分成二堆後，x, y不在同一堆 
+  ```
+2. Cycly property
+  對於G中的任意cycle C，C中weight最大的edge不會在G的任意MST中。
+  
+  證明：
+  假設T是G的MST，且含有G中某些cycle最重的edge。G的割集C<sub>T</sub>(u, v)define by and (u, v) has to cut another edge, say, (x, y) of C。由(u, v)的定義（及性質一），可知W(x, y) < W(u, v)，與T的性質矛盾
+  
+3. Uniqueness property
+  G只有一個MST
+  證明：假設T<sup>*</sup>、T為G的二個不同的MST。令(x, y)為T-T<sup>*</sup>中的一個edge。將(x, y)加入T<sup>*</sup>中可組成一個cycle C，即(x ,y)加上T<sup>*</sup>中的unique path可以使x與y連結。對於P中的每個edge(u, v)，由cut property可知w(u, v) < w(x, y)。故(x, y)為C中最重的edge，與cycle property（&假設）矛盾
+
 ##其它
 `elementary contraction`：若把H中相鄰的某兩點「黏」在一起可得到G，則稱G為H的──  
 其中，H稱為`contractible` to G  

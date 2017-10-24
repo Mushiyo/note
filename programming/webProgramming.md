@@ -7,8 +7,8 @@
 * [Foundation](http://foundation.zurb.com/)
 * [Inoic](http://ionicframework.com/)
 * [Skeleton](http://getskeleton.com/) Responsive CSS Boilerplate
- 
-###[Bootstrap](http://getbootstrap.com/)
+
+### [Bootstrap](http://getbootstrap.com/)
 * <http://startbootstrap.com/> Bootstrap template  
 * [Bootswatch](https://bootswatch.com/) Free themes for Bootstrap
 * <http://bootsnipp.com/> 別人寫好的小功能
@@ -24,11 +24,11 @@
 * <http://www.richyli.com/tool/loremipsum/> 產生中文
 * <http://technology.chtsai.org/pseudotext/> 產生中文
 
-##CSS
+## CSS
 * [CSS Selector Reference](http://www.w3schools.com/cssref/css_selectors.asp)
 * [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/)
 
-##JavaScript
+## JavaScript
 * <http://javascript.com> js資源匯整
 * [竹取ＪＳ](http://taketori.org/js.html)　網頁文字轉直書
 * [Node.js](https://nodejs.org)
@@ -41,11 +41,11 @@
 ## RSS
 * [RSS 2.0 sepcification](https://validator.w3.org/feed/docs/rss2.html)
 
-###online RSS reader
+### online RSS reader
 * [FeedBucket](http://www.feedbucket.com/)
 * <http://www.feed-reader.net/>　德文介面的reader
 
-##其他
+## 其他
 * [HTML reference](http://reference.sitepoint.com/html)
 * [W3Schools](http://www.w3schools.com)
 * [102-2 台大資工網路及平台服務程式設計](http://ccsp.ntumobile.org/)
@@ -61,11 +61,11 @@
 -----
 
 ## Markdown建站
-###靜態網站產生器
+### 靜態網站產生器
 * [JBake](http://jbake.org/) Java based open source static site/blog generator
 * [StaticGen](https://www.staticgen.com/) 蒐集、分類各式靜態網站產生器
 
-###flat-file CMS
+### flat-file CMS
 依照我個人覺得好用的程度由上往下遞減  
 
 * [Phile](http://philecms.com/)  
@@ -75,10 +75,10 @@
 
 -----
 
-##網站小工具
+## 網站小工具
 * [Wolfram|Alpha Widgets](http://www.wolframalpha.com/widgets/)
 
-###流量統計|計數器
+### 流量統計|計數器
 * [W3Counter](http://www.w3counter.com/)
   可免登入看統計圖表（自己要記圖表網址，不是點counter就能看到），後台美觀，有多種風格可選
 * [StatCounter](http://statcounter.com/)  
@@ -94,15 +94,13 @@
   
 * [Google Analytics](https://www.google.com/analytics/)
 
-###翻譯工具
+### 翻譯工具
 * [Bing 翻譯 Widget](http://www.bing.com/widget/translator)
 * [Google網站翻譯工具](http://translate.google.com/manager/website/)
 * [Yandex.Translate widget](https://translate.yandex.com/developers/website-widget)
 
-###留言系統
+### 留言系統
 * [Widget Pack](https://widgetpack.com/)　可匿名，匿名可不填e-mail
-* [Livefyre](http://web.livefyre.com/)
-  快速，除了用`$ ... $`外都可以快樂的用MathJax
 * [IntenseDebate](http://www.intensedebate.com/)  
   跟MathJax不太合
 * [Disqus](https://disqus.com/)  
@@ -120,34 +118,40 @@
 * [GraphComment](https://graphcomment.com/)　一定要登入才能留言，留言可設簡易樣式（粗體、斜／底線、連結）
 * [HTML Comment Box](https://www.htmlcommentbox.com/)
 * [EasyComment jQuery Plugin](http://www.jswidget.com/lab/easy-comment.html)　可能需要php？
-* [多說](http://duoshuo.com/)
 * [友言](http://www.uyan.cc/)
 * [暢言](http://changyan.kuaizhan.com/)
+* ~~[Livefyre](http://web.livefyre.com/)~~
+  ~~快速，除了用`$ ... $`外都可以快樂的用MathJax~~
+  被Adobe收購後無免費版了
+* ~~[多說](http://duoshuo.com/)~~　似乎於2017年中旬停止營運
 
 open source方案（要有server）
-  
 * [Isso](http://posativ.org/isso/)  
   只在`$$ ... $$`可以用MathJax
 * [HashOver](http://tildehash.com/?page=hashover)
 * [Commento](https://github.com/adtac/commento)
-* [Staticman](https://staticman.net)
 
-###自訂搜尋
+GitHub issue based（要有GitHub帳號）
+* [Staticman](https://staticman.net)
+* [Gitment](https://github.com/imsun/gitment)　對岸網友製作，因此有中文說明文件，似乎一定要登入GitHub才能留言
+
+
+### 自訂搜尋
 * [DuckDuckGo搜尋框](https://duckduckgo.com/search_box)
 * [Google自訂搜尋引擎](https://cse.google.com/cse/)
 * [Yandex.Site Search](https://site.yandex.ru/?lang=en)
 * [Swiftype](https://swiftype.com/)　只有付費方案
 
-###網站管理員
+### 網站管理員
 * [Yandex.Webmaster](https://webmaster.yandex.com/)
 * [Bing 網站管理員工具](http://www.bing.com/toolbox/webmaster)
 * [Google網站管理員](https://www.google.com/webmasters/)
 
-###公益404頁
+### 公益404頁
 * <http://notfound.org/>　失蹤人口協尋，歐洲為主
 * <http://404page.missingkids.org.tw/>　台灣協尋失蹤兒少
 
-###RSS feed訂閱小工具
+### RSS feed訂閱小工具
 在網站上嵌入訂閱的RSS feed  
 * <http://feed.mikle.com/>　可以訂閱多個
 * <http://www.surfing-waves.com/feed.htm>　可以訂閱多個
@@ -155,18 +159,18 @@ open source方案（要有server）
 * <http://www.rssfeedwidget.com/>　只能訂閱一個
 * <https://feedity.com/tools.aspx>
 
-##素材
-###字型
+## 素材
+### 字型
 * <https://fonts.google.com/>
 * <http://fontcdn.org/>　Google fonts的協助選擇工具
 
-###圖庫
+### 圖庫
 * <https://openclipart.org/>　public domain圖庫
 * <https://pixabay.com/>　Creative Commons CC0（公眾領域貢獻宣告）圖庫
 * [無料イラスト 【イラストわんパグ】](http://www.wanpug.com/)
-* [getty images embed](http://www.gettyimages.com/resources/embed)　只能使用embed的方式，否則違法
+* [getty images embed](http://www.gettyimages.com/resources/embed)　只能使用embed的方式，否則侵權
 
-###圖示（icon）
+### 圖示（icon）
 * <http://glyphsearch.com/>　 icon協助搜尋工具
 * [Material icons - Google Design](https://design.google.com/icons/) [GitHub](https://github.com/google/material-design-icons)
 * [Font Awesome](http://fontawesome.io)
@@ -177,5 +181,5 @@ open source方案（要有server）
 * [Ionicons](http://ionicons.com/))
 * [IcoMoon](https://icomoon.io/)
 
-###音樂|音效
+### 音樂|音效
 * <https://www.joshwoodward.com/>　可自由下載及使用的歌曲，皆為該站站長自製作品

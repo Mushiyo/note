@@ -1,6 +1,6 @@
 # 計算理論
 
-##P-complete問題
+## P-complete問題
 `CIRCUIT VALUE`  
 已知一circuit，及每個輸入的truth value，求output是否為true
   
@@ -9,14 +9,14 @@
 
 `MAXIMUM FLOW 最大流`
 
-##NP-complete問題
-###邏輯
+## NP-complete問題
+### 邏輯
 `SAT`
 `3-SAT`
 `MAX2SAT`
 `NAESAT`
 
-###圖論
+### 圖論
 獨立集
 NODE COVER
 CLIQUE
@@ -28,7 +28,7 @@ TSP(D)
 2-COLORING
 k-COLORING, k≧3
 
-###其他
+### 其他
 TRIPARTITE MATCHING
 SET COVERING
 SET PACKING
@@ -37,7 +37,7 @@ KNAPSACK
 BIN PACKING
 INTEGER PROGRAMMING
 
-##書籍
+## 書籍
 * [*Computational Complexity*](https://www.pearsonhighered.com/program/Papadimitriou-Computational-Complexity/PGM94583.html), by Christos H. Papadimitriou
   簡體影印版： 9787302089551
   簡體譯本：9787111517351
