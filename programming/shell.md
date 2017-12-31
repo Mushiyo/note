@@ -29,16 +29,17 @@ pwd 為print working directory
 ~ 家目錄
 jobs：列出在背景中的程式  
 date 顯示日期時間
+date -I'ns' 以ISO 8601格式顯示日期時間，精確度至奈秒
 cat catenate, concatenate
 
 less
 / 搜尋
-f forward
-b back
+f: forward
+b: back
 也可用方向鍵
 q quit
 
-curl c url see url
+curl: c url → see url
 -L follow redirects
 -o 檔名
 
@@ -68,6 +69,25 @@ cd -：回前一個目錄
 pwd：顯示當前目錄  
 rmdir：刪除沒有檔案的資料夾  
 rm -r 資料夾：砍掉資料夾下的所有檔案  
+
+### hash
+#### md5
+取得檔案的md5
+```bash
+md5sum file
+```
+
+取得某字串的md5
+```bash
+echo -n "some str" | md5sum
+```
+
+#### sha
+```bash
+sha1sum file
+sha256sum file
+sha512sum file
+```
 
 ### 壓縮、解壓縮
 #### zip

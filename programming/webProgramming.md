@@ -1,4 +1,4 @@
-#Web Programming
+# Web Programming
 
 ## template | framework
 * [HTML5 UP](http://html5up.net/) HTML5 template
@@ -19,10 +19,13 @@
 * http://cdnjs.com/
 * [开放静态文件 CDN](http://staticfile.org/) 對岸七牛的CDN
 
-##虛擬假文產生器
+## 虛擬假文產生器
 * <http://www.lipsum.com/> 產生英文
 * <http://www.richyli.com/tool/loremipsum/> 產生中文
 * <http://technology.chtsai.org/pseudotext/> 產生中文
+
+## HTML
+* [W3C Recommendation of HTML](https://www.w3.org/TR/html/)
 
 ## CSS
 * [CSS Selector Reference](http://www.w3schools.com/cssref/css_selectors.asp)
@@ -52,6 +55,7 @@
 * <http://software.hixie.ch/utilities/js/live-dom-viewer/> online DOM viewer
 * [RGB-Hex Color Code Converter](http://www.webmasterorbit.com/rgb-hex-code.html)
 * [Facebook Open Graph protocol](http://ogp.me/)
+* <https://www.posttestserver.com/>　用來測試不同連線狀況反應的工具server
 
 ### 對岸封鎖檢測工具
 * [中国的网络审查](https://zh.greatfire.org/analyzer)
