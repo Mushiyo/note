@@ -1,8 +1,9 @@
-#網站、工具、資源
+# 網站、工具、資源
 
 * [The On-Line Encyclopedia of Integer Sequences® (OEIS®)](http://oeis.org/)
 * [Truth Table Generator](http://mrieppel.net/prog/truthtable.html)
-* 數學傳播　<http://w3.math.sinica.edu.tw/media/>
+* [數學傳播](http://web.math.sinica.edu.tw/mathmedia/)
+* [數理人文期刊](http://yaucenter.nctu.edu.tw/journal/index.php)
 * <http://www.foundalis.com/lan/hw/grkhandw.htm>
 * <http://demonstrations.wolfram.com/topics.html>
 * <https://proofwiki.org/wiki/Main_Page>
@@ -12,7 +13,7 @@
 * [師大數學 李華介老師教學網站](http://math.ntnu.edu.tw/~li/)　有基礎數論、線性代數、大學代數……等講義
 
 
-##代數
+## 代數
 * [廖亦德老師的線代專業網](http://mail.im.tku.edu.tw/~idliaw/)　免費研究所線代書
 * [哈佛Abstract Algebra Open Learning Course](http://www.extension.harvard.edu/open-learning-initiative/abstract-algebra)
 

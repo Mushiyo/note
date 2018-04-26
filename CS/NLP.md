@@ -1,14 +1,17 @@
-#自然語言處理筆記
+# 自然語言處理筆記
 
-##名詞
+## 書籍
+[Natural Language Processing with Python](http://www.nltk.org/book/) 網頁版免費閱讀
+
+## 名詞
 * Automatic Speech Recognition (ASR)
 
-##語料庫|WordNet
+## 語料庫|WordNet
 * <http://linghub.org/> 搜尋資源
 * [中央研究院中英雙語知識本體詞網](http://bow.ling.sinica.edu.tw/)
 
 
-###中文語料庫
+### 中文語料庫
 * [國科會數位博物館先導計畫─搜文解字](http://words.sinica.edu.tw/)  
   [中研院語言所「字字珠璣」語庫查詢系統](http://words.sinica.edu.tw/sou/index.html) 搜詞尋字
 * [網路展書讀](http://cls.lib.ntu.edu.tw/) [臺大圕介紹](http://speccoll.lib.ntu.edu.tw/node/114)  
@@ -23,10 +26,16 @@
 * [中華語文知識庫](http://chinese-linguipedia.org)
 * [簫堯〖藝文〗網界](http://www.xysa.com/)
 
-##工具
-* [Google Ngrams](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
+### 英文語料庫
+* [British National Corpus (bnc)](http://www.natcorp.ox.ac.uk/)
+* [Penn Treebank](https://catalog.ldc.upenn.edu/ldc99t42)
 
-###中文工具
+## 工具
+* Google Books Ngram Viewer
+  [Viewer](https://books.google.com/ngrams/)
+  [Dataset](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
+
+### 中文工具
 * [中研院CKIP parser](http://ckipsvr.iis.sinica.edu.tw/) [剖析系統](http://parser.iis.sinica.edu.tw/)  
   [PyCCS (CKIP Chinese Segmentator)](https://github.com/amigcamel/PyCCS) 輔助API，Python  
   [CKIPClient-PHP 中研院斷詞系統客戶端程式](https://github.com/fukuball/CKIPClient-PHP) 輔助API，PHP  
@@ -36,7 +45,7 @@
   [Jseg](https://github.com/amigcamel/Jseg) 由結巴改成，用中研院語料庫train => 可以繁體 
 * 其他 <https://g0v.hackpad.com/aco0Hxp4IEz>
 
-##機器翻譯平台
+## 機器翻譯平台
 * [Google Translate](https://translate.google.com.tw)
 * [Bing Translator](https://www.bing.com/translator/)
 * [Yandex.Translate](https://translate.yandex.com/)
@@ -44,7 +53,7 @@
 * [有道翻译](http://fanyi.youdao.com/)
 * [SDL Translate](http://www.freetranslation.com/)
 
-###API
+### API
 * [Yandex Translate API](https://tech.yandex.com/translate/) [doc](https://tech.yandex.com/translate/doc/dg/concepts/About-docpage/)  
   他人自製的API [Java](https://github.com/rmtheis/yandex-translator-java-api) [PHP](https://github.com/yandex-php/translate-api)
 * [Microsoft Translator](https://www.microsoft.com/en-us/translator) [說明](https://msdn.microsoft.com/en-us/library/dd576287.aspx)  
@@ -52,20 +61,20 @@
 * [百度翻译API](http://api.fanyi.baidu.com/api/trans/product/index) [doc](http://developer.baidu.com/wiki/index.php?title=%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%E9%A6%96%E9%A1%B5/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91API)
 * [有道翻译API](http://fanyi.youdao.com/openapi)
 
-##語音
+## 語音
 * [Microsoft Speech Platform](https://msdn.microsoft.com/en-us/library/hh361572.aspx)　有語音辨識及合成
 * [（工研院）語音語言互動處理技術網](http://atc.ccl.itri.org.tw/speech/)
   [工研院文字轉語音Web服務](http://tts.itri.org.tw/)
 * [ReadSpeaker](http://www.readspeaker.com/)　付費服務，多種常見語言都有，中文語音可唸英文
 
-##字詞典
+## 字詞典
 * [百度詞典API]()　支援中英　[doc](http://developer.baidu.com/wiki/index.php?title=%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%E9%A6%96%E9%A1%B5/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91/%E7%99%BE%E5%BA%A6%E8%AF%8D%E5%85%B8API%E4%BB%8B%E7%BB%8D)
 
-##研究機構|計劃
+## 研究機構|計劃
 * [中研院語言所](http://www.ling.sinica.edu.tw/)
 * [語言,本體資源與知識開放計劃](http://lopen.linguistics.ntu.edu.tw/)
 
-##其它
+## 其它
 * [開放語料庫：製程與分析](https://www.gitbook.com/book/loperntu/copens/details) 一本Gitbook
 
 ### 電腦作詩
@@ -73,6 +82,18 @@
 * <https://github.com/schollz/poetry-generator>
 * <http://www.narrabase.net/poetry_generators.html>
 * <https://www.laetusinpraesens.org/docs00s/convert.php>
+* [Bot or not](http://botpoet.com/)
+  其中一位作者的[TED talk](https://www.ted.com/talks/oscar_schwartz_can_a_computer_write_poetry)
+* [RKCP](http://www.kurzweilcyberart.com/poetry/rkcp_overview.php)
 
-####壓韻
+#### 中文
+* Chinese Poetry Generation with Recurrent Neural Networks
+  [code](https://github.com/XingxingZhang/rnnpg)
+* 藏頭詩產生器
+  [code](https://github.com/ckmarkoh/AcrosticPoem)　Python，可在作者GitHub上找到其它版本
+  作者相關投影片 [1](https://www.slideshare.net/ckmarkohchang/ss-45210079) [2](https://www.slideshare.net/ckmarkohchang/computational-poetry)
+  [演講](https://youtu.be/N13zkgTCu0g)
+* [IBM 偶得](https://crl.ptopenlab.com:8800/poem/index)　五言、七言藏頭詩和起頭詩
+
+#### 壓韻
 * <http://www.lukeallen.com/rhymer.html>

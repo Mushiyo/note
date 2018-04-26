@@ -134,7 +134,8 @@
 * [PTT Translation](https://www.ptt.cc/bbs/Translation/)
 * [PTT Translate-CS](https://www.ptt.cc/bbs/Translate-CS/index.html)
 
-### 接案
+### 實戰管道
+#### 接案 
 * [tPro翻譯職人資訊網(tPro資訊網)](http://www.tpro.ebiz.tw/index.php)
 * [譯言堂人工翻譯網](http://www.mytrans.com.tw/TChBpTranslate/)
 * [DIGITIMES翻譯服務](http://transproject.digitimes.com/)
@@ -143,10 +144,14 @@
 * <https://www.getlocalization.com/4pros/>
 * <https://www.onehourtranslation.com/translation/translator-join-us>
 * [Fiberead](http://fiberead.com/)　簡體平台，翻譯書籍
-* [Gengo](http://gengo.com/)
+* [Gengo](http://gengo.com/)　需通過試譯
 * [Conyac](https://conyac.cc/zh-tw/translators)　需上傳證件做身份認證
 * [OneSky](https://translator.oneskyapp.com/sign-up)
 * [Flitto](https://www.flitto.com)
+
+#### 志工
+* [VoiceTube 翻譯社群](https://tw.voicetube.com/translate/our_translators?ref=footer)
+  需通過試譯，有reviewer、獎勵制度，太久沒翻會被取消資格
 
 ### 協作平台
 * [Crowdin](https://crowdin.com)

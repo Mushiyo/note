@@ -35,15 +35,15 @@ git checkout 欲切換過去的分支名
 git checkout gh-pages
 ```
 
-查看目前狀態
-```bash
-git status
-```
-
 合併遠端分支到本地分支
 ```bash
 git fetch remoteName remoteBranch
 git merge remoteName/remoteBranch
+```
+
+查看目前狀態
+```bash
+git status
 ```
 
 把所有更動的檔案（限內容增刪和新增檔案）加進下次的commit
@@ -57,9 +57,46 @@ git add -A
 # or git add -all
 ```
 
-##安裝
-###Linux
-####Debian系
+移掉所有加進下次commit的檔案
+```bash
+git reset
+```
+
+移掉某個加進下次commit的檔案
+```bash
+git resest pathToFile/filename
+```
+
+與前一版比較／查看修改更動的地方
+對repo中的所有檔案
+```bash
+git diff
+```
+
+對特定檔案
+```bash
+git diff pathToFile/filename
+```
+
+若已經git add了
+```
+git diff --cached
+```
+
+比較`HEAD`和`HEAD`的前一次commit（`HEAD^`）
+```
+git diff HEAD^ HEAD
+```
+
+查看過去的commit message
+```
+git log
+```
+按<kbd>q</kbd>離開
+
+## 安裝
+### Linux
+#### Debian系
 ```bash
 apt-get install git
 ```
